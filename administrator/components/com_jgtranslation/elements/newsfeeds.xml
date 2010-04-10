@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Newsfeeds</name>
+  <author>A. Kempkens</author>
+  <version>1.8</version>
+  <description>Definition for the core news feeds component</description>
+  <reference>
+  	<table name="newsfeeds">
+  		<field type="referenceid" name="id" translate="0" jgtranslate="0">ID</field>
+  		<field type="titletext" name="name" translate="1" jgtranslate="1">Name</field>  		
+  	</table>
+  </reference>  
+</joomfish>

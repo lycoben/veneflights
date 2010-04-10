@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="Modèles"/>
+				<size hint="Taille De Police"/>
+				<font hint="Police"/>
+				<bullet hint="Balle"/>
+				<leading hint="Mener">
+					<window>
+						<textes title="Changez mener de paragraphe" leading="Mener" ok="OK" cancel="Annulation"/>
+					</window>
+				</leading>
+				<copy hint="Copie"/>
+				<cut hint="Coupe"/>
+				<paste hint="Pâte"/>
+				<undo hint="Défaites"/>
+				<redo hint="Refaites"/>
+				<bold hint="Bold"/>
+				<italic hint="Italique"/>
+				<underline hint="Soulignez"/>
+				<left hint="Alignez À gauche"/>
+				<center hint="Alignez Le Centre"/>
+				<right hint="Alignez droite"/>
+				<url hint="Insérez L'Hyperlien">
+					<window>
+						<textes title="Hyperlien" text="Texte:" url="URL:" target="Cible:" ok="OK" cancel="Annulation" remove="Enlevez"/>
+					</window>
+				</url>
+				<indentDec hint="Diminuez Le Creux"/>
+				<indentInc hint="Augmentez Le Creux"/>
+				<color hint="Couleur De Police"/>
+				<symbols hint="Insérez Le Symbole">
+					<window>
+						<textes title="Insérez Le Symbole" ok="Annulation" insert="Insertion"/>
+					</window>
+				</symbols>
+				<html hint="Commutez à la vue de normale ou de HTML"/>
+				<image hint="Insérez L'Image">
+					<window>
+						<textes title="Image" path="Chemin:" align="Alignez:" url="URL:" target="Cible:" id="Identification:" space="L'espace:" space_v="Vert" space_h="Hor" size="Taille:" size_w="Largeur" size_h="Taille" ok="OK" cancel="Annulation" remove="Enlevez"/>
+					</window>
+				</image>
+				<about hint="Au sujet De FlashArea">
+					<window>
+						<textes title="Au sujet De FlashArea" ok="OK"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

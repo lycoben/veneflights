@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="joomfish">
+	<name>Joomfish - Content Table Localisation</name>
+	<author>Geraint Edwards</author>
+	<creationDate>April 2008</creationDate>
+	<copyright>(C) 2008. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl>www.gwesystems.com</authorUrl>
+	<version>1.0</version>
+	<description>Content Table Localiation</description>
+	<files>
+		<filename plugin="contenttableLocalisation">contenttableLocalisation.php</filename>
+	</files>
+	<params>
+	</params>
+</install>

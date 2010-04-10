@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Comments</name>
+	<group>content</group>
+    <version>1.1.1</version>
+    <creationDate>July 2008</creationDate>
+    <author>JXtended</author>
+    <authorEmail>info@jxtended.com</authorEmail>
+    <authorUrl>http://jxtended.com</authorUrl>
+    <copyright>2008 JXtended LLC. All rights reserved.</copyright>
+	<description>Plugin to integrate JXtended Comments into Joomla! articles.</description>
+	<files>
+		<filename plugin="comments">comments.php</filename>
+	</files>
+	<params addpath="/administrator/components/com_comments/elements">
+		<param name="show_uncat" type="radio" default="0" label="Show for Uncategorised" description="Show for uncategorised content">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="categories" type="category" multiple="true" size="10" default="" label="Show for Categories" description="Choose which categories for which comments will display." />
+		
+		<param name="@spacer" type="spacer" />
+		<param name="show_on_frontpage" type="radio" default="1" label="Show for Frontpage" description="Show comments for articles in a frontpage view that are in categories where comments are enabled.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_on_sections" type="radio" default="1" label="Show for Sections" description="Show comments for articles in a frontpage view that are in categories where comments are enabled.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" />
+		<param name="show_share" type="radio" default="1" label="Show Sharing" description="Show the sharing module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_ratings" type="radio" default="1" label="Show Ratings" description="Show the ratings module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_comments" type="radio" default="1" label="Show Comments" description="Show the comments module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="share_placement" type="list" default="2" label="Sharing Placement" description="Where in an article's display to show sharing.">
+			<!-- <option value="0">After the Title</option>  -->
+			<option value="1">Before the Body Text</option>
+			<option value="2">After the Body Text</option>
+		</param>
+		<param name="ratings_placement" type="list" default="2" label="Ratings Placement" description="Where in an article's display to show ratings.">
+			<!-- <option value="0">After the Title</option>  -->
+			<option value="1">Before the Body Text</option>
+			<option value="2">After the Body Text</option>
+		</param>
+		<param name="comments_placement" type="list" default="2" label="Comments Placement" description="Where in an article's display to show comments.">
+			<!-- <option value="0">After the Title</option>  -->
+			<option value="1">Before the Body Text</option>
+			<option value="2">After the Body Text</option>
+		</param>
+	</params>
+</install>

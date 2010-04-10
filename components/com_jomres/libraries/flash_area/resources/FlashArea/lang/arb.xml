@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="أنماط"/>
+				<size hint="حجم الخط"/>
+				<font hint="الخط"/>
+				<bullet hint="رصاصه"/>
+				<leading hint="الرئيسيه">
+					<window>
+						<textes title="تغيير الفقره الرئيسيه" leading="الرئيسيه" ok="موافق" cancel="الغاء"/>
+					</window>
+				</leading>
+				<copy hint="نسخ"/>
+				<cut hint="قص"/>
+				<paste hint="لصق"/>
+				<undo hint="تراجع"/>
+				<redo hint="أستعاده"/>
+				<bold hint="سميك"/>
+				<italic hint="مائل"/>
+				<underline hint="خط سفلي"/>
+				<left hint="توجيه لليسار"/>
+				<center hint="توجيه للوسط"/>
+				<right hint="توجيه لليمين"/>
+				<url hint="أدراج أرتباط تشعبي">
+					<window>
+						<textes title="أرتباط تشعبي" text="نص :" url="عنوان الموقع :" target="هدف :" ok="موافق" cancel="الغاء" remove="أزاله"/>
+					</window>
+				</url>
+				<indentDec hint="أنقاص المستند"/>
+				<indentInc hint="زيادة المستند"/>
+				<color hint="لون الخط"/>
+				<symbols hint="أدراج رمز">
+					<window>
+						<textes title="أداراج رمز" ok="أغلاق" insert="أدراج"/>
+					</window>
+				</symbols>
+				<html hint="حول إلى العرض العادي أو العرض بصيغة هتمل"/>
+				<image hint="أدراج صوره">
+					<window>
+						<textes title="صوره" path="المسار :" align="اتجاه :" url="عنوان الموقع :" target="الهدف :" id="الرمز الشخصي :" space="مسافه :" space_v="المسافه العموديه :" space_h="المسافه الأفقيه :" size="حجم :" size_w="عرض :" size_h="أرتفاع :" ok="موافق" cancel="الغاء" remove="أزاله"/>
+					</window>
+				</image>
+				<about hint="حول برنامج فلاش أيريه">
+					<window>
+						<textes title="حول برنامج فلاش أريه" ok="موافق"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

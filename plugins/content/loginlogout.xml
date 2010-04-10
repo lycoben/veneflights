@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+  <name>Content - LoginLogout</name>
+  <author>Anton Nikiforov</author>
+  <creationDate>September, 2008</creationDate>
+  <copyright>Copyright 2008 WowJoomla.com</copyright>
+  <license>GNU/GPL</license>
+  <authorEmail>support@wowjoomla.com</authorEmail>
+  <authorUrl>www.wowjoomla.com</authorUrl>
+  <version>1.0.0</version>
+  <description>
+<![CDATA[
+LoginLogout plugin displays a login button inside of any content item or HTML module
+]]>
+</description>
+  <files>
+    <filename plugin="loginlogout">loginlogout.php</filename>
+  </files>
+
+</install>

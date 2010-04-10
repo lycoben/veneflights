@@ -1,0 +1,26 @@
+
+/********************************************************************
+ * EXTENDED CSS FILE for DOCMAN
+ * ----------------------------------------------------------------
+ * Copyright (C) 2006 - 2008 JoomlaShine.com. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: JoomlaShine.com
+ * Websites:  http://www.joomlashine.com
+*********************************************************************/
+
+
+/** DocMan **/
+
+#jsn-master #dm_cats h3,
+#jsn-master #dm_docs h3 {
+	background-color: #5f9936;
+}
+
+#jsn-master .dm_doc thead,
+#jsn-master #dm_tooltip thead { 
+	background-color: #5f9936;
+}
+
+#jsn-master a.dm_name:hover {
+	color: #5f9936;
+}

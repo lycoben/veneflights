@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Polls</name>
+  <author>A. Kempkens</author>
+  <version>1.8</version>
+  <description>Definition for the core poll component</description>
+  <reference>
+  	<table name="polls">
+  		<field type="referenceid" name="id" translate="0" jgtranslate="0">ID</field>
+  		<field type="titletext" name="title" translate="1" jgtranslate="1">Title</field>  		
+  	</table>  	
+  </reference>
+</joomfish>

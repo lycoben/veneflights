@@ -1,0 +1,28 @@
+/*
+ * Example CSS for Simplest Forum.
+*/
+.contentpane.sforums table{border-color:#55f;border-style:solid;border-width:1px 0px 0px 1px;}
+.contentpane.sforums table th{font-weight:bold;background-color:#acf;font-size:1.1em;}
+.contentpane.sforums table td,
+.contentpane.sforums table th{border-color:#55f;border-style:solid;border-width:0px 1px 1px 0px;padding:3px;}
+
+.contentpane.stopics table{border-color:#55f;border-style:solid;border-width:1px 0px 0px 1px;}
+.contentpane.stopics table th{font-weight:bold;background-color:#acf;font-size:1.1em;}
+.contentpane.stopics table td,
+.contentpane.stopics table th{border-color:#55f;border-style:solid;border-width:0px 1px 1px 0px;padding:3px;}
+
+.contentpane.sposts ul.post{border:1px solid #000;margin:10px;list-style:none;padding:0px;}
+.contentpane.sposts ul.post.child.c1{margin-left:30px;}
+.contentpane.sposts ul.post.child.c2{margin-left:60px;}
+.contentpane.sposts ul.post.child.c3{margin-left:90px;}
+.contentpane.sposts ul.post.child.c4{margin-left:120px;}
+.contentpane.sposts ul.post.child .subject{font-weight:bold;font-size:1.1em;background-color:#ddd;}
+.contentpane.sposts ul.post.parent{border-color:#ff0;border-width:3px;}
+.contentpane.sposts .post .subject{font-weight:bold;font-size:1.1em;background-color:#acf;}
+.contentpane.sposts .post .postby{font-style:italic;}
+.contentpane.sposts .post .message{padding:7px;border-top:1px dotted #000;}
+.contentpane.sposts .post .buttons{text-align:right;}
+
+.contentpane.sposts form div.form{border:1px dotted #000;padding:10px;margin:10px;}
+.contentpane.sposts form div.form dl dt{padding:5px;}
+.contentpane.captcha{margin:10px;}

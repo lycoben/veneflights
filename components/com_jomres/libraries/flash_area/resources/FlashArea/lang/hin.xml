@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="स्टाईल"/>
+				<size hint="फांट आकार"/>
+				<font hint="फांट"/>
+				<bullet hint="बुलेट"/>
+				<leading hint="लीडिंग">
+					<window>
+						<textes title="पैराग्राफ लीडिंग बदलें" leading="लीडिंग" ok="ठीक हैं" cancel="निरस्त"/>
+					</window>
+				</leading>
+				<copy hint="कॉपी"/>
+				<cut hint="कट"/>
+				<paste hint="पेस्ट"/>
+				<undo hint="अन्डू"/>
+				<redo hint="रीडू"/>
+				<bold hint="बोल्ड"/>
+				<italic hint="इटेलिक"/>
+				<underline hint="अंडरलाईन"/>
+				<left hint="बांये एलाईन करें"/>
+				<center hint="सेटंर एलाईन करें"/>
+				<right hint="दांये एलाईन करें"/>
+				<url hint="हाइपरलिंक डालें">
+					<window>
+						<textes title="हाइपरलिंक" text="टेक्सट:" url="यू.आर.एल:" target="टारगेट:" ok="ठीक हैं" cancel="निरस्त" remove="रिमूव"/>
+					</window>
+				</url>
+				<indentDec hint="इंडेंट घटाये"/>
+				<indentInc hint="इंडेंट बढाये"/>
+				<color hint="फांट का रंग"/>
+				<symbols hint="सिम्बॉल डालें">
+					<window>
+						<textes title="सिम्बॉल डालें" ok="क्लॉज़" insert="डालें"/>
+					</window>
+				</symbols>
+				<html hint="सामान्य अथवा एच.टी.एम.एल. दॄश्य में बदलें"/>
+				<image hint="चित्र डालें">
+					<window>
+						<textes title="चित्र" path="पाथ:" align="एलाईन:" url="यू.आर.एल:" target="टारगेट:" id="आई.डी.:" space="स्पेस:" space_v="खड़ा" space_h="आड़ा" size="आकार:" size_w="चौड़ाई" size_h="ऊँचाई" ok="ठीक हैं" cancel="निरस्त" remove="रिमूव"/>
+					</window>
+				</image>
+				<about hint="फेल्सएरिया के बारें में">
+					<window>
+						<textes title="फेल्सएरिया के बारें में" ok="ठीक हैं"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

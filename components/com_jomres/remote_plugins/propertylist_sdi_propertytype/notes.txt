@@ -1,0 +1,1 @@
+Add {PTYPE} to your list_properties.html after where it says <patTemplate:tmpl name="property_details"  unusedvars="nbsp"> and before the next </patTemplate:tmpl> to position the property type info

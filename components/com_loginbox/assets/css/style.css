@@ -1,0 +1,59 @@
+html { /* This is the overall color of the background inside the border */
+background-color: #2d2d2d;
+}
+
+body {/*This is the appearence the area inside the border*/
+margin: 1px; /*provides padding around the body content area*/
+background-color: none;/*This is the color of the area inside the border less the margin value above, Change this if you want yet another border, inside the other*/
+overflow: auto;/*This allows any content larger than the module to be available via a scroll bar. - this should be left as auto*/
+}
+
+a {/*This sets the look of any links*/
+text-decoration: underline !important;/*creates underlines for links such as "Forgot Password and "Forgot Username" - the !important should be left or some browsers will ignore this setting*/
+color: #fff !important;/*Sets the color of the link text*/
+} 
+
+a:hover {/*This sets the appearence of links that are hovered over*/
+text-decoration: none !important;/* notice no underline here - when the link is hovered over by the mouse, the underline dissapears*/
+} 
+
+h3 {/*This is the "title text" such as "log in " and "register"*/
+font-family: Arial, Verdana, Helvetica;/* This was added to allow control over type face and size. Without this, the browser default may be used with un-predictable results*/
+font-size: 14px;/*sets this size of the text*/
+color: #b9e9c9;/*sets the color of the text*/
+}
+
+label {/*Sets appearence of labels on fields such as password, email, remember me, etc.*/
+font-family: Arial, Verdana, Helvetica;/* This was added to allow control over type face and size. Without this, the brwser default may be used with un predictable results*/
+font-weight: bold;/*makes the text bold*/
+font-size: 12px;/*Sets the size of the text*/
+color: #fff;/*sets the color of the text*/
+}
+
+.fields {/*These set the appearence of the "fill in the blanks" areas, user names, passwords, etc*/
+margin-bottom: 3px;/*This creates space below the fields. Lowering this value make them render closer together*/
+height: auto;/*This allows the fields to render to a given height. Auto allows the browser to set the height*/
+}
+
+.contentpane/*This is a div box that contains the fields, buttons etc. Basically everything inside the border*/
+height: auto;/*This allows the box to auto fit. */
+
+#system-message {/**/
+position: absolute;/**/
+left: 20px;/**/
+}
+#system-message dt.error { /**/
+display: none; /**/
+}
+#system-message dd.error ul { /*Controls the appearence of the System messages that appear on errors. Such as login errors etc.*/
+font-family: Arial, Verdana, Helvetica;/* Allows control over type face and size. Without this, the browser default may be used with un-predictable results*/
+font-size: 14px;/*sets the size of the message text*/
+color: #c00; /**/
+background-color: #E6C0C0; /**/
+border: 3px solid #DE7A7B !important;/**/ 
+list-style: none;/**/
+padding-right: 5px;/**/
+height: 50px !important;/**/
+width: 200px;/**/
+vertical-align: middle;/**/
+}

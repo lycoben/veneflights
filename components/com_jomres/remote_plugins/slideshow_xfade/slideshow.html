@@ -1,0 +1,31 @@
+<patTemplate:tmpl name="pageoutput">
+<style>
+#imageContainer {
+	height: {MAXHEIGHT}px;
+	border: 0px solid #f3f3f3;
+}
+#imageContainer img {
+	display: none;
+	position: absolute;
+	top: 0; 
+	left: 0;
+	border: 0;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="{SLIDESHOWRELPATH}xfade2_o.css" />
+<script type="text/javascript" src="{SLIDESHOWRELPATH}xfade2.js"></script>
+
+<div class="panelwrapper">
+	<div class="slideshow">
+		<div class="slideshow_content">
+			<div style="align:center;">
+				<div id="imageContainer">
+					<patTemplate:tmpl name="rows">
+						<img src="{IMAGE}" border="0" width="{WIDTH}" height="{HEIGHT}" alt="{ALTTEXT}" />
+					</patTemplate:tmpl>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+</patTemplate:tmpl>

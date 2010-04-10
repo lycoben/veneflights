@@ -1,0 +1,150 @@
+
+/********************************************************************
+ * JOOMLA! TEMPLATE CSS FILE
+ * ----------------------------------------------------------------
+ * Copyright (C) 2006 - 2008 JoomlaShine.com. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: JoomlaShine.com
+ * Websites:  http://www.joomlashine.com
+*********************************************************************/
+
+#jsn-master {
+	background: #333333 url(../images/grey/master-bg.jpg) repeat-x top left;
+}
+
+/** @MENU **/
+
+/** @SUCKERFISH **/
+
+/* Sublevel */
+ul.menu-suckerfish ul a:link,
+ul.menu-suckerfish ul a:visited {
+	border-top-color: #999999;
+	border-bottom-color: #404040;
+	border-left-color: #404040;
+	background-color: #737373;
+	color: #e5e5e5;
+}
+
+ul.menu-suckerfish ul a:hover,
+ul.menu-suckerfish ul li.parent a:hover,
+ul.menu-suckerfish ul li.parent li.parent a:hover {
+	border-top-color: #595959;
+	background-color: #595959;
+}
+
+/* Clear active */
+ul.menu-suckerfish ul li.active li a,
+ul.menu-suckerfish ul li.active li.active li a {
+	color: #e5e5e5;
+}
+
+/* Children expanded */
+ul.menu-suckerfish ul li.parent a,
+ul.menu-suckerfish ul li.parent li.parent a {
+	background: #737373 url("../images/grey/suckerfish-expand.png") no-repeat 95% center;
+}
+
+
+/** @BULLET TREE **/
+
+ul.menu-bullettree a:link, ul.menu-bullettree a:visited {
+	background-image: url(../images/grey/bullettree-level0.png);
+}
+
+
+/* @TABLES */
+
+/* Plain rows */
+table.plainrows thead {
+	border-bottom-color: #737373;
+}
+
+table.plainrows thead th {
+	background-color: #999999;
+}
+
+/* Dark stripes */
+table.colorstripes {
+	border-color: #404040;
+	background: #737373;
+}
+
+table.colorstripes td,
+table.colorstripes th {
+	border-color: #999999;
+}
+
+table.colorstripes thead th {
+	border-color: #737373;
+	background-color: #404040;
+}
+
+table.colorstripes tbody tr.odd {
+	background-color: #616161;
+}
+
+table.colorstripes tbody tr:hover {
+	background-color: #595959;
+}
+
+table.colorstripes tbody tr:hover th,
+table.colorstripes tbody tr.odd:hover th {
+	background-color: #595959;
+}
+
+table.colorstripes tfoot th,
+table.colorstripes tfoot td {
+	background-color: #404040;
+}
+
+td.sectiontableheader {
+	background-color: #999999;
+}
+
+/** Tabs **/
+#jsn-master div.dynamic-tab-pane-control div.tab-row h2.selected {
+	background-image: none !important;
+	background-color: #999999;
+}
+
+#jsn-master div.dynamic-tab-pane-control div.tab-page {
+	border-top-color: #999999;
+}
+
+#jsn-puser8 a:link, #jsn-puser8 a:visited,
+#jsn-puser9 a:link, #jsn-puser9 a:visited {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+div.box-grey a:link,
+div.box-grey a:visited {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/* @LINK */
+a:link,
+a:visited {
+	color: #0000ee;
+}
+
+
+div.header-dots h3,
+div.icon-dots h3 {
+	background: url(../images/grey/icon-module-dots.png) no-repeat left 5px;
+	padding: 0 0 0 10px;
+}
+
+div.header-arrow h3,
+div.icon-arrow h3 {
+	background: url(../images/grey/icon-module-arrow.png) no-repeat left 5px;
+	padding: 0 0 0 16px;
+}
+
+/* Read more */
+a.readon:link,
+a.readon:visited {
+	background-image: url(../images/grey/icon-module-arrow.png);
+}

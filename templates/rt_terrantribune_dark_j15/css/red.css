@@ -1,0 +1,68 @@
+/* Red */
+
+body.bc-red {
+	border-top: 4px solid #CE2815;
+}
+
+.bc-red .contentheading,
+.bc-red #main-section a,
+.bc-red .moduletable h3,
+.bc-red #left-column .module h3,
+.bc-red #right-column .module h3,
+.bc-red #left-column .module-menu h3,
+.bc-red #right-column .module-menu h3,
+.bc-red #bottommodules1 .module h3,
+.bc-red #bottommodules2 .module h3,
+.bc-red #sub-menu a {
+	color: #CE2815;
+}
+
+.bc-red img#logo {
+	background: url(../images/red/logo.png) 0 0 no-repeat;
+}
+
+.bc-red #showcase {
+	background: #B92916 url(../images/red/showcase-bg.png) 0 0 no-repeat;
+}
+
+.bc-red .showcase-div {
+	background: url(../images/red/showcase-div.png) 0 0 repeat-x;
+}
+
+.bc-red #showcase .column-1 {
+	border-right: 1px solid #CE2815;
+}
+
+.bc-red #showcase a {
+	color: #FDD4D1;
+}
+
+.bc-red #showcase ul.latestnews li {
+	background-color: #99200C;
+}
+
+.bc-red #showcase ul.latestnews li:hover {
+	background-color: #7A1800;
+}
+
+.bc-red .date-block {
+	border-bottom: 1px solid #CE2815;
+}
+
+.bc-red span.date-number {
+	background: #EE3E23;
+	color: #fff;
+}
+
+.bc-red #horiz-menu li.active a,
+.bc-red #horiz-menu li.active .separator,
+.bc-red #bottom-menu ul#mainlevel-bottom a#active_menu.mainlevel-bottom,
+.bc-red #bottom-menu ul#mainlevel-bottom a.mainlevel-bottom:hover {
+	border-top: 5px solid #CE2815;
+	color: #CE2815;
+}
+
+.bc-red #news-rotator .story {
+	border-top: 5px solid #CE2815;
+	color: #FDD4D1;
+}

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+  <name>yos_ammap</name>
+  <author>Sonlv</author>
+  <creationDate>December 2008</creationDate>
+  <copyright>Copyright (C) YOS Team. All rights reserved.</copyright>
+  <license>Commercial.</license>
+  <authorEmail>sonvnn@gmail.com</authorEmail>
+  <authorUrl>www.yopensource.com</authorUrl>
+  <version>1.0.5.1</version>
+  <description>This component manager amMap - Pro version</description>
+  <files folder="front">       
+	
+	<filename>ammap/addon/index.html</filename>
+	<filename>ammap/icons/pin.swf</filename>
+	<filename>ammap/icons/sun.swf</filename>
+	<filename>ammap/maps/continents.swf</filename>
+	<filename>ammap/maps/world.swf</filename>
+	<filename>ammap/maps/world_with_antarctica.swf</filename>
+	<filename>ammap/ammap.swf</filename>
+
+	<filename>ammap/ammap_data.xml</filename>
+	<filename>ammap/ammap_key.txt</filename>
+	<filename>ammap/ammap_settings.xml</filename>
+	<filename>ammap/export.aspx</filename>
+	<filename>ammap/export.aspx.cs</filename>
+	<filename>ammap/export.php</filename>
+	<filename>ammap/index.html</filename>
+	<filename>ammap/swfobject.js</filename>
+	<filename>helpers/index.html</filename>
+
+	<filename>helpers/onlydomain.php</filename>
+	<filename>maps/index.html</filename>
+	<filename>tables/index.html</filename>
+
+	<filename>tables/yos_ammap.php</filename>
+	<filename>tables/yos_key_hash.php</filename>
+	<filename>views/show/tmpl/index.html</filename>
+	<filename>views/show/tmpl/show.php</filename>
+	<filename>views/show/index.html</filename>
+	<filename>views/show/view.html.php</filename>
+	<filename>views/index.html</filename>
+	<filename>controller.php</filename>
+	<filename>index.html</filename>
+
+	<filename>yos_ammap.php</filename>
+  </files>
+  <administration>
+      <files>
+	<filename>assets/edit_area/images/autocompletion.gif</filename>
+	<filename>assets/edit_area/images/close.gif</filename>
+	<filename>assets/edit_area/images/fullscreen.gif</filename>
+	<filename>assets/edit_area/images/go_to_line.gif</filename>
+	<filename>assets/edit_area/images/help.gif</filename>
+	<filename>assets/edit_area/images/highlight.gif</filename>
+	<filename>assets/edit_area/images/load.gif</filename>
+
+	<filename>assets/edit_area/images/move.gif</filename>
+	<filename>assets/edit_area/images/newdocument.gif</filename>
+	<filename>assets/edit_area/images/opacity.png</filename>
+	<filename>assets/edit_area/images/processing.gif</filename>
+	<filename>assets/edit_area/images/redo.gif</filename>
+	<filename>assets/edit_area/images/reset_highlight.gif</filename>
+	<filename>assets/edit_area/images/save.gif</filename>
+	<filename>assets/edit_area/images/search.gif</filename>
+	<filename>assets/edit_area/images/smooth_selection.gif</filename>
+
+	<filename>assets/edit_area/images/spacer.gif</filename>
+	<filename>assets/edit_area/images/statusbar_resize.gif</filename>
+	<filename>assets/edit_area/images/Thumbs.db</filename>
+	<filename>assets/edit_area/images/undo.gif</filename>
+	<filename>assets/edit_area/langs/cs.js</filename>
+	<filename>assets/edit_area/langs/de.js</filename>
+	<filename>assets/edit_area/langs/dk.js</filename>
+	<filename>assets/edit_area/langs/en.js</filename>
+	<filename>assets/edit_area/langs/eo.js</filename>
+
+	<filename>assets/edit_area/langs/es.js</filename>
+	<filename>assets/edit_area/langs/fr.js</filename>
+	<filename>assets/edit_area/langs/hr.js</filename>
+	<filename>assets/edit_area/langs/it.js</filename>
+	<filename>assets/edit_area/langs/ja.js</filename>
+	<filename>assets/edit_area/langs/mk.js</filename>
+	<filename>assets/edit_area/langs/nl.js</filename>
+	<filename>assets/edit_area/langs/pl.js</filename>
+	<filename>assets/edit_area/langs/pt.js</filename>
+
+	<filename>assets/edit_area/langs/ru.js</filename>
+	<filename>assets/edit_area/langs/sk.js</filename>
+	<filename>assets/edit_area/plugins/charmap/css/charmap.css</filename>
+	<filename>assets/edit_area/plugins/charmap/images/charmap.gif</filename>
+	<filename>assets/edit_area/plugins/charmap/jscripts/map.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/cs.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/de.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/dk.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/en.js</filename>
+
+	<filename>assets/edit_area/plugins/charmap/langs/eo.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/es.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/fr.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/hr.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/it.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/ja.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/mk.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/nl.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/pl.js</filename>
+
+	<filename>assets/edit_area/plugins/charmap/langs/pt.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/ru.js</filename>
+	<filename>assets/edit_area/plugins/charmap/langs/sk.js</filename>
+	<filename>assets/edit_area/plugins/charmap/charmap.js</filename>
+	<filename>assets/edit_area/plugins/charmap/popup.html</filename>
+	<filename>assets/edit_area/plugins/test/css/test.css</filename>
+	<filename>assets/edit_area/plugins/test/images/test.gif</filename>
+	<filename>assets/edit_area/plugins/test/images/Thumbs.db</filename>
+	<filename>assets/edit_area/plugins/test/langs/cs.js</filename>
+
+	<filename>assets/edit_area/plugins/test/langs/de.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/dk.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/en.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/eo.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/es.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/fr.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/hr.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/it.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/ja.js</filename>
+
+	<filename>assets/edit_area/plugins/test/langs/mk.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/nl.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/pl.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/pt.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/ru.js</filename>
+	<filename>assets/edit_area/plugins/test/langs/sk.js</filename>
+	<filename>assets/edit_area/plugins/test/test.js</filename>
+	<filename>assets/edit_area/plugins/test/test2.js</filename>
+	<filename>assets/edit_area/plugins/index.html</filename>
+
+	<filename>assets/edit_area/reg_syntax/basic.js</filename>
+	<filename>assets/edit_area/reg_syntax/brainfuck.js</filename>
+	<filename>assets/edit_area/reg_syntax/c.js</filename>
+	<filename>assets/edit_area/reg_syntax/coldfusion.js</filename>
+	<filename>assets/edit_area/reg_syntax/cpp.js</filename>
+	<filename>assets/edit_area/reg_syntax/css.js</filename>
+	<filename>assets/edit_area/reg_syntax/html.js</filename>
+	<filename>assets/edit_area/reg_syntax/js.js</filename>
+	<filename>assets/edit_area/reg_syntax/pas.js</filename>
+
+	<filename>assets/edit_area/reg_syntax/perl.js</filename>
+	<filename>assets/edit_area/reg_syntax/php.js</filename>
+	<filename>assets/edit_area/reg_syntax/python.js</filename>
+	<filename>assets/edit_area/reg_syntax/robotstxt.js</filename>
+	<filename>assets/edit_area/reg_syntax/ruby.js</filename>
+	<filename>assets/edit_area/reg_syntax/sql.js</filename>
+	<filename>assets/edit_area/reg_syntax/tsql.js</filename>
+	<filename>assets/edit_area/reg_syntax/vb.js</filename>
+	<filename>assets/edit_area/reg_syntax/xml.js</filename>
+
+	<filename>assets/edit_area/autocompletion.js</filename>
+	<filename>assets/edit_area/edit_area.css</filename>
+	<filename>assets/edit_area/edit_area.js</filename>
+	<filename>assets/edit_area/edit_area_compressor.php</filename>
+	<filename>assets/edit_area/edit_area_full.gz</filename>
+	<filename>assets/edit_area/edit_area_full.js</filename>
+	<filename>assets/edit_area/edit_area_full_with_plugins.gz</filename>
+	<filename>assets/edit_area/edit_area_full_with_plugins.js</filename>
+	<filename>assets/edit_area/edit_area_functions.js</filename>
+
+	<filename>assets/edit_area/edit_area_loader.js</filename>
+	<filename>assets/edit_area/elements_functions.js</filename>
+	<filename>assets/edit_area/highlight.js</filename>
+	<filename>assets/edit_area/index.html</filename>
+	<filename>assets/edit_area/keyboard.js</filename>
+	<filename>assets/edit_area/license.txt</filename>
+	<filename>assets/edit_area/license_apache.txt</filename>
+	<filename>assets/edit_area/license_bsd.txt</filename>
+	<filename>assets/edit_area/license_lgpl.txt</filename>
+
+	<filename>assets/edit_area/manage_area.js</filename>
+	<filename>assets/edit_area/regexp.js</filename>
+	<filename>assets/edit_area/reg_syntax.js</filename>
+	<filename>assets/edit_area/resize_area.js</filename>
+	<filename>assets/edit_area/search_replace.js</filename>
+	<filename>assets/edit_area/template.html</filename>
+
+	<filename>assets/ammap.css</filename>
+	<filename>assets/delete.png</filename>
+	<filename>assets/index.html</filename>
+	<filename>assets/mediamanager.css</filename>
+	<filename>assets/mediamanager.js</filename>
+	<filename>assets/mootree.gif</filename>
+	<filename>assets/popup-imagemanager.css</filename>
+	<filename>assets/popup-imagemanager.js</filename>
+
+	<filename>assets/progress.gif</filename>
+	<filename>assets/upload.png</filename>
+	<filename>assets/yos_editmanager.js</filename>
+	<filename>assets/yos_view.js</filename>
+	<filename>backup/charteuro.zip</filename>
+	<filename>backup/drilldown.zip</filename>
+	<filename>backup/index.html</filename>
+	<filename>backup/ourworld.zip</filename>
+	<filename>controllers/elconfig.php</filename>
+
+	<filename>controllers/elements.php</filename>
+	<filename>controllers/file.php</filename>
+	<filename>controllers/index.html</filename>
+	<filename>controllers/list.php</filename>
+	<filename>controllers/upgrade.php</filename>
+	<filename>helpers/autoupdate.php</filename>
+	<filename>helpers/index.html</filename>
+	<filename>helpers/media.php</filename>
+	<filename>helpers/version.xml</filename>
+
+	<filename>images/mime-icon-32/download_f2.png</filename>
+	<filename>images/mime-icon-32/folder.png</filename>
+	<filename>images/mime-icon-32/folderup_32.png</filename>
+	<filename>images/mime-icon-32/index.html</filename>
+	<filename>images/mime-icon-32/swf.png</filename>
+	<filename>images/mime-icon-32/xml.png</filename>
+	<filename>images/mime-icon-32/zip.png</filename>
+	<filename>images/icon-16-addon.png</filename>
+	<filename>images/icon-16-ammap.png</filename>
+
+	<filename>images/icon-16-backup.png</filename>
+	<filename>images/icon-16-config.png</filename>
+	<filename>images/icon-16-elconfig.png</filename>
+	<filename>images/icon-16-icon.png</filename>
+	<filename>images/icon-16-info.png</filename>
+	<filename>images/icon-16-maps.png</filename>
+	<filename>images/icon-16-upload.png</filename>
+	<filename>images/icon-32-elements.png</filename>
+	<filename>images/icon-48-addon.png</filename>
+
+	<filename>images/icon-48-ammap.png</filename>
+	<filename>images/icon-48-backup.png</filename>
+	<filename>images/icon-48-config.png</filename>
+	<filename>images/icon-48-elconfig.png</filename>
+	<filename>images/icon-48-elements.png</filename>
+	<filename>images/icon-48-help.png</filename>
+	<filename>images/icon-48-icon.png</filename>
+	<filename>images/icon-48-info.png</filename>
+	<filename>images/icon-48-maps.png</filename>
+
+	<filename>images/icon-48-upload.png</filename>
+	<filename>images/icon-48-uploadammap.png</filename>
+	<filename>images/icon-install.png</filename>
+	<filename>images/icon-main.png</filename>
+	<filename>images/index.html</filename>
+	<filename>images/yos_ammap.png</filename>
+	<filename>images/yos_ammap_256.png</filename>
+	<filename>models/addon.php</filename>
+	<filename>models/ammap.php</filename>
+
+	<filename>models/backup.php</filename>
+	<filename>models/cp_data.php</filename>
+	<filename>models/elconfig.php</filename>
+	<filename>models/elconfigedit.php</filename>
+	<filename>models/elements.php</filename>
+	<filename>models/elmanager.php</filename>
+	<filename>models/icons.php</filename>
+	<filename>models/index.html</filename>
+	<filename>models/install.php</filename>
+
+	<filename>models/list.php</filename>
+	<filename>models/maps.php</filename>
+	<filename>models/version.php</filename>
+	<filename>tables/index.html</filename>
+	<filename>tables/yos_ammap.php</filename>
+	<filename>tables/yos_elements_properties.php</filename>
+	<filename>tables/yos_key_hash.php</filename>
+	<filename>tables/yos_map_elements.php</filename>
+	<filename>views/about/tmpl/about.php</filename>
+
+	<filename>views/about/tmpl/index.html</filename>
+	<filename>views/about/index.html</filename>
+	<filename>views/about/view.html.php</filename>
+	<filename>views/addon/tmpl/index.html</filename>
+	<filename>views/addon/tmpl/list.php</filename>
+	<filename>views/addon/tmpl/list_upload.php</filename>
+	<filename>views/addon/index.html</filename>
+	<filename>views/addon/view.html.php</filename>
+	<filename>views/ammap/tmpl/index.html</filename>
+
+	<filename>views/ammap/tmpl/list.php</filename>
+	<filename>views/ammap/tmpl/list_edit.php</filename>
+	<filename>views/ammap/tmpl/list_editaddon.php</filename>
+	<filename>views/ammap/tmpl/list_editdata.php</filename>
+	<filename>views/ammap/tmpl/list_editicons.php</filename>
+	<filename>views/ammap/tmpl/list_editsetting.php</filename>
+	<filename>views/ammap/index.html</filename>
+	<filename>views/ammap/view.html.php</filename>
+	<filename>views/backup/tmpl/index.html</filename>
+
+	<filename>views/backup/tmpl/list.php</filename>
+	<filename>views/backup/index.html</filename>
+	<filename>views/backup/view.html.php</filename>
+	<filename>views/controlpanel/tmpl/default.php</filename>
+	<filename>views/controlpanel/tmpl/default_info.php</filename>
+	<filename>views/controlpanel/tmpl/default_report.php</filename>
+	<filename>views/controlpanel/tmpl/index.html</filename>
+	<filename>views/controlpanel/index.html</filename>
+	<filename>views/controlpanel/view.html.php</filename>
+
+	<filename>views/elconfig/tmpl/form.php</filename>
+	<filename>views/elconfig/tmpl/index.html</filename>
+	<filename>views/elconfig/tmpl/list.php</filename>
+	<filename>views/elconfig/index.html</filename>
+	<filename>views/elconfig/view.html.php</filename>
+	<filename>views/elements/tmpl/form.php</filename>
+	<filename>views/elements/tmpl/index.html</filename>
+	<filename>views/elements/tmpl/list.php</filename>
+	<filename>views/elements/index.html</filename>
+
+	<filename>views/elements/view.html.php</filename>
+	<filename>views/icons/tmpl/index.html</filename>
+	<filename>views/icons/tmpl/list.php</filename>
+	<filename>views/icons/tmpl/list_upload.php</filename>
+	<filename>views/icons/index.html</filename>
+	<filename>views/icons/view.html.php</filename>
+	<filename>views/maps/tmpl/index.html</filename>
+	<filename>views/maps/tmpl/list.php</filename>
+	<filename>views/maps/tmpl/list_upload.php</filename>
+
+	<filename>views/maps/index.html</filename>
+	<filename>views/maps/view.html.php</filename>
+	<filename>views/upload/tmpl/index.html</filename>
+	<filename>views/upload/tmpl/upload.php</filename>
+	<filename>views/upload/index.html</filename>
+	<filename>views/upload/view.html.php</filename>
+	<filename>views/uploadammap/tmpl/form.php</filename>
+	<filename>views/uploadammap/tmpl/index.html</filename>
+	<filename>views/uploadammap/index.html</filename>
+
+	<filename>views/uploadammap/view.html.php</filename>
+	<filename>views/index.html</filename>
+	<filename>config.xml</filename>
+	<filename>controller.php</filename>
+	<filename>index.html</filename>
+	<filename>yos_ammap.php</filename>
+
+
+      </files>
+      <menu img="components/com_yos_ammap/images/icon-16-ammap.png">YOS amMap</menu>
+      <submenu>
+        <menu img="components/com_yos_ammap/images/icon-16-config.png">Control Panel</menu>  
+    	<menu img="components/com_yos_ammap/images/icon-16-ammap.png" task="ammaps">amMaps</menu>
+    	<menu img="components/com_yos_ammap/images/icon-16-elconfig.png" task="elconfig">Element Properties</menu>
+	<menu img="components/com_yos_ammap/images/icon-16-icon.png" task="icons">Icons</menu>
+        <menu img="components/com_yos_ammap/images/icon-16-maps.png" task="maps">Maps</menu>
+        <menu img="components/com_yos_ammap/images/icon-16-addon.png" task="addon">Addons</menu>
+        <menu img="components/com_yos_ammap/images/icon-16-upload.png" task="upload">Upload</menu>
+        <menu img="components/com_yos_ammap/images/icon-16-backup.png" task="backup">Back-up</menu>
+        <menu img="components/com_yos_ammap/images/icon-16-info.png" task="about">About</menu>
+      </submenu>
+  </administration>
+  <installfile>install.php</installfile>
+  <uninstallfile>uninstall.php</uninstallfile>
+</install>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlashArea>
+	<language rootUrl="resources/FlashArea/lang" current="eng" recreateToolbar="false">
+		<!--recreateToolbar set to true only if forward apperance of component may changed (for example Toolbar.buttons.items from lang to lang are changed)-->
+	</language>
+	<look rootUrl="resources/pseudo/looks" current="aqua">
+		<!--possible values: aqua, xp, std-->
+	</look>
+	<enabled hints="true" shortcuts="true"/>
+	<Toolbar visible="true" iconsUrl="resources/FlashArea/icons">
+		<buttons items="cut,copy,paste,div,undo,redo,div,font,size,styles,br,bold,italic,underline,div,left,center,right,div,bullet,indentDec,indentInc,leading,div,color,symbols,url,html,image,div,about" width="22" height="22" spaceX="1" spaceY="2">
+			<!--available buttons div,br,cut,copy,paste,undo,redo,font,size,styles,bold,italic,underline,left,center,right,bullet,indentInc,indentDec,leading,color,symbols,url,html,image,about-->
+			<options>
+				<styles width="90" url="resources/FlashArea/styles/default.css" hint="Styles"/>
+				<size width="50" items="8,10,12,14,16,18,20,24,28,32,40,48" hint="Font Size"/>
+				<font width="160" addAll="true" include="" hint="Font"/>
+				<div width="3"/>
+				<bullet hint="Bullet"/>
+				<leading hint="Leading">
+					<window>
+						<textes title="Change paragraph leading" leading="Leading" ok="OK" cancel="Cancel"/>
+					</window>
+				</leading>
+				<copy shortcut="Ctrl+C" hint="Copy"/>
+				<cut shortcut="Ctrl+X" hint="Cut"/>
+				<paste shortcut="Ctrl+V" hint="Paste"/>
+				<undo shortcut="Ctrl+Z" hint="Undo"/>
+				<redo shortcut="Ctrl+Y" hint="Redo"/>
+				<bold shortcut="Ctrl+B" hint="Bold"/>
+				<italic shortcut="Ctrl+I" hint="Italic"/>
+				<underline shortcut="Ctrl+U" hint="Underline"/>
+				<left shortcut="Ctrl+L" hint="Align Left"/>
+				<center shortcut="Ctrl+E" hint="Align Center"/>
+				<right shortcut="Ctrl+R" hint="Align Right"/>
+				<url shortcut="Ctrl+K" hint="Insert Hyperlink" color="0x0000FF">
+					<window width1="50" width2="300">
+						<textes title="Hyperlink" text="Text:" url="URL:" target="Target:" ok="OK" cancel="Cancel" remove="Remove"/>
+					</window>
+				</url>
+				<indentDec hint="Decrease Indent"/>
+				<indentInc hint="Increase Indent"/>
+				<color hint="Font Color"/>
+				<symbols hint="Insert Symbol">
+					<window>
+						<buttons height="22" width="26" perLineCount="15" items="161..234,300"/>
+						<textes title="Insert Symbol" ok="Close" insert="Insert"/>
+					</window>
+				</symbols>
+				<html hint="Switch to Normal or Html view"/>
+				<image hint="Insert Image">
+					<window width1="50" width2="300">
+						<images rootPath="resources/images/" predefined="abandoned_beauty.jpg,close_to_heart.jpg,fresh_picked.jpg,harbor_light_hideaway.jpg,liberty_light.jpg,light_magic.jpg,old_friends.jpg,warm_welcome.jpg,winter_night.jpg"/>
+						<textes title="Image" path="Path:" align="Align:" url="URL:" target="Target:" id="ID:" space="Space:" space_v="Vert" space_h="Hor" size="Size:" size_w="Width" size_h="Height" ok="OK" cancel="Cancel" remove="Remove"/>
+					</window>
+				</image>
+				<about hint="About FlashArea">
+					<window>
+						<textes title="About FlashArea" ok="OK"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+		<indent left="1" top="4" right="1" bottom="3" around="3" toEditor="1">
+			<!--if around=-1 then around is disabled-->
+		</indent>
+		<look>
+			<std>
+				<background visible="false" backgroundColor="0xD4D0C8" borderColor="0x777777" cornerRadius="1"/>
+			</std>
+			<xp>
+				<background visible="false" backgroundColor="0xDDF7D1" borderColor="0x015796" cornerRadius="3"/>
+			</xp>
+			<aqua>
+				<background visible="false" backgroundColor="0xFAFAFA" borderColor="0x999999" cornerRadius="3"/>
+				<buttons>
+					<regular up="resources/FlashArea/buttons/aqua/regular/up.swf" down="resources/FlashArea/buttons/aqua/regular/down.swf" over="resources/FlashArea/buttons/aqua/regular/over.swf"/>
+					<toggled up="resources/FlashArea/buttons/aqua/toggled/up.swf" down="resources/FlashArea/buttons/aqua/toggled/down.swf" over="resources/FlashArea/buttons/aqua/toggled/over.swf"/>
+				</buttons>
+			</aqua>
+		</look>
+	</Toolbar>
+	<Undoredo maxCount="300" maxSize="1024000"/>
+</FlashArea>

@@ -1,0 +1,38 @@
+div.icon-48-backup {
+	background: url('../images/icon-48-backup.png') no-repeat left;
+}
+div.icon-48-addon {
+	background: url('../images/icon-48-addon.png') no-repeat left;
+}
+div.icon-48-maps{
+	background: url('../images/icon-48-maps.png') no-repeat left;
+}
+div.icon-48-icon {
+	background: url('../images/icon-48-icon.png') no-repeat left;
+}
+div.icon-48-config {
+	background: url('../images/icon-48-config.png') no-repeat left;
+}
+div.icon-48-info {
+	background: url('../images/icon-48-info.png') no-repeat left;
+}
+div.icon-48-ammap {
+	background: url('../images/icon-48-ammap.png') no-repeat left;
+}
+div.icon-48-upload {
+	background: url('../images/icon-48-upload.png') no-repeat left;
+}
+div.icon-48-info {
+	background: url('../images/icon-48-info.png') no-repeat left;
+}
+div.icon-48-elements {
+	background:	url('../images/icon-48-elements.png') no-repeat left;
+}
+div.icon-48-elconfig {
+	background:	url('../images/icon-48-elconfig.png') no-repeat left;
+}
+div.icon-48-uploadammap {
+	background:	url('../images/icon-48-uploadammap.png') no-repeat left;
+}
+
+#pg-update { font-weight: bold; }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="joomfish">
+	<name>Joomfish - Menu Localisation</name>
+	<author>Geraint Edwards</author>
+	<creationDate>March 2008</creationDate>
+	<copyright>(C) GWE Systems Ltd 2008. All rights reserved.</copyright>
+	<license>Open Source License, GPL v2 based</license>
+	<authorEmail></authorEmail>
+	<authorUrl>www.gwesystems.com</authorUrl>
+	<version>1.0</version>
+	<description>Joomfish Menu Localiation - requires usage of associated Admin Module</description>
+	<files>
+		<filename plugin="menuLocalisation">menuLocalisation.php</filename>
+	</files>
+	<params>
+	</params>
+</install>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="Stile"/>
+				<size hint="Schriftartgröße"/>
+				<font hint="Schriftart"/>
+				<bullet hint="Kugel"/>
+				<leading hint="Linienabstand">
+					<window>
+						<textes title="Linienabstandänderung" leading="Linienabstand" ok="OK" cancel="Abbrechen"/>
+					</window>
+				</leading>
+				<copy hint="Kopieren"/>
+				<cut hint="Ausschneiden"/>
+				<paste hint="Einkleben"/>
+				<undo hint="Rückgängig"/>
+				<redo hint="Neu machen"/>
+				<bold hint="Fett"/>
+				<italic hint="Kursiv"/>
+				<underline hint="Unterstreichen"/>
+				<left hint="Links ausrichten"/>
+				<center hint="Auf das Zentrum ausrichten"/>
+				<right hint="Rechtsausrichten"/>
+				<url hint="Hyperlink einfügen">
+					<window>
+						<textes title="Hyperlink" text="Text:" url="Web Seite:" target="Target:" ok="OK" cancel="Abbrechen" remove="Ausblenden"/>
+					</window>
+				</url>
+				<indentDec hint="Zeileneinzug abnehmen"/>
+				<indentInc hint="Zeilenanzug ansteigen"/>
+				<color hint="Fontfarbe"/>
+				<symbols hint="Symbol einfügen">
+					<window>
+						<textes title="Symbol einfügen" ok="Schließen" insert="Einfügen"/>
+					</window>
+				</symbols>
+				<html hint="Schalten Sie zu Normal oder Html Blick"/>
+				<image hint="Bild einfügen">
+					<window>
+						<textes title="Bild" path="Suchen in:" align="Ausrichten:" url="Web Seite:" target="Target:" id="Ausweißnummer:" space="Leertaste:" space_v="Senkrecht:" space_h="Waagerecht:" size="Größe:" size_w="Breite" size_h="Höhe" ok="OK" cancel="Abbrechen" remove="Ausblenden"/>
+					</window>
+				</image>
+				<about hint="Über FlashArea">
+					<window>
+						<textes title="Über FlashArea" ok="OK"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

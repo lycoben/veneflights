@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>YOS amMap</name>
+	<author>Sonnievn</author>
+	<creationDate>July 11st,2008</creationDate>
+	<copyright>www.yopensource.com</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>sonlv@yopensource.com</authorEmail>
+	<authorUrl>www.yopensource.com</authorUrl>
+	<version>1.0</version>
+	<description>MODULE : YOS amMap</description>
+	<files>
+		<filename module="mod_yos_ammap">mod_yos_ammap.php</filename>
+                <filename>helper.php</filename>
+		<filename>index.html</filename>		
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>                
+	</files>	
+	<params>
+            <param name = "id" type = "text" description = "ID of amMap" label = "amMap's ID" default = "" size = "30"/>
+            <param name = "plugin" type = "radio" default = "1" description = "Enable Plugin" label = "Enable Plugin">
+                <option value="0">NO</option>
+                <option value="1">YES</option>
+            </param>
+            <param name = "@spacer" type = "spacer" label = "" default = "" description = ""/>
+            <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" size="30" />
+            <param name = "typedisplay" type = "list" description = "Choose a display way" label = "Display-Type" default = "js">
+            	<option value="js">SWF-Object</option>
+            	<option value="fl">Embedding Flash Object</option>
+            </param>
+            <param name = "width" type = "text" description = "Width of amMap" label = "amMap's Width" default = "1000" size = "30"/>
+            <param name = "height" type = "text" description = "Height of amMap" label = "amMap's Height" default = "500" size = "30"/>
+            <param name = "version" type = "text" description = "Flash Player version needed to display amMap" label = "Flash's Version" default = "8" size = "30"/>
+            <param name = "background" type = "text" description = "Background Color of your Map" label = "Background Color" default = "#000000" size = "30"/>
+            <param name = "@spacer" type = "spacer" label = "" default = "" description = ""/>
+            <param name = "path" type = "text" default = "components/com_yos_ammap/ammap" description = "Folder where all your files, icons and maps" label = "Path" size = "30"/>
+            <param name = "@spacer" type = "spacer" label = "" default = "" description = ""/>
+            <param name = "data_file" type = "text" default = "components/com_yos_ammap/ammap/ammap_data.xml" description = "Tells amMap script where your data files. This param will disable when Component's ID is null!" label = "Data file" size = "30"/>
+            <param name = "settings_file" type = "text" default = "components/com_yos_ammap/ammap/ammap_settings.xml" description = "Tells amMap script where your settings files. This param will enable when Component's ID is null!" label = "Setting file" size = "30"/>
+            <param name = "@spacer" type = "spacer" label = "" default = "" description = ""/>
+            <param name = "preloader_color" type = "text" default = "#999999" description = "Tells amMap script color of preloader bar" label = "Preloader Color" size = "30"/>
+            <param name = "@spacer" type = "spacer" label = "" default = "" description = ""/>
+            <param name = "loading_data" type = "text" default = "" description = "These variables tell amMap script what text to display while data are loaded. By default, these texts are Loading data" label = "Loading Data Text" size = "30"/>
+            <param name = "loading_settings" type = "text" default = "" description = "These variables tell amMap script what text to display while settings are loaded. By default, these texts are Loading settings" label = "Loading Settings Text" size = "30"/>
+        </params>
+</install>

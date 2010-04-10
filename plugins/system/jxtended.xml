@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: jxtended.xml 99 2008-08-19 09:59:03Z eddieajau $ -->
+<install type="plugin" version="1.5.0" group="system" method="upgrade">
+    <name>System - JXtended Libraries</name>
+    <version>1.0.6</version>
+    <creationDate>18 August 2008</creationDate>
+    <author>JXtended</author>
+    <authorEmail>info@jxtended.com</authorEmail>
+    <authorUrl>http://jxtended.com/</authorUrl>
+    <copyright>Copyright (C) 2008 JXtended LLC. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <description>Extended API for Joomla! 1.5</description>
+
+	<files>
+		<file plugin="jxtended">jxtended.php</file>
+		<file>jxtended.xml</file>
+		<folder>jxtended</folder>
+	</files>
+</install>

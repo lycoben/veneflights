@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="スタイル"/>
+				<size hint="フォントサイズ"/>
+				<font hint="フォント"/>
+				<bullet hint="箇条書き"/>
+				<leading hint="間隔">
+					<window>
+						<textes title="段落前を変える" leading="間隔" ok="OK" cancel="キャンセル"/>
+					</window>
+				</leading>
+				<copy hint="写す"/>
+				<cut hint="切り取り"/>
+				<paste hint="貼り付ける"/>
+				<undo hint="元に戻す"/>
+				<redo hint="繰り返す"/>
+				<bold hint="太字"/>
+				<italic hint="斜体"/>
+				<underline hint="下線"/>
+				<left hint="左揃え"/>
+				<center hint="中央揃え"/>
+				<right hint="右揃え"/>
+				<url hint="ハイパーリンクを挿入する">
+					<window>
+						<textes title="ハイパーリンク" text="文字:" url="URL:" target="対象:" ok="OK" cancel="キャンセル" remove="削除"/>
+					</window>
+				</url>
+				<indentDec hint="インデントを縮める"/>
+				<indentInc hint="インデントを広げる"/>
+				<color hint="フォントの色"/>
+				<symbols hint="記号を挿入する">
+					<window>
+						<textes title="記号を挿入する" ok="閉じる" insert="挿入"/>
+					</window>
+				</symbols>
+				<html hint="下書きかHTMLの表示を変換する"/>
+				<image hint="図を挿入する">
+					<window>
+						<textes title="図" path="場所:" align="揃え:" url="URL:" target="対象:" id="ID:" space="空白:" space_v="垂直" space_h="平行" size="サイズ:" size_w="幅" size_h="高さ" ok="OK" cancel="キャンセル" remove="削除"/>
+					</window>
+				</image>
+				<about hint="FlashAreaの情報">
+					<window>
+						<textes title="FlashAreaの情報" ok="OK"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>
+
+

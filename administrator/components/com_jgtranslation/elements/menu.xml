@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Menus</name>
+  <author>A. Kempkens</author>
+  <version>1.8</version>
+  <description>Definition for the core menu manager</description>
+  <reference>
+  	<table name="menu">
+  		<field type="referenceid" name="id" translate="0" jgtranslate="0">ID</field>
+  		<field type="titletext" name="name" translate="1" jgtranslate="1">Name</field>  		
+  		<field type="params" name="params" translate="1" jgtranslate="0">params</field>  		  		
+  		<filter>a.published >=0</filter>
+  	</table>
+  </reference>  
+ </joomfish>

@@ -1,0 +1,30 @@
+
+/********************************************************************
+ * EXTENDED CSS FILE for JEVENTS
+ * ----------------------------------------------------------------
+ * Copyright (C) 2006 - 2008 JoomlaShine.com. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: JoomlaShine.com
+ * Websites:  http://www.joomlashine.com
+*********************************************************************/
+
+
+/** JEvents **/
+
+#jsn-master td.cal_td_daysnames {
+	background: #e56d17;
+}
+
+#jsn-master td.mod_events_td_dayname .sunday,
+#jsn-master td.cal_td_daysnames .sunday {
+	color: #000000;
+}
+
+
+/* Mini Calendar module */
+/* Latest Events */
+
+#jsn-master span.mod_events_latest_content a:link,
+#jsn-master span.mod_events_latest_content a:visited {
+	color: #e56d17;
+}

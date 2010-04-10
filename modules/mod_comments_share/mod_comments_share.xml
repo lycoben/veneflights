@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JXtended - Comments Sharing</name>
+    <version>1.1.1</version>
+    <creationDate>July 2008</creationDate>
+    <author>JXtended</author>
+    <authorEmail>info@jxtended.com</authorEmail>
+    <authorUrl>http://jxtended.com</authorUrl>
+	<copyright>(C) 2007 JXtended LLC. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+	<description>
+		DO NOT Install or add this Module from the Module Manager -- It is designed to be included directly by the 
+		content plugin, a component or a layout override.
+	</description>
+	<files>
+		<filename module="mod_comments_share">mod_comments_share.php</filename>
+		<filename>index.html</filename>
+		<filename>share.ini</filename>
+		<filename>view.php</filename>
+		<folder>images</folder>
+		<folder>tmpl</folder>
+	</files>
+	<params addpath="/administrator/components/com_comments/models/elements">
+		<param name="style" type="list" default="0" label="Icon style" description="">
+			<option value="0">Icons only</option>
+			<option value="1">Icons and text</option>
+			<option value="2">Text only</option>
+		</param>
+		<param name="heading" type="list" default="0" label="Share this" description="Add the share this icon and/or text">
+			<option value="0">Do not show</option>
+			<option value="1">Icon only</option>
+			<option value="2">Icon and text</option>
+			<option value="3">Text only</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

@@ -1,0 +1,724 @@
+<errorlog>
+	<errorlogentry>
+		<datetime>2009-02-08 08:58:53 (PST)</datetime>
+		<jomressession>dfbf223e2debb1f902421cc1e9825ff4</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-04 08:16:24 (PST)</datetime>
+		<jomressession>d1a44a57636344b0a12565f7a823dfee</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-04 08:16:24 (PST)</datetime>
+		<jomressession>d1a44a57636344b0a12565f7a823dfee</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Didn't get a meaningful message back from clickatell. Message id 59]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-04 08:16:23 (PST)</datetime>
+		<jomressession>d1a44a57636344b0a12565f7a823dfee</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error message name lookup timed out for Message id 59]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 10:50:32 (PST)</datetime>
+		<jomressession>6316f8c366f6bac43baaeeffb2f7bd94</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 10:50:25 (PST)</datetime>
+		<jomressession>6316f8c366f6bac43baaeeffb2f7bd94</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Didn't get a meaningful message back from clickatell. Message id 58]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 10:50:24 (PST)</datetime>
+		<jomressession>6316f8c366f6bac43baaeeffb2f7bd94</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error message name lookup timed out for Message id 58]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 09:40:13 (PST)</datetime>
+		<jomressession>4c747ed13a4a9e13c608f86e01ac044c</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 09:40:11 (PST)</datetime>
+		<jomressession>4c747ed13a4a9e13c608f86e01ac044c</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Didn't get a meaningful message back from clickatell. Message id 57]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 09:40:11 (PST)</datetime>
+		<jomressession>4c747ed13a4a9e13c608f86e01ac044c</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error message name lookup timed out for Message id 57]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 02:32:36 (PST)</datetime>
+		<jomressession>3501dd3ba09b3ddf2a13a22de71af7df</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 02:32:36 (PST)</datetime>
+		<jomressession>3501dd3ba09b3ddf2a13a22de71af7df</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Didn't get a meaningful message back from clickatell. Message id 56]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-03 02:32:36 (PST)</datetime>
+		<jomressession>3501dd3ba09b3ddf2a13a22de71af7df</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error message name lookup timed out for Message id 56]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-02-01 14:44:10 (PST)</datetime>
+		<jomressession>a0e7a7cb3a157e3e9d7bccbeb3c660bb</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-29 14:55:15 (PST)</datetime>
+		<jomressession>aeaf2de77a5f06443c422f1416cc0439</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-29 14:55:15 (PST)</datetime>
+		<jomressession>aeaf2de77a5f06443c422f1416cc0439</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Didn't get a meaningful message back from clickatell. Message id 54]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-29 14:55:15 (PST)</datetime>
+		<jomressession>aeaf2de77a5f06443c422f1416cc0439</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error message name lookup timed out for Message id 54]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-27 21:52:14 (PST)</datetime>
+		<jomressession></jomressession>
+		<task>viewproperty</task>
+		<requesturi><![CDATA[viewproperty]]></requesturi>
+			<message><![CDATA[Do insert failed :: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) UPDATE #__jomcomp_cron SET `locked`='0' WHERE `id`=1]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-27 21:52:13 (PST)</datetime>
+		<jomressession></jomressession>
+		<task>viewproperty</task>
+		<requesturi><![CDATA[viewproperty]]></requesturi>
+			<message><![CDATA[Do insert failed :: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) UPDATE #__jomcomp_cron SET `last_ran` = 1233094918 WHERE `id` = 1 ]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-26 14:49:50 (PST)</datetime>
+		<jomressession>6566b1ef24eda2d1aba1f8f6e76ffdfd</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-26 11:30:00 (PST)</datetime>
+		<jomressession>9ef2b3b83e4f3809446a7e97c8d73f9f</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-25 16:11:28 (PST)</datetime>
+		<jomressession>d1d8988ee2a2394779c133f4f82df991</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-25 08:26:31 (PST)</datetime>
+		<jomressession>cc64091b3809bb04c19e15e891b2db83</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-24 20:40:02 (PST)</datetime>
+		<jomressession>0a901d24074fab751e7c99b6afa3ef76</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-24 20:40:01 (PST)</datetime>
+		<jomressession>0a901d24074fab751e7c99b6afa3ef76</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Didn't get a meaningful message back from clickatell. Message id 49]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-24 20:40:01 (PST)</datetime>
+		<jomressession>0a901d24074fab751e7c99b6afa3ef76</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error message connect() timed out! for Message id 49]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-24 19:56:38 (PST)</datetime>
+		<jomressession>3bad064b047177ad228d0c87c629dc2e</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-24 07:17:25 (PST)</datetime>
+		<jomressession>e45a31962cf417bfc5b3294f8fdee134</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-23 14:19:05 (PST)</datetime>
+		<jomressession>a2b9790c0d2938e8720565f2a15940bb</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-23 14:19:05 (PST)</datetime>
+		<jomressession>a2b9790c0d2938e8720565f2a15940bb</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Didn't get a meaningful message back from clickatell. Message id 46]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-23 14:19:05 (PST)</datetime>
+		<jomressession>a2b9790c0d2938e8720565f2a15940bb</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error message name lookup timed out for Message id 46]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-20 10:26:11 (PST)</datetime>
+		<jomressession>ff069be40c95dbe73ff00f9b5f789266</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-20 10:26:10 (PST)</datetime>
+		<jomressession>ff069be40c95dbe73ff00f9b5f789266</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Didn't get a meaningful message back from clickatell. Message id 45]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-20 10:26:10 (PST)</datetime>
+		<jomressession>ff069be40c95dbe73ff00f9b5f789266</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error message name lookup timed out for Message id 45]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-19 08:39:59 (PST)</datetime>
+		<jomressession>d928106d638083485d908dd31a3b5ed5</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-18 18:19:47 (PST)</datetime>
+		<jomressession>bf9f38992ed63cf959016b93a5b6e27b</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-18 18:10:31 (PST)</datetime>
+		<jomressession>cd1200f8a0f4d1304347025b5cceab3a</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-18 11:56:52 (PST)</datetime>
+		<jomressession>9c8ab779239e57493bfdcd85242c4ab1</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-18 11:46:27 (PST)</datetime>
+		<jomressession>9c8ab779239e57493bfdcd85242c4ab1</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-18 08:43:29 (PST)</datetime>
+		<jomressession>2636c9a9ee378a7baf0d1de355653775</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-16 14:59:57 (PST)</datetime>
+		<jomressession>c6af2e786b4ed262678abbd6c3aac1b5</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-16 08:38:42 (PST)</datetime>
+		<jomressession>8787241a89eece341da6036d0412e73c</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Fatal Error: Failed to insert booking looks like the room has been double booked  (# 256).User id ' - '&nbsp;&nbsp;.Error in line 311 of file '/home/losroqai/public_html/components/com_jomres/core-minicomponents/j03020insertbooking.class.php'.Script: '/index.php']]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-16 08:31:02 (PST)</datetime>
+		<jomressession>b3b80dfd6ccbd33d1af83b679ebeef92</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-14 16:10:05 (PST)</datetime>
+		<jomressession>2009f820c79937f675d4e110c9256a7b</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-14 10:53:37 (PST)</datetime>
+		<jomressession>a9fda9442f15977bd7e90d908151d0d5</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-12 10:43:09 (PST)</datetime>
+		<jomressession>026472148e790cfee43ab9008480bcb7</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-12 06:33:03 (PST)</datetime>
+		<jomressession>ee403d54c96f15669e597f0efb297de7</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-11 15:22:39 (PST)</datetime>
+		<jomressession>2fb58644caff617f093168a7ee92b49f</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-11 11:58:50 (PST)</datetime>
+		<jomressession>f3e83afe8c74dd9a07304e8c4d0394d8</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-10 16:13:46 (PST)</datetime>
+		<jomressession>dc317f2b5f26b5309b8a25a53e9a33b7</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-09 16:52:30 (PST)</datetime>
+		<jomressession>b604dbe6ad607a237e5daacf3ed57501</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-09 06:37:12 (PST)</datetime>
+		<jomressession>09e1046bf914c5aecfe0dcc20e8658a8</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:39 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:39 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Failure in sending confirmation email to guest. Target address:  Subject Grazie per la tua prenotazione  Roques Airlines]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:39 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error sending mail. Error caught by mailer was : You must provide at least one recipient email address.]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:39 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Message not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:38 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Message not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:38 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Message could not be found after apparent successful insert]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:38 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Do insert failed :: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'stata fatta una prenotazione : Roques Airlines',
+				'8',
+				'2009-01-08 17:5' at line 15 INSERT INTO #__jomresportal_sms_clickatell_messages
+				(
+				`username`,
+				`number`,
+				`message`,
+				`property_uid`,
+				`send_time`,
+				`ack`,
+				`apiMsgid`
+				)
+				VALUES
+				(
+				'admin',
+				'584142877554',
+				'E' stata fatta una prenotazione : Roques Airlines',
+				'8',
+				'2009-01-08 17:55:38',
+				'0',
+				''
+				)]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:38 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Failure in sending registration email to guest. Target address:  SubjectThank you for your booking - new user details follow]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:55:38 (PST)</datetime>
+		<jomressession>02bed217ac64ff64a11222a608f8daf0</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error sending mail. Error caught by mailer was : You must provide at least one recipient email address.]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 17:16:22 (PST)</datetime>
+		<jomressession>f6dc3dfe365cd117ef89972970f54742</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 10:04:40 (PST)</datetime>
+		<jomressession></jomressession>
+		<task>addplugin</task>
+		<requesturi><![CDATA[addplugin]]></requesturi>
+			<message><![CDATA[Do insert failed :: Duplicate entry '1' for key 1 INSERT INTO `#__jomresportal_taxrates` (`id`, `code`, `description`, `rate`) VALUES (1, '01', 'VAT', 17.5)]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 08:47:31 (PST)</datetime>
+		<jomressession>7d890cece65756525af8440507de34f2</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-08 08:24:27 (PST)</datetime>
+		<jomressession>f703faa3fca10a6cddf305a751d60fa9</jomressession>
+		<task>saveProperty</task>
+		<requesturi><![CDATA[saveProperty]]></requesturi>
+			<message><![CDATA[Do insert failed :: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'établissement a été mis-à-jour','UPDATE jos_jomres_propertys SET
+				 proper' at line 1 INSERT INTO #__jomres_audit (date,time,owner,op,args,property_uid) VALUES (NOW(),NOW(),'62','L'établissement a été mis-à-jour','UPDATE #__jomres_propertys SET
+				 property_name = Roques Airlines ,
+				 property_street = The National Airport in Maiquetia #1 ,
+				 property_town = Maiquetia ,
+				 property_region = Dependencias Federales ,
+				 property_country = VE ,
+				 property_postcode = 00001 ,
+				 property_tel = +582126352166 ,
+				 property_fax = +582126352155 ,
+				 property_email = reservation@losroques-airlines.com ,
+				 property_features = ,93, ,
+				 property_key =  ,
+				 property_mappinglink =  ,
+				 property_description = &lt;span style=\&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;\&quot;&gt;&lt;strong&gt;&lt;div dir=\&quot;ltr\&quot; id=\&quot;result_box\&quot;&gt;VOL 2009 - 2010: &lt;br /&gt;&lt;br /&gt;Chaque jour, des vols de retour Maiquet&Atilde;&shy;a (National Airport Maiquetia de Caracas). Prix par personne $ 295 - Maiquet&Atilde;&shy;a - Los Roques. &lt;br /&gt;&lt;br /&gt;Du lundi au vendredi, d&Atilde;&copy;part de Maiquet&Atilde;&shy;a: 06:30 AM. - 09:00 AM. - 11:00 heures. - 15:30 PM. &lt;br /&gt;Du lundi au vendredi, de retour de Roques: 07:30 AM. - 10:00 heures. - 17h00. &lt;br /&gt;D&Atilde;&copy;part de l\&amp;#39;Maiquet&Atilde;&shy;a samedi: 6h30 AM. - 9:00 heures du matin. &lt;br /&gt;Samedi retour de Los Roques: 7:30 AM. - 17h00. &lt;br /&gt;D&Atilde;&copy;parts &Atilde;&nbsp; partir de dimanche Maiquet&Atilde;&shy;a 8:00 AM. - 16:00 PM. &lt;br /&gt;Retours dimanche de Los Roques: 15:00 PM. - 17h00. &lt;br /&gt;&lt;br /&gt;Les enfants de 0 &Atilde;&nbsp; 1 ans r&Atilde;&copy;duction de 90% &lt;br /&gt;Les enfants de 2 &Atilde;&nbsp; 11 ans ont 30% de rabais &lt;br /&gt;Franchise de bagages par passager: 10 kg &lt;br /&gt;Exc&Atilde;&copy;dent de bagages: 1 $ par kilogramme. &lt;br /&gt;R&Atilde;&copy;servations: au moins 1 semaine avant la date de d&Atilde;&copy;part. &lt;br /&gt;L\&amp;#39;utilisation des vols commerciaux: Dash 7, avec 48 si&Atilde;&uml;ges. &lt;br /&gt;Boarding Zone: Terminal de l\&amp;#39;a&Atilde;&copy;roport national de Maiquetia Sim&Atilde;&sup3;n Bol&Atilde;&shy;var, porte n &Acirc;&deg; 1, n &Acirc;&deg; 32 contre. &lt;br /&gt;Il est d&Atilde;&copy;sormais possible de voler tous les jours de Isla Margarita &Atilde;&nbsp; Los Roques, contactez-nous pour plus d\&amp;#39;information &lt;br /&gt;&lt;br /&gt;Qu\&amp;#39;est-ce &Atilde;&nbsp; l\&amp;#39;usure. &lt;br /&gt;Tout d\&amp;#39;abord l\&amp;#39;&Atilde;&copy;cran solaire, le soleil est tr&Atilde;&uml;s fort, &Atilde;&nbsp; Los Roques, shorts, chemises, maillots de bain, serviettes de plage, d\&amp;#39;apn&Atilde;&copy;e, un appareil photo et de la tr&Atilde;&copy;sorerie en dollars US ou bol&Atilde;&shy;vares.&lt;/div&gt;&lt;/strong&gt;&lt;/span&gt; ,
+				 property_checkin_times = &lt;p&gt;&lt;span style=\&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;\&quot;&gt;1 hora antes del salida...&lt;/span&gt;&lt;/p&gt; ,
+				 property_area_activities =  ,
+				 property_driving_directions = Counter #1 terminal Nacional Maiquetia ,
+				 property_airports =  ,
+				 property_othertransport =  ,
+				 property_policies_disclaimers =  ,
+				 lat = 0 ,
+				 long = 0 ,
+				 metatitle = Vuelos los roques ,
+				 metadescription = como llegar Los Roques ,
+				 stars = 5 ,
+				
+				 ptype_id = 19 
+				WHERE propertys_uid= 8  :IP: 200.82.220.68','
+8')]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-06 12:28:15 (PST)</datetime>
+		<jomressession>ecb0ec14506c8874cb6335d09f0c3a8d</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-05 06:57:06 (PST)</datetime>
+		<jomressession>4d3ad5a677b54468eba13831f2676f1d</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2009-01-04 14:28:59 (PST)</datetime>
+		<jomressession>5121037f19033d5c86b06aab756b5549</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-30 12:59:08 (PST)</datetime>
+		<jomressession>220e0950316a2f99edc3554ef4ce0b6d</jomressession>
+		<task>cancelGuestBooking</task>
+		<requesturi><![CDATA[cancelGuestBooking]]></requesturi>
+			<message><![CDATA[Failure in sending cancellation email to hotel. Target address:  Subject]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-30 12:59:08 (PST)</datetime>
+		<jomressession>220e0950316a2f99edc3554ef4ce0b6d</jomressession>
+		<task>cancelGuestBooking</task>
+		<requesturi><![CDATA[cancelGuestBooking]]></requesturi>
+			<message><![CDATA[Error sending mail. Error caught by mailer was : You must provide at least one recipient email address.]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-30 12:47:49 (PST)</datetime>
+		<jomressession>5b03f5eefd3ac2d1de9fe97a332c2055</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-28 16:52:38 (PST)</datetime>
+		<jomressession>9b6d2799309ccd72da49a73aa3a66dff</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-27 07:59:53 (PST)</datetime>
+		<jomressession>42a958d87b0f3694f5a9c6571e31b9a6</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-25 19:09:11 (PST)</datetime>
+		<jomressession>299774d7e25699574e65939780760763</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-24 08:49:48 (PST)</datetime>
+		<jomressession>22f43d6d7a9b4331db0cb51351bfa5a3</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-23 12:25:51 (PST)</datetime>
+		<jomressession>126a4c5209bc3bbe661cd05596e6ac4e</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-23 10:31:06 (PST)</datetime>
+		<jomressession>8f3b7fe01e067c7b9e6582fb0ba61a26</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-22 13:49:07 (PST)</datetime>
+		<jomressession>261f5f7cb97142313cce3d6b625c4293</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-21 10:01:08 (PST)</datetime>
+		<jomressession>8c8803beae2cf3a2a743cf2fff0c75bc</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-18 12:02:29 (PST)</datetime>
+		<jomressession>a45bea5f78cebc7acb3a520c10c2e8de</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-18 12:02:29 (PST)</datetime>
+		<jomressession>a45bea5f78cebc7acb3a520c10c2e8de</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Failure in sending confirmation email to guest. Target address:  Subject Gracias por hacer su reservación con Roques Airlines]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-18 12:02:29 (PST)</datetime>
+		<jomressession>a45bea5f78cebc7acb3a520c10c2e8de</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error sending mail. Error caught by mailer was : You must provide at least one recipient email address.]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-18 12:02:27 (PST)</datetime>
+		<jomressession>a45bea5f78cebc7acb3a520c10c2e8de</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Failure in sending registration email to guest. Target address:  SubjectThank you for your booking - new user details follow]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-18 12:02:27 (PST)</datetime>
+		<jomressession>a45bea5f78cebc7acb3a520c10c2e8de</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[Error sending mail. Error caught by mailer was : You must provide at least one recipient email address.]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-12-09 12:27:40 (PST)</datetime>
+		<jomressession>72260d6f81ac35fa3ebdd250bb1cb8a7</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-30 15:14:36 (PST)</datetime>
+		<jomressession>609c1a6f422d224e4752f8686065c97d</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-29 11:05:20 (PST)</datetime>
+		<jomressession>7d6af4efacb2efc4892982423e8c8731</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-27 15:32:27 (PST)</datetime>
+		<jomressession>033cba9de5e6cb0d086b0ca27228cfde</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-21 12:58:26 (PST)</datetime>
+		<jomressession>6a27dcd8bd8af15f6cf42550062aad20</jomressession>
+		<task>processpayment</task>
+		<requesturi><![CDATA[processpayment]]></requesturi>
+			<message><![CDATA[ID of Tax Rate rate not available]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-17 12:56:56 (PST)</datetime>
+		<jomressession>cd6ff1814b6faf2877fb164a7805c6f0</jomressession>
+		<task>dropImage</task>
+		<requesturi><![CDATA[dropImage]]></requesturi>
+			<message><![CDATA[Error, couldn't delete /home/losroqai/public_html/images/stories/jomres/8_property_8.jpg]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-17 08:10:47 (PST)</datetime>
+		<jomressession></jomressession>
+		<task>addplugin</task>
+		<requesturi><![CDATA[addplugin]]></requesturi>
+			<message><![CDATA[Error, unable to write to /home/losroqai/public_html/modules/mod_jomres_pp2 Please ensure that the parent path is writable by the web server ]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-17 08:10:40 (PST)</datetime>
+		<jomressession></jomressession>
+		<task>addplugin</task>
+		<requesturi><![CDATA[addplugin]]></requesturi>
+			<message><![CDATA[Error, unable to write to /home/losroqai/public_html/modules/mod_jomsearch_m1 Please ensure that the parent path is writable by the web server ]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-17 08:10:00 (PST)</datetime>
+		<jomressession></jomressession>
+		<task>addplugin</task>
+		<requesturi><![CDATA[addplugin]]></requesturi>
+			<message><![CDATA[Error, unable to write to /home/losroqai/public_html/modules/mod_jomres_pricesfrom Please ensure that the parent path is writable by the web server ]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-11-17 08:09:46 (PST)</datetime>
+		<jomressession></jomressession>
+		<task>addplugin</task>
+		<requesturi><![CDATA[addplugin]]></requesturi>
+			<message><![CDATA[Error, unable to write to /home/losroqai/public_html/modules/mod_jomres_pp2 Please ensure that the parent path is writable by the web server ]]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-10-28 12:26:15 (PDT)</datetime>
+		<jomressession>fa0e1a06081a04def94b1bcdc8867589</jomressession>
+		<task></task>
+		<requesturi><![CDATA[/en-GB/make-your-reservation-now]]></requesturi>
+			<message><![CDATA[Fatal Error: This manager 63  hasn't got any properties. (# 256).User id ' - '&nbsp;&nbsp;.Error in line 202 of file '/home/losroqai/public_html/components/com_jomres/core-minicomponents/j00002usermanagement.class.php'.Script: '/index.php']]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-10-28 12:25:39 (PDT)</datetime>
+		<jomressession>fa0e1a06081a04def94b1bcdc8867589</jomressession>
+		<task>dobooking</task>
+		<requesturi><![CDATA[/en-GB/make-your-reservation-now?task=dobooking&selectedProperty=6]]></requesturi>
+			<message><![CDATA[Fatal Error: This manager 63  hasn't got any properties. (# 256).User id ' - '&nbsp;&nbsp;.Error in line 202 of file '/home/losroqai/public_html/components/com_jomres/core-minicomponents/j00002usermanagement.class.php'.Script: '/index.php']]></message>
+	</errorlogentry>
+</errorlog>

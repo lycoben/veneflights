@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="Estilos"/>
+				<size hint="Tamaño de la fuente"/>
+				<font hint="Fuente"/>
+				<bullet hint="Viñeta"/>
+				<leading hint="Separación">
+					<window>
+						<textes title="Cambiar separación párrafo" leading="Leading" ok="Aceptar" cancel="Cancelar"/>
+					</window>
+				</leading>
+				<copy hint="Copiar"/>
+				<cut hint="Cortar"/>
+				<paste hint="Pegar"/>
+				<undo hint="Deshacer"/>
+				<redo hint="Rehacer"/>
+				<bold hint="Negrita"/>
+				<italic hint="Italica"/>
+				<underline hint="Subrayado"/>
+				<left hint="Alinear a la izquierda"/>
+				<center hint="Alinear al centro"/>
+				<right hint="Alinear a la derecha"/>
+				<url hint="Insertar hipervinculo">
+					<window>
+						<textes title="Hipervinculo" text="Texto:" url="URL:" target="Objetivo:" ok="Aceptar" cancel="Cancelar" remove="Remover"/>
+					</window>
+				</url>
+				<indentDec hint="Reducir indentación"/>
+				<indentInc hint="Aumentar indentación"/>
+				<color hint="Color de la fuente"/>
+				<symbols hint="Insertar símbolo">
+					<window>
+						<textes title="Insertar Símbolo" ok="Cerrar" insert="Insertar"/>
+					</window>
+				</symbols>
+				<html hint="Cambiar a vista Normal o HTML"/>
+				<image hint="Insertar imagen">
+					<window>
+						<textes title="Imagen" path="Ruta:" align="Alinear:" url="URL:" target="Objetivo:" id="ID:" space="Espacio:" space_v="Vert" space_h="Hor" size="Tamaño:" size_w="Ancho" size_h="Alto" ok="Aceptar" cancel="Cancelar" remove="Remover"/>
+					</window>
+				</image>
+				<about hint="Sobre FlashArea">
+					<window>
+						<textes title="Sobre FlashArea" ok="Aceptar"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

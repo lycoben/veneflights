@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>JSN_Epic_PRO</name>
+	<version>2.0</version>
+	<creationDate>May 2008</creationDate>
+	<author>JoomlaShine.com</author>
+	<authorEmail>service@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<copyright>Copyright (c) 2005-2008 - JoomlaShine.com</copyright>
+	<license>Commercial Proprietary License</license>
+	<description><![CDATA[
+<img src="../templates/jsn_epic_pro/template_thumbnail.png" style="margin-right: 1em; float: left" />
+<p><strong>Version:</strong> 2.0</p>
+<p><strong>Date: </strong>May 2008</p>
+<p><strong>License: </strong>Commercial Proprietary License</p>
+<p><strong>Author: </strong>JoomlaShine.com</p>
+<p><strong>Author URL: </strong><a href="http://www.joomlashine.com" title="JoomlaShine.com" target="_blank">www.joomlashine.com</a></p>
+<p style="clear: left; padding-top: 1.2em">This template is licensed under the commercial proprietary license in 2 options:</p>
+<ul>
+<li><strong>Single Domain License:</strong> You are allowed to use the product only on <strong>single</strong> domain, belonging to either you or your client. This option is good if you are planning to use JSN Epic PRO only on 1 website / domain.</li>
+<li><strong>Unlimited Domain License</strong>: You are allowed to use the template on <strong>unlimited</strong> domains, belonging to either you or your client. This option is perfect if you want to deploy JSN Epic PRO to your clients' websites.</li>
+</ul>
+<p>You can upgrade from Single Domain License to Unlimited Domain License anytime by paying only the difference in price. Instruction about how to upgrade license can be found in <strong>readme.txt</strong> file accompanied in download package.</p>
+<p>For information about more products, promotions, tutorials and other goodies please visit our website at <a href="http://www.joomlashine.com" title="JoomlaShine.com" target="_blank">http://www.joomlashine.com</a></p>
+	]]></description>
+	<files>
+		<filename>index.php</filename><filename>params.ini</filename><filename>templateDetails.xml</filename><filename>template_thumbnail.png</filename><filename>css/index.html</filename><filename>css/jsn_fixie6.css</filename><filename>css/jsn_fixie7.css</filename><filename>css/jsn_iconlinks.css</filename><filename>css/template.css</filename><filename>css/template_green.css</filename><filename>css/template_grey.css</filename><filename>css/template_orange.css</filename><filename>css/template_red.css</filename><filename>css/template_violet.css</filename><filename>ext/cb/style.css</filename><filename>ext/cb/style_green.css</filename><filename>ext/cb/style_grey.css</filename><filename>ext/cb/style_orange.css</filename><filename>ext/cb/style_red.css</filename><filename>ext/cb/style_violet.css</filename><filename>ext/docman/style.css</filename><filename>ext/docman/style_green.css</filename><filename>ext/docman/style_grey.css</filename><filename>ext/docman/style_orange.css</filename><filename>ext/docman/style_red.css</filename><filename>ext/docman/style_violet.css</filename><filename>ext/jevents/cal1x.png</filename><filename>ext/jevents/cal2x.png</filename><filename>ext/jevents/cal3x.png</filename><filename>ext/jevents/cal5x.png</filename><filename>ext/jevents/cal8x.png</filename><filename>ext/jevents/cal9x.png</filename><filename>ext/jevents/evback.png</filename><filename>ext/jevents/style.css</filename><filename>ext/jevents/style_green.css</filename><filename>ext/jevents/style_grey.css</filename><filename>ext/jevents/style_orange.css</filename><filename>ext/jevents/style_red.css</filename><filename>ext/jevents/style_violet.css</filename><filename>ext/rsg2/style.css</filename><filename>ext/vm/add-to-cart_jsnepic_blue.gif</filename><filename>ext/vm/add-to-cart_jsnepic_green.gif</filename><filename>ext/vm/add-to-cart_jsnepic_grey.gif</filename><filename>ext/vm/add-to-cart_jsnepic_orange.gif</filename><filename>ext/vm/add-to-cart_jsnepic_red.gif</filename><filename>ext/vm/add-to-cart_jsnepic_violet.gif</filename><filename>ext/vm/checkout2_1.png</filename><filename>ext/vm/checkout2_2.png</filename><filename>ext/vm/checkout3_1.png</filename><filename>ext/vm/checkout3_2.png</filename><filename>ext/vm/checkout3_3.png</filename><filename>ext/vm/checkout4_1.png</filename><filename>ext/vm/checkout4_2.png</filename><filename>ext/vm/checkout4_3.png</filename><filename>ext/vm/checkout4_4.png</filename><filename>ext/vm/style.css</filename><filename>html/mod_mainmenu/default.php</filename><filename>html/mod_mainmenu/index.html</filename><filename>images/arrow.png</filename><filename>images/bullettree-current.png</filename><filename>images/bullettree-level0.png</filename><filename>images/bullettree-level1.png</filename><filename>images/bullettree-level2.png</filename><filename>images/bullettree-level3.png</filename><filename>images/dot.png</filename><filename>images/emailButton.png</filename><filename>images/font-decrease.png</filename><filename>images/font-increase.png</filename><filename>images/font-reset.png</filename><filename>images/freenprolabel.png</filename><filename>images/icon-arrow-blue.png</filename><filename>images/icon-arrow-s.png</filename><filename>images/icon-link-aim.png</filename><filename>images/icon-link-archive.png</filename><filename>images/icon-link-call.png</filename><filename>images/icon-link-css.png</filename><filename>images/icon-link-dmg.png</filename><filename>images/icon-link-doc.png</filename><filename>images/icon-link-ext.png</filename><filename>images/icon-link-feed.png</filename><filename>images/icon-link-film.png</filename><filename>images/icon-link-flash.png</filename><filename>images/icon-link-ical.png</filename><filename>images/icon-link-mailto.png</filename><filename>images/icon-link-mov.png</filename><filename>images/icon-link-msn.png</filename><filename>images/icon-link-music.png</filename><filename>images/icon-link-pdf.png</filename><filename>images/icon-link-pps.png</filename><filename>images/icon-link-skype.png</filename><filename>images/icon-link-torrent.png</filename><filename>images/icon-link-ttf.png</filename><filename>images/icon-link-txt.png</filename><filename>images/icon-link-vcard.png</filename><filename>images/icon-link-wmv.png</filename><filename>images/icon-link-xls.png</filename><filename>images/icon-link-yim.png</filename><filename>images/icon-module-arrow.png</filename><filename>images/icon-module-article.png</filename><filename>images/icon-module-calendar.png</filename><filename>images/icon-module-cart.png</filename><filename>images/icon-module-comment.png</filename><filename>images/icon-module-display.png</filename><filename>images/icon-module-dots.png</filename><filename>images/icon-module-download.png</filename><filename>images/icon-module-folder.png</filename><filename>images/icon-module-help.png</filename><filename>images/icon-module-home.png</filename><filename>images/icon-module-image.png</filename><filename>images/icon-module-info.png</filename><filename>images/icon-module-mail.png</filename><filename>images/icon-module-online.png</filename><filename>images/icon-module-rss.png</filename><filename>images/icon-module-search.png</filename><filename>images/icon-module-selection.png</filename><filename>images/icon-module-settings.png</filename><filename>images/icon-module-star.png</filename><filename>images/icon-module-statistics.png</filename><filename>images/icon-module-user.png</filename><filename>images/icon-text-alert.png</filename><filename>images/icon-text-attachment.png</filename><filename>images/icon-text-blockquote.png</filename><filename>images/icon-text-comment.png</filename><filename>images/icon-text-download.png</filename><filename>images/icon-text-info.png</filename><filename>images/icon-text-tip.png</filename><filename>images/indent1.png</filename><filename>images/indent2.png</filename><filename>images/indent3.png</filename><filename>images/index.html</filename><filename>images/leftside-bg-full.png</filename><filename>images/leftside-bg-small.png</filename><filename>images/logo.png</filename><filename>images/master-bg.jpg</filename><filename>images/module-box-blue-bg-l.png</filename><filename>images/module-box-blue-bg-r.png</filename><filename>images/module-box-green-bg-l.png</filename><filename>images/module-box-green-bg-r.png</filename><filename>images/module-box-grey-bg-l.png</filename><filename>images/module-box-grey-bg-r.png</filename><filename>images/module-box-yellow-bg-l.png</filename><filename>images/module-box-yellow-bg-r.png</filename><filename>images/pathway-bg.png</filename><filename>images/pdf_button.png</filename><filename>images/printButton.png</filename><filename>images/prolabel.png</filename><filename>images/promo-bg.jpg</filename><filename>images/rightside-bg-full.png</filename><filename>images/rightside-bg-small.png</filename><filename>images/suckerfish-current.png</filename><filename>images/suckerfish-expand.png</filename><filename>images/usermodules3-bg.png</filename><filename>images/bg/leftside18-bg-full.png</filename><filename>images/bg/leftside19-bg-full.png</filename><filename>images/bg/leftside20-bg-full.png</filename><filename>images/bg/leftside21-bg-full.png</filename><filename>images/bg/leftside22-bg-full.png</filename><filename>images/bg/leftside23-bg-full.png</filename><filename>images/bg/leftside24-bg-full.png</filename><filename>images/bg/leftside25-bg-full.png</filename><filename>images/bg/leftside26-bg-full.png</filename><filename>images/bg/leftside27-bg-full.png</filename><filename>images/bg/leftside28-bg-full.png</filename><filename>images/bg/leftside29-bg-full.png</filename><filename>images/bg/leftside30-bg-full.png</filename><filename>images/bg/leftside31-bg-full.png</filename><filename>images/bg/leftside32-bg-full.png</filename><filename>images/bg/leftside33-bg-full.png</filename><filename>images/bg/rightside18-bg-full.png</filename><filename>images/bg/rightside19-bg-full.png</filename><filename>images/bg/rightside20-bg-full.png</filename><filename>images/bg/rightside21-bg-full.png</filename><filename>images/bg/rightside22-bg-full.png</filename><filename>images/bg/rightside23-bg-full.png</filename><filename>images/bg/rightside24-bg-full.png</filename><filename>images/bg/rightside25-bg-full.png</filename><filename>images/bg/rightside26-bg-full.png</filename><filename>images/bg/rightside27-bg-full.png</filename><filename>images/bg/rightside28-bg-full.png</filename><filename>images/bg/rightside29-bg-full.png</filename><filename>images/bg/rightside30-bg-full.png</filename><filename>images/bg/rightside31-bg-full.png</filename><filename>images/bg/rightside32-bg-full.png</filename><filename>images/bg/rightside33-bg-full.png</filename><filename>images/green/bullettree-level0.png</filename><filename>images/green/icon-module-arrow.png</filename><filename>images/green/icon-module-dots.png</filename><filename>images/green/master-bg.jpg</filename><filename>images/green/suckerfish-expand.png</filename><filename>images/grey/bullettree-level0.png</filename><filename>images/grey/icon-module-arrow.png</filename><filename>images/grey/icon-module-dots.png</filename><filename>images/grey/master-bg.jpg</filename><filename>images/grey/suckerfish-expand.png</filename><filename>images/orange/bullettree-level0.png</filename><filename>images/orange/icon-module-arrow.png</filename><filename>images/orange/icon-module-dots.png</filename><filename>images/orange/master-bg.jpg</filename><filename>images/orange/suckerfish-expand.png</filename><filename>images/red/bullettree-level0.png</filename><filename>images/red/icon-module-arrow.png</filename><filename>images/red/icon-module-dots.png</filename><filename>images/red/master-bg.jpg</filename><filename>images/red/suckerfish-expand.png</filename><filename>images/violet/bullettree-level0.png</filename><filename>images/violet/icon-module-arrow.png</filename><filename>images/violet/icon-module-dots.png</filename><filename>images/violet/master-bg.jpg</filename><filename>images/violet/suckerfish-expand.png</filename><filename>js/iepngfix.htc</filename><filename>js/index.html</filename><filename>js/jsn_epic.js</filename><filename>js/jsn_script.js</filename><filename>js/suckerfish.js</filename><filename>php/index.html</filename><filename>php/jsn_utils.php</filename></files>
+	<positions>
+		<position>top</position>
+		<position>toolbar</position>
+		<position>inset</position>
+		<position>header</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>banner</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>footer</position>
+		<position>bottom</position>
+		<position>debug</position>
+	</positions>
+	<params>
+		<param name="templateColor" type="list" default="blue" label="Template Color" description="Template color selection.">
+			<option value="blue">Blue</option>
+			<option value="red">Red</option>
+			<option value="green">Green</option>
+			<option value="violet">Violet</option>
+			<option value="orange">Orange</option>
+			<option value="grey">Grey</option>
+		</param>
+		<param name="templateFont" type="list" default="0" label="Template Font Style" description="Template font selection based on website type.">
+			<option value="1">Business / Corporation Website</option>
+			<option value="2">Personal / Blog Website</option>
+			<option value="3">Online News / Magazine Website</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description=""/>
+		<param name="logoPath" size="50" type="text" default="templates/jsn_epic_pro/images/logo.png" label="Logo Path" description="Path to logo image starting from the Joomla! root folder (! without preceding slash !)"/>
+		<param name="logoWidth" type="text" default="250px" label="Logo Wdith (px)" description="Logo width specified in pixels"/>
+		<param name="logoHeight" type="text" default="75px" label="Logo Height (px)" description="Logo height specified in pixels"/>
+		<param name="logoLink" size="50" type="text" default="" label="Logo Link" description="URL where logo image should link to (! without preceding slash !). Leave this parameter empty if you do NOT want your logo to be clickable at all."/>
+		<param name="logoSlogan" size="50" type="text" default="" label="Logo Slogan Text" description="Slogan text to be attached to the logo image ALT text for SEO purpose"/>
+		<param name="@spacer" type="spacer" default="" label="" description=""/>
+		<param name="templateWidth" type="text" default="960" label="Template Width (px or %)" description="Overall template width specified in pixels (for fixed width) or percentage (for fluid width)"/>
+		<param name="leftWidth" type="text" default="23" label="Left Column Width (%)" description="Left column width specified in percentage within range (18% - 33%). Only whole number is allowed, for example 25% - correct, 25.5% - incorrect"/>
+		<param name="rightWidth" type="text" default="23" label="Right Column Width (%)" description="Right column width specified in percentage within range (18% - 33%). Only whole number is allowed, for example 25% - correct, 25.5% - incorrect"/>
+		<param name="@spacer" type="spacer" default="" label="" description=""/>
+		<param name="menuIcons" size="50" type="text" default="home,info,image,download,mail,comment" label="Menu Icons" description="Menu icons to be shown in Icon Menu. Please check template documentation for details"/>
+		<param name="showPathway" type="radio" default="1" label="Show Pathway" description="Definition whether to show pathway or not">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enableFontresizer" type="radio" default="1" label="Enable Font Size Selector" description="Definition whether to show 3 buttons to change font size on toolbar or not">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enableIconLinks" type="radio" default="1" label="Enable Auto Icon links" description="Definition whether to enable auto icon link or not. Icons can still be assigned to links by class attribute even if this option is turned off">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enablePNGfix" type="radio" default="1" label="Enable PNG Fix for IE6" description="Definition whether to enable PNG fix feature for IE6 or not. This parameter should be turned off only when there are incompatibility issues">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description=""/>
+		<param name="enableStyleCB" type="radio" default="1" label="Enable Community Builder Style" description="Definition whether to enable additional style for Community Builder. You can turn off this parameter if you want to use specific Community Builder template">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enableStyleDocMan" type="radio" default="1" label="Enable DocMan Style" description="Definition whether to enable additional style for DocMan. You can turn off this parameter if you want to use specific DocMan template">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enableStyleVM" type="radio" default="1" label="Enable Virtue Mart Style" description="Definition whether to enable additional style for Virtue Mart. You can turn off this parameter if you want to use specific Virtue Mart template">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enableStyleJEvents" type="radio" default="1" label="Enable JEvents Style" description="Definition whether to enable additional style for JEvents. You can turn off this parameter if you want to use specific JEvents template">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enableStyleRSG2" type="radio" default="1" label="Enable RSGallery 2 Style" description="Definition whether to enable additional style for RSGallery 2. You can turn off this parameter if you want to use specific RSGallery 2 template">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description=""/>
+		<param name="errorReporting" type="list" default="default" label="Error Reporting" description="Definition how to display PHP error reporting. This parameter should be used only in template testing cases">
+			<option value="default">Default</option>
+			<option value="on">All on</option>
+			<option value="off">All off</option>
+		</param>
+	</params>
+</install>

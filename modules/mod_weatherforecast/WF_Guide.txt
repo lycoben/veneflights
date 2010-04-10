@@ -1,0 +1,89 @@
+###################################################
+   CAMP26 - JOOMLA MODULE For Weather Forecast
+###################################################
+
+HOW TO .... 
+Installation/Customisation
+
+###########################
+       INSTALLATION:
+###########################
+
+1.  Install as a module in the back end of your Joomla! site.
+2.  Publish the module in your prefered position.
+3.  Find your prefered weatherstation at www.wunderground.com and copy the complete URL.
+4.  Customise your module following the instruction below.
+
+    Note:  In future versions customisation will be possible through the module 
+    parameters but currently they do not work as well as editing the files
+    themselves.  
+
+***************************
+        ATTENTION:
+***************************
+
+To reduce the data flow to the Wunderground servers, this module locally caches the
+forecast information for 30 minutes to the following file in your root directory:
+
+mod_weatherforecast.txt
+
+When you change your location or language you therefore have to delete this file, 
+or wait for 30 minutes to see the changes.
+
+###########################
+       TO CUSTOMISE:
+###########################
+
+>>> Preface:
+
+The 5-day forecast at the following site is a good example of how Wunderground's
+data can be made to look good - these qualities should be able to be achieved in 
+future versions of this module:
+
+http://www.wunderground.com/global/stations/03022.html
+
+###########################
+          TO DO:
+###########################
+
+1.  Make all of the above customisable through the module's parameters.  
+2.  Make it possible to use your own icon set.
+3.  Make it easy to change:
+
+    - day title font color
+    - day title background
+    - forecast table cell background
+    - table borders and padding
+
+##########################
+ MESSAGE FROM THE AUTHOR:
+##########################
+
+Thank you for your interest in this module.
+
+By following the customisation tips above you can get the weather for 
+nearly every city in the world. For stations in the United States, US 
+Territories or Canada however you will receive an error message. 
+
+The copyright policy of Wunderground states that in order to use this 
+script you need to:
+
+1. Have your weather station submit data to WeatherUnderground as a WU member.
+   (If you operate a weather station).  
+
+2. Use this script ONLY on your personal, non-commercial weather station 
+   website.
+
+3. Leave attribution (and hotlinks) to WeatherUnderground as the source 
+   of the data.
+
+If you adhere to these three requirements, you should have fair use of 
+the data provided by www.wunderground.com.
+
+Regards,
+
+camp26team@gmail.com
+
+
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="component" version="1.5.0">
+	<name>JoomFish Plus</name>
+	<license>Open Source License, GPL v2 based</license>
+	<author>Geraint Edwards</author>
+	<authorEmail>via website</authorEmail>
+	<authorUrl>http://www.joomfish.net</authorUrl>
+	<creationDate>2008-07-06</creationDate>
+	<copyright>2008, GWE Systems Ltd</copyright>
+	<version>2.0 - Alpha</version>
+	<description>
+		Frontend Translation Manager for Joomfish 2.0 and Joomla 1.5.x
+	</description>
+    <files>
+		<filename>index.html</filename>
+		<filename>joomfishplus.php</filename>
+		<filename>metadata.xml</filename>
+		<folder>assets/js</folder>
+		<folder>controllers</folder>
+		<folder>views/translate/tmpl</folder>
+		<filename>views/translate/index.html</filename>
+		<filename>views/translate/view.php</filename>
+		<filename>views/index.html</filename>
+    </files>
+
+    <!-- JoomFish Plus Site language files -->
+	<languages folder="language/site">
+		<!-- <language tag="en-GB">en-GB.com_joomfishplus.ini</language> //-->
+   	</languages>
+
+	<administration>
+		<menu img="components/com_joomfish/assets/images/icon-16-joomfish.png">Joom!Fish Plus</menu>
+	    <files folder="admin">
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>admin.joomfishplus.php</filename>
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views/translator/tmpl</folder>
+			<filename>views/translator/index.html</filename>
+			<filename>views/translator/view.html.php</filename>
+			<filename>views/index.html</filename>
+	    </files>
+ 	</administration>
+
+	<params />
+</install>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="סגנונות"/>
+				<size hint="גודל גופן"/>
+				<font hint="גופן"/>
+				<bullet hint="פיסקה"/>
+				<leading hint="גובה שורה">
+					<window>
+						<textes title="בחר גובה שורה" leading="גובה שורה" ok="OK" cancel="בטל"/>
+					</window>
+				</leading>
+				<copy hint="העתק"/>
+				<cut hint="גזור"/>
+				<paste hint="הדבק"/>
+				<undo hint="שחזר"/>
+				<redo hint="החזר"/>
+				<bold hint="עבה"/>
+				<italic hint="איטלקי"/>
+				<underline hint="קו תחתון"/>
+				<left hint="ישר לשמאל"/>
+				<center hint="ישר למרכז"/>
+				<right hint="ישר לימן"/>
+				<url hint="הוסף קישור">
+					<window>
+						<textes title="קישור" text="טקסט:" url="URL:" target="יעד:" ok="OK" cancel="בטל" remove="הסר"/>
+					</window>
+				</url>
+				<indentDec hint="הקטן רווח פיסקה"/>
+				<indentInc hint="הגדל רווח פיסקה"/>
+				<color hint="צבע גופן"/>
+				<symbols hint="הוסף סימן">
+					<window>
+						<textes title="הוסף סימן" ok="סגור" insert="הוסף"/>
+					</window>
+				</symbols>
+				<html hint="לתצוגה רגילה\רשת"/>
+				<image hint="הכנס תמונה">
+					<window>
+						<textes title="תמונה" path="קובץ:" align="ישור:" url="URL:" target="יעד:" id="ID:" space="רווח:" space_v="אנכי:" space_h="אופקי:" size="גודל:" size_w="רוחב:" size_h="גובה:" ok="OK" cancel="בטל" remove="הסר"/>
+					</window>
+				</image>
+				<about hint="FlashArea על">
+					<window>
+						<textes title="FlashArea על" ok="OK"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

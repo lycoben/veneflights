@@ -1,0 +1,50 @@
+<jrportalquerylog>
+	<jrportalquerylogentry>
+		<datetime>2008-09-30 14:18:32 (PDT)</datetime>
+		<jomressession>47e14ed22a56be18e0321be283d5a0db</jomressession>
+		<task>saveRegisterProp</task>
+		<requesturi><![CDATA[/index.php?option=com_jomres&task=saveRegisterProp]]></requesturi>
+			<message><![CDATA[Transaction insert(s) passed :: INSERT INTO #__jomresportal_properties_crates_xref 
+				(
+				`property_id`,
+				`crate_id`
+				)
+				VALUES
+				(
+				'4',
+				''
+				) Passed </font><br>]]></message>
+	</jrportalquerylogentry>
+	<jrportalquerylogentry>
+		<datetime>2008-09-29 15:29:53 (PDT)</datetime>
+		<jomressession>37afa27736e43312a9c9651b058f9ddd</jomressession>
+		<task>saveRegisterProp</task>
+		<requesturi><![CDATA[/index.php?option=com_jomres&task=saveRegisterProp]]></requesturi>
+			<message><![CDATA[Transaction insert(s) passed :: INSERT INTO #__jomresportal_properties_crates_xref 
+				(
+				`property_id`,
+				`crate_id`
+				)
+				VALUES
+				(
+				'3',
+				''
+				) Passed </font><br>]]></message>
+	</jrportalquerylogentry>
+	<jrportalquerylogentry>
+		<datetime>2008-09-28 23:07:19 (PDT)</datetime>
+		<jomressession>4e8472a93a2c57f0be74254ea0fb5f59</jomressession>
+		<task>saveRegisterProp</task>
+		<requesturi><![CDATA[/index.php?option=com_jomres&task=saveRegisterProp]]></requesturi>
+			<message><![CDATA[Transaction insert(s) passed :: INSERT INTO #__jomresportal_properties_crates_xref 
+				(
+				`property_id`,
+				`crate_id`
+				)
+				VALUES
+				(
+				'2',
+				''
+				) Passed </font><br>]]></message>
+	</jrportalquerylogentry>
+</jrportalquerylog>

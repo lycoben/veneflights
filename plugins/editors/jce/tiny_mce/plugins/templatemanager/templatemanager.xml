@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<install version="1.5.0" type="plugin" plugin="templatemanager">
+	<name>Template Manager</name>
+	<version>1.5.1</version>
+	<creationDate>01 August 2008</creationDate>
+	<author>Ryan Demmer</author>
+	<authorEmail>ryandemmer@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlacontenteditor.net/</authorUrl>
+	<copyright>Ryan Demmer</copyright>
+	<license>GPL</license>
+	<description><![CDATA[
+	<p>Template Manager 1.5.1</p>
+	<p>Changelog (from 1.5.0):
+	<ul>
+		<li>Fixed: Loading of some templates. Now uses static iframe instead of ajax</li>
+	</ul>
+	</p>
+	]]></description>
+	<icon>templatemanager</icon>
+	<layout>templatemanager</layout>
+	<elements></elements>
+	<files>
+		<filename>editor_plugin.js</filename>
+		<filename>classes/index.html</filename>
+        <filename>classes/templatemanager.php</filename>
+        <filename>css/index.html</filename>
+        <filename>css/templatemanager.css</filename>
+		<filename>img/preview.jpg</filename>
+        <filename>img/templatemanager.gif</filename>
+		<filename>img/save.gif</filename>
+        <filename>img/index.html</filename>
+        <filename>index.html</filename>
+        <filename>js/index.html</filename>
+        <filename>js/templatemanager.js</filename>
+        <filename>langs/en.js</filename>
+		<filename>langs/en_dlg.js</filename>
+        <filename>langs/index.html</filename>
+        <filename>templatemanager.php</filename>
+    </files>
+	<params group="standard">
+		<param name="templatemanager_dir" type="text" default="" size="50" label="MANAGER PARAM DIRECTORY" description="MANAGER PARAM DIRECTORY DESC"/>
+		<param name="templatemanager_max_size" type="text" default="" label="MANAGER PARAM UPLOAD SIZE" description="MANAGER PARAM UPLOAD SIZE DESC"/>
+		<param name="templatemanager_extensions" type="text" size="50" default="html=html,htm;text=txt" label="PARAM EXTENSIONS" description="PARAM EXTENSIONS DESC"/>
+	</params>
+	<params group="advanced">
+		<param name="templatemanager_replace_values" type="textarea" rows="5" cols="50" default="" label="PARAM REPLACEMENT VALUES" description="PARAM REPLACEMENT VALUES DESC" />
+		<param name="templatemanager_selected_content_classes" type="text" size="100" default="" label="PARAM CONTENT CLASSES" description="PARAM CONTENT CLASSES DESC"/>
+		<param name="templatemanager_cdate_classes" type="text" size="100" default="cdate creationdate" label="PARAM CREATION DATE CLASSES" description="PARAM CREATION DATE CLASSES DESC"/>
+		<param name="templatemanager_mdate_classes" type="text" size="100" default="mdate modifieddate" label="PARAM MODIFIED DATE CLASSES" description="PARAM MODIFIED DATE CLASSES DESC"/>
+		<param name="templatemanager_cdate_format" type="text" size="100" default="%m/%d/%Y : %H:%M:%S" label="PARAM CREATION DATE FORMAT" description="PARAM CREATION DATE FORMAT DESC"/>
+		<param name="templatemanager_mdate_format" type="text" size="100" default="%m/%d/%Y : %H:%M:%S" label="PARAM MODIFIED DATE FORMAT" description="PARAM MODIFIED DATE FORMAT DESC"/>
+	</params>
+	<params group="access">
+        <param name="templatemanager_upload" type="list" default="1" label="UPLOAD" description="UPLOAD DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="templatemanager_upload_conflict" type="list" default="" label="PARAM UPLOAD EXISTS" description="PARAM UPLOAD EXISTS DESC">
+			<option value="">NOT SET</option>
+			<option value="overwrite">PARAM UPLOAD EXISTS OVERWRITE</option>
+			<option value="unique">PARAM UPLOAD EXISTS UNIQUE</option>
+			<option value="overwrite|unique">PARAM UPLOAD EXISTS OVERWRITE PARAM UPLOAD EXISTS UNIQUE</option>
+        </param>
+		<param name="templatemanager_folder_new" type="list" default="1" label="FOLDER CREATE" description="FOLDER CREATE DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="templatemanager_folder_delete" type="list" default="1" label="FOLDER DELETE" description="FOLDER DELETE DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="templatemanager_folder_rename" type="list" default="1" label="FOLDER RENAME" description="FOLDER RENAME DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="templatemanager_file_delete" type="list" default="1" label="FILE DELETE" description="FILE DELETE DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="templatemanager_file_rename" type="list" default="1" label="FILE RENAME" description="FILE RENAME DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="templatemanager_file_move" type="list" default="1" label="FILE PASTE" description="FILE PASTE DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+    </params>
+	<languages>
+		<language tag="en-GB">en-GB.com_jce_templatemanager.ini</language>
+	</languages>
+	<help>
+		<topic key="templatemanager.about" title="Help About" />
+		<topic key="templatemanager.interface" title="Help Interface" />
+		<topic key="templatemanager.save" title="Help Save" />
+		<topic key="templatemanager.insert" title="Help Insert" />
+	</help>
+</install>

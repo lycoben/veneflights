@@ -1,0 +1,48 @@
+/* Squeezebox Template */
+#jcepopup-container {
+	background-color: #ffffff;
+}
+#jcepopup-loader {
+	background: url(../img/loader.gif) no-repeat center center;
+}
+#jcepopup-info {}
+#jcepopup-closelink {
+	width: 30px;
+	height: 30px;
+	background: url(../img/close.png) no-repeat 100% 0pt;;
+	top: -15px;
+	right: -15px;
+	float: right;
+	position: absolute;
+	border: none;
+}
+#jcepopup-nav {
+	line-height: 20px;
+	padding: 10px;
+}
+#jcepopup-prev, #jcepopup-next {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	border: none;
+	background-repeat: no-repeat;
+	bottom: 5px;
+}
+#jcepopup-prev{
+	background-image: url(../img/prev.png);
+	left: 5px;
+}
+#jcepopup-next {
+	background-image: url(../img/next.png);
+	right: 5px;
+}
+#jcepopup-numbers {
+	text-align: center;
+	display: block;
+}
+#jcepopup-caption {
+	padding: 0px 10px;
+	min-height: 5px;
+}
+#jcepopup-caption h4 {}
+#jcepopup-caption p {}

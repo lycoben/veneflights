@@ -1,0 +1,162 @@
+/** IE6 is a hunk of crap!!! due to limitations in the CSS capabilities of IE, these hacks are required **/
+
+/* font tweaking for optima/lucida font */
+#ff-optima h1,#ff-optima h2,#ff-optima h3,#ff-optima h4,#ff-optima h5,#ff-optima h6,
+#ff-lucida h1,#ff-lucida h2,#ff-lucida h3,#ff-lucida h4,#ff-lucida h5,#ff-lucida h6 {
+	letter-spacing: -0.07em;
+}
+
+body#ff-optima ,
+body#ff-lucida {
+	letter-spacing: -0.03em;
+}
+
+body#ff-georgia,
+body#ff-georgia.f-default {
+	font-size: 12px;
+}
+
+span.pathway {
+	display: block;
+	float: left;
+	line-height: 27px;
+}
+
+span.pathway a {
+	display: block;
+	float: left;
+}
+
+span.pathway img {
+	vertical-align: middle;
+	display: block;
+	float: left;
+}
+
+div.module-style1 div div div,
+div.module-style1-color1 div div div,
+div.module-style1-color2 div div div,
+div.module-style1-color3 div div div,
+div.module-style1-color4 div div div,
+div.module-style2 div div div,
+div.module-style2-color1 div div div,
+div.module-style2-color2 div div div,
+div.module-style2-color3 div div div,
+div.module-style2-color4 div div div,
+div.module-menu div div div {
+	zoom: 1;
+}
+
+#mainbody,
+#header,
+#pathway,
+#maincol,
+#bottom,
+#horiz-menu2,
+#mainbody-padding,
+#mainbody-top1,
+#mainbody-top2,
+#mainbody-top3 {
+	position: relative;
+	height: 1%;
+}
+
+
+#mainbody-bottom2 {
+	position: relative;
+}
+
+img#logo {
+	position: relative;
+}
+
+/* rokslide fixes */
+#rokslide-wrapper {
+	display: inline-block;
+	text-align: center;
+}
+
+#rokslide-wrapper del {
+	display: inline-block;
+}
+
+ul#rokslide-toolbar {
+  display: table;
+  padding: 0;
+}
+
+#rokslide-toolbar li {
+	float: left;
+}
+
+#rokslide-toolbar li span {
+	float: left;
+}
+
+.spacer.w49 .block {
+	width: 49.99%;
+}
+
+#frame .mmpr-2 .module {
+	width: 49.99%;
+}
+
+#tabmodules div div div {
+	height: 1%;
+}
+
+#rokslide-toolbar span {
+	padding: 0 15px;
+}
+
+/**** menu specific fixes ****/
+
+
+
+#horiz-menu.menustyle3 li.sfHover {
+	background: none;
+}
+
+#horiz-menu.menustyle3 li.sfHover a:hover {
+	background: none;
+}
+
+#horiz-menu {
+margin-right: 10px;	
+}
+
+#horiz-menu li.parent li,
+#horiz-menu li.parent li a {
+	background: none;
+}
+
+#horiz-menu li.parent li a {
+	width: 100%;
+}
+
+#horiz-menu ul.menu ul,
+#horiz-menu ul.menu li {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#horiz-menu ul.menu li li {
+	height: 24px;
+}
+
+#horiz-menu ul.menu a,
+#horiz-menu ul.menu li.active li a {
+	position: relative;
+}
+
+#horiz-menu ul.menu li.active.parent {
+	border-bottom: 0;
+	background: transparent;
+}
+
+#horiz-menu ul.menu li.active.parent {
+	border-bottom: 0;
+	background: transparent;
+}

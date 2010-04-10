@@ -1,0 +1,41 @@
+Normal
+{
+  font-family: sans-serif; /*sans-serif, Arial, Helvetica*/
+  font-size: 14px;		
+  font-weight: normal;		/*normal, bold*/
+  font-style: normal;		/*normal, italic*/
+
+  text-align: left;		/*left, center, right*/
+  text-decoration: none;	/*none, underline*/
+  text-indent: 0;		/*Only the numeric part of the value is used.*/
+
+  color: #000000;		/*Only hexadecimal color values are supported.*/
+  display: block;		/*none, inline, block.*/
+}
+
+Bold:Normal
+{
+  font-weight: bold;
+}
+
+BoldBlue:Bold
+{
+  color: #0000FF;
+}
+
+Title:Normal
+{
+  font-size: 16px;		
+  text-align: center;
+  font-weight: bold;		
+}
+Little:Normal
+{
+  font-size: 9px;
+}
+Link:Normal
+{
+  text-decoration: underline;	
+  color: #0000FF;
+}
+

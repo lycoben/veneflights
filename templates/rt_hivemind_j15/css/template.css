@@ -1,0 +1,786 @@
+/* @group Core Elements */
+
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+/* Font family information */
+body#ff-optima, #ff-optima td {
+	line-height: 135%;
+	font-family: Optima, Lucida, 'MgOpen Cosmetica', 'Lucida Sans Unicode', sans-serif;
+}
+
+body#ff-geneva, #ff-geneva td {
+	line-height: 135%;
+	font-family:  Geneva, Tahoma, "Nimbus Sans L", sans-serif;
+}
+
+body#ff-helvetica, #ff-helvetica td {
+	line-height: 135%;
+	font-family: Helvetica, Arial, FreeSans, sans-serif;
+}
+
+body#ff-lucida, #ff-lucida td {
+	line-height: 135%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Lucida, sans-serif;
+}
+
+body#ff-georgia, #ff-georgia td {
+	line-height: 135%;
+	font-family: Georgia, sans-serif;
+}
+
+body#ff-trebuchet, #ff-trebuchet td {
+	line-height: 135%;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+body#ff-palatino, #ff-palatino td {
+	line-height: 135%;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
+}
+
+/* end font family information */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+body.f-smaller,
+body#ff-optima.f-smaller,
+body#ff-georgia.f-smaller {
+	font-size: 11px;
+}
+
+body,
+body.f-default {
+	font-size: 12px;
+}
+
+body#ff-optima,
+body#ff-optima.f-default {
+	font-size: 13px;
+}
+
+body#ff-georgia,
+body#ff-georgia.f-default {
+	font-size: 13px;
+}
+
+body.f-larger,
+body#ff-optima.f-larger,
+body#ff-georgia.f-larger {
+	font-size: 15px;
+}
+
+p {
+  /* setup some more readable paragraph spacing */
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+h1, h2, h3, h4 {
+	/* setup some more readable header spacing */
+	padding-bottom: 5px;
+	margin: 10px 0;
+	font-weight: normal;
+	line-height: 100%;
+}
+
+h1 { 
+	font-size: 200%;
+	line-height: 100%;
+}
+
+h2 {
+	font-size: 175%;
+	line-height: 100%;
+}
+
+h3 {
+	font-size: 150%;
+}
+
+h4 {
+	font-size: 120%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* @end */
+
+/* @group Joomla Elements */
+
+.small,
+.modifydate,
+.createdate,
+div.mosimage_caption {
+	font-size: 95%;
+}
+
+.componentheading {
+	font-size: 170%;
+	line-height: 100%;
+	padding: 0;
+	margin: 25px 0 20px 0;
+}
+
+.contentheading {
+	font-size: 190%;
+	font-weight: normal;
+	line-height: 110%;
+	padding-bottom: 8px;
+	margin: 15px 0 0 0;
+}
+
+td.buttonheading,
+.contentpaneopen td.buttonheading {
+	padding: 0px 3px 0;
+}
+
+td.column_separator {
+	padding-left: 15px;
+}
+
+td.componentheading {
+	padding-bottom: 15px;
+}
+
+.sectiontableheader {
+  	font-weight: bold;
+  	padding: 4px;
+  	line-height: 20px;
+}
+
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td,
+td.sectiontableentry1,
+td.sectiontableentry2 {
+  	text-align: left;
+  	padding: 5px 0 5px 5px;
+}
+
+.contentpane,
+.contentpaneopen {
+	width: 100%;
+}
+
+/* @end */
+
+/* @group Structure */
+
+.wrapper {
+	position: relative;
+}
+
+#top {
+	height: 60px;
+}
+
+#mod-search {
+	height: 22px;
+	width: 177px;
+	float: right;
+	margin-top: 17px;
+	margin-right: 10px;
+}
+
+#mod-search input {
+	padding: 2px 0 0 24px;
+	overflow: hidden;
+	width: 150px;
+	font-size: 100%;
+	border: 0;
+	background: none;
+	font-weight: normal;
+}
+
+#header {
+	height: 85px;
+}
+
+#header {
+	position: relative;
+	z-index: 2;
+}
+
+#pathway {
+	position: relative;
+	z-index: 1;
+}
+
+img#logo {
+	width: 372px;
+	height: 71px;
+	position: absolute;
+	left: 10px;
+	float: left;
+}
+
+#mainbody-top3 {
+	height: 16px;
+}
+
+#body-padding {
+	padding-bottom: 40px;
+}
+
+#mainbody-padding {
+	padding: 0;
+}
+
+#maincol-container {
+	padding: 0 20px;
+}
+
+#sidecol-padding {
+	padding: 0 20px 10px 20px;
+}
+
+#showcase {
+	margin-bottom: 10px;
+}
+
+#bottom {
+	padding: 20px;
+	overflow: hidden;
+}
+
+#mainbody-bottom3 {
+	height: 16px;
+	margin-bottom: 20px;
+}
+
+img#rocket {
+	margin-top: 17px;
+	width: 158px;
+	height: 25px;
+	float: left;
+}
+
+#footer {
+	margin-bottom: 10px;
+}
+
+.spacer .block {
+	float: left;
+}
+
+.spacer.w99 .block {
+	width: 100%;
+}
+
+.spacer.w49 .block {
+	width: 50%;
+}
+
+.spacer.w33 .block {
+	width: 33.3%;
+}
+
+.spacer.w24 .block {
+	width: 25%;
+}
+
+#pathway {
+	height: 27px;
+	margin-bottom: 15px;
+}
+
+#horiz-menu2 {
+	float: left;
+}
+
+/* @end */
+
+/* @group Modules */
+
+.module,
+.module-color1,
+.module-color2,
+.module-color3,
+.module-color4,
+.module-style1,
+.module-style2,
+.module-style1-color1,
+.module-style1-color2,
+.module-style1-color3,
+.module-style1-color4,
+.module-style2-color1,
+.module-style2-color2,
+.module-style2-color3,
+.module-style2-color4 {
+	margin-bottom: 35px;
+}
+
+#bottommodules .module, #bottommodules .module-color1, #bottommodules .module-color2, #bottommodules .module-color3, #bottommodules .module-color4, #bottommodules .module-style1, #bottommodules .module-style2, #bottommodules .module-style1-color1, #bottommodules .module-style1-color2, #bottommodules .module-style1-color3, #bottommodules .module-style1-color4, #bottommodules .module-style2-color1, #bottommodules .module-style2-color2, #bottommodules .module-style2-color3, #bottommodules .module-style2-color4 {
+	margin-bottom: 20px;
+}
+
+.module-style1 h3,
+.module-style1-color1 h3,
+.module-style1-color2 h3,
+.module-style1-color3 h3,
+.module-style1-color4 h3 {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 10px;
+}
+
+.module-style2 h3,
+.module-style2-color1 h3,
+.module-style2-color2 h3,
+.module-style2-color3 h3,
+.module-style2-color4 h3 {
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+}
+
+.module-style1 div div div,
+.module-style1-color1 div div div,
+.module-style1-color2 div div div,
+.module-style1-color3 div div div,
+.module-style1-color4 div div div {
+	position: relative;
+	padding: 50px 15px 15px 15px;
+	overflow: hidden;
+}
+
+.module-style2 div div div,
+.module-style2-color1 div div div,
+.module-style2-color2 div div div,
+.module-style2-color3 div div div,
+.module-style2-color4 div div div {
+	padding: 15px;
+	overflow: hidden;
+}
+
+.module-style1 div div div div,
+.module-style2 div div div div,
+.module-style1-color1 div div div div,
+.module-style1-color2 div div div div,
+.module-style1-color3 div div div div,
+.module-style1-color4 div div div div,
+.module-style2-color1 div div div div,
+.module-style2-color2 div div div div,
+.module-style2-color3 div div div div,
+.module-style2-color4 div div div div {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+#mainmodules .module, #mainmodules .module-color1, #mainmodules .module-color2, #mainmodules .module-color3, #mainmodules .module-color4, #mainmodules .module-style1, #mainmodules .module-style2, #mainmodules .module-style1-color1, #mainmodules .module-style1-color2, #mainmodules .module-style1-color3, #mainmodules .module-style1-color4, #mainmodules .module-style2-color1, #mainmodules .module-style2-color2, #mainmodules .module-style2-color3, #mainmodules .module-style2-color4, #bottommodules .module, #bottommodules .module-color1, #bottommodules .module-color2, #bottommodules .module-color3, #bottommodules .module-color4, #bottommodules .module-style1, #bottommodules .module-style2, #bottommodules .module-style1-color1, #bottommodules .module-style1-color2, #bottommodules .module-style1-color3, #bottommodules .module-style1-color4, #bottommodules .module-style2-color1, #bottommodules .module-style2-color2, #bottommodules .module-style2-color3, #bottommodules .module-style2-color4 {
+	margin-right: 15px;
+}
+
+/* @end */
+
+/* @group Content Styles */
+
+/* @group Readon */
+
+a.readon,
+a.readon2 {
+	margin-top: 20px;
+	font-weight: normal;
+	font-size: 100%;
+	display: block;
+	text-indent: 10px;
+	width: 114px;
+	height: 24px;
+	line-height: 24px;
+}
+
+/* @end */
+
+/* @group Pathway */
+
+span.pathway {
+	display: block;
+	line-height: 220%;
+	font-weight: normal;
+	height: 27px;
+	line-height: 29px;
+	padding: 0 20px 0 60px;
+	float: left;
+	overflow: hidden;
+}
+
+span.pathway img {
+	float: none;
+	vertical-align: top;
+	width: 5px;
+	height: 27px;
+	padding-right: 15px;
+}
+
+span.pathway a {
+	float: none;
+	padding: 0 20px 0 0;
+}
+
+/* @end */
+
+/* @group Typography */
+
+ul.number,
+ul.bullet-1,
+ul.bullet-2,
+ul.bullet-3,
+ul.bullet-4,
+ul.bullet-5,
+ul.bullet-6,
+ul.bullet-7,
+ul.bullet-8,
+ul.bullet-9,
+ul.bullet-10,
+ul.bullet-11,
+ul.bullet-12,
+ul.bullet-13,
+ul.bullet-14,
+ul.bullet-15,
+ul.bullet-16,
+ul.bullet-17,
+ul.bullet-18,
+ul.icon-1,
+ul.icon-2,
+ul.icon-3,
+ul.icon-4,
+ul.icon-5,
+ul.icon-6 {
+	padding-left: 15px;
+	margin-left: 0;
+}
+
+ul.number li,
+ul.bullet-1 li, 
+ul.bullet-2 li,
+ul.bullet-3 li,
+ul.bullet-4 li,
+ul.bullet-5 li,
+ul.bullet-6 li, 
+ul.bullet-7 li,
+ul.bullet-8 li,
+ul.bullet-9 li,
+ul.bullet-10 li,
+ul.bullet-11 li, 
+ul.bullet-12 li,
+ul.bullet-13 li,
+ul.bullet-14 li,
+ul.bullet-15 li,
+ul.bullet-16 li,
+ul.bullet-17 li,
+ul.bullet-18 li {
+	list-style: none;
+	margin-left: 0;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+	padding-left: 24px;
+}
+
+ul.icon-1 li,
+ul.icon-2 li,
+ul.icon-3 li,
+ul.icon-4 li,
+ul.icon-5 li,
+ul.icon-6 li {
+	list-style: none;
+	margin-left: 0;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+	padding-left: 30px;
+}
+
+pre {
+	padding: 10px;
+}
+
+blockquote {
+	font-style: italic;
+	font-size: 120%;
+	line-height: 150%;
+	width: auto;
+	padding: 0px 0px 5px 30px;
+	margin: 15px 0;
+}
+
+blockquote p {
+	padding: 0 30px 0 0;
+	margin-top: 0;
+}
+
+blockquote.b {
+	color: #666;
+	font-style: italic;
+	font-size: 110%;
+	line-height: 135%;
+	width: auto;
+	padding: 0px 0px 5px 15px;
+	margin: 15px 0 15px 15px;
+	background: none;
+}
+
+/* @end */
+
+/* @group Notice Styles */
+
+span.alert,
+span.info,
+span.download,
+span.note {
+	display: block;
+	padding: 10px 10px 10px 45px;
+	margin: 15px 0;	
+}
+
+/* @end */
+
+/* @group RokSlide */
+
+#moduleslider-size {
+	height: 220px;
+	overflow: hidden;
+}
+
+#rokslide-toolbar span {
+	white-space: nowrap;
+}
+
+#frame {
+	text-align: left;
+}
+
+#frame .module, #frame .module-color1, #frame .module-color2, #frame .module-color3, #frame .module-color4 {
+	float: left;
+}
+
+#frame .module div, #frame .module-color1 div, #frame .module-color2 div, #frame .module-color3 div, #frame .module-color4 div {
+	padding: 0 5px;
+}
+
+#frame .module div div, #frame .module-color1 div div, #frame .module-color2 div div, #frame .module-color3 div div, #frame .module-color4 div div {
+	padding: 0;
+}
+
+#frame .mmpr-1 .module, #frame .mmpr-1 .module-color1, #frame .mmpr-1 .module-color2, #frame .mmpr-1 .module-color3, #frame .mmpr-1 .module-color4 {
+	width: 100%;
+}
+
+#frame .mmpr-2 .module, #frame .mmpr-2 .module-color1, #frame .mmpr-2 .module-color2, #frame .mmpr-2 .module-color3, #frame .mmpr-2 .module-color4 {
+	width: 50%;
+}
+
+#frame .mmpr-3 .module, #frame .mmpr-3 .module-color1, #frame .mmpr-3 .module-color2, #frame .mmpr-3 .module-color3, #frame .mmpr-3 .module-color4 {
+	width: 33%;
+}
+
+#frame .mmpr-4 .module, #frame .mmpr-4 .module-color1, #frame .mmpr-4 .module-color2, #frame .mmpr-4 .module-color3, #frame .mmpr-4 .module-color4 {
+	width: 25%;
+}
+
+#frame .mmpr-5 .module, #frame .mmpr-5 .module-color1, #frame .mmpr-5 .module-color2, #frame .mmpr-5 .module-color3, #frame .mmpr-5 .module-color4 {
+	width: 20%;
+}
+
+#tabmodules {
+	overflow: hidden;
+}
+
+#tabmodules li span {
+	margin-left: -1px;
+}
+
+#tabmodules li.first span {
+	margin-left: 0;
+}
+
+#tabmodules div div div {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#tabmodules div div div div {
+	background: none;
+	padding: 0;
+}
+
+/* @end */
+
+#accessibility {
+	width: 150px;
+	height: 20px;
+	margin-top: 0px;
+	margin-top: 20px;
+	float: right;
+}
+
+#accessibility span {
+	background-repeat: no-repeat;
+}
+
+#accessibility a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#accessibility #buttons {
+	float: right;
+	padding-right: 10px;
+}
+
+#accessibility .button {
+	display: block;
+	float: right;
+	width: 13px;
+	height: 14px;
+	margin-right: 20px;
+}
+
+a.nounder {
+	text-decoration: none;
+	border: 0;
+	cursor: pointer;
+}
+
+a.nounder:hover {
+	text-decoration: none;
+}
+
+a img.album {
+	border-width: 2px;
+	border-style: solid;
+}
+
+.clr {
+	clear:both;
+}
+
+fieldset {
+	border-left: 0;
+	border-right: 0;
+}
+
+fieldset.input {
+	border: 0;
+}
+
+a img {
+	border: 0;
+}
+
+img.content-left {
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+img.content-right {
+	float: right;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+#referencewidth {
+	width: 100%;
+	overflow:hidden;
+}
+
+body .pollstableborder {
+	border: 0px;
+}
+
+.back_button {
+	margin-top: 20px;
+}
+
+/* @end */
+
+/* start sifr stuff */
+
+.sIFR-hasFlash .module-menu h3,
+.sIFR-hasFlash .module h3,
+.sIFR-hasFlash .module-color1 h3,
+.sIFR-hasFlash .module-color2 h3,
+.sIFR-hasFlash .module-color3 h3,
+.sIFR-hasFlash .module-color4 h3,
+.sIFR-hasFlash .module-style1 h3,
+.sIFR-hasFlash .module-style1-color1 h3,
+.sIFR-hasFlash .module-style1-color2 h3,
+.sIFR-hasFlash .module-style1-color3 h3,
+.sIFR-hasFlash .module-style1-color4 h3,
+.sIFR-hasFlash .module-style2 h3,
+.sIFR-hasFlash .module-style2-color1 h3,
+.sIFR-hasFlash .module-style2-color2 h3,
+.sIFR-hasFlash .module-style2-color3 h3,
+.sIFR-hasFlash .module-style2-color4 h3 {
+	height: 20px;  			/***** IMPORANT: Change this to adjust the size of the SIFR headers *******/
+	font-size: 20px;		/***** IMPORANT: Change this to adjust the size of the SIFR headers *******/
+	padding: 0;
+	visibility: hidden;
+}
+
+.sIFR-hasFlash .module h3 {
+	margin-left: -3px;
+}
+
+.sIFR-hasFlash .module-style1 h3 {
+	margin-top: -2px;
+}
+
+/* end sifr stuff */
+
+/* rokheadrotator stuff */
+
+#rokheadrotator {
+	height: 235px;
+	position: relative;
+	background: none;
+}
+
+#rokheadrotator .controls {
+	top: 14px;
+	position: absolute;
+	right: 13px;
+	z-index: 1;
+}
+
+#rokheadrotator .controls img {
+	background-image: url(../images/scroller-controls.png);
+	cursor: pointer;
+	height: 15px;
+	margin-right: 11px;
+	width: 15px;
+}
+
+#rokheadrotator .control-prev {
+	background-position: 0pt 0pt;
+}
+
+#rokheadrotator .control-next {
+	background-position: 0pt -17px;
+}
+
+#rokheadrotator .control-pause {
+	background-position: 0pt -34px;
+}
+
+#rokheadrotator .control-play {
+	background-position: 0pt -51px;
+}
+/* RokHeadRotator _EOF_ */
+

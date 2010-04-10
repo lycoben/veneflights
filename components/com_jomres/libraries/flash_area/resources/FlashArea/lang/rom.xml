@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="Stiluri"/>
+				<size hint="Dimensiunea fontului"/>
+				<font hint="Font"/>
+				<bullet hint="Buline"/>
+				<leading hint="Spaţiere">
+					<window>
+						<textes title="Schimbare spaţiere paragraf" leading="Spaţiere" ok="Gata" cancel="Anuleazǎ"/>
+					</window>
+				</leading>
+				<copy hint="Copiazǎ"/>
+				<cut hint="Decupeazǎ"/>
+				<paste hint="Lipeşte"/>
+				<undo hint="Anulare"/>
+				<redo hint="Refacere"/>
+				<bold hint="Aldin"/>
+				<italic hint="Cursiv"/>
+				<underline hint="Subliniat"/>
+				<left hint="Aliniazǎ la stânga"/>
+				<center hint="Aliniazǎ central"/>
+				<right hint="Aliniazǎ la dreapta"/>
+				<url hint="Introdu hyperlink">
+					<window>
+						<textes title="Hyperlink" text="Text:" url="URL:" target="Ţinta:" ok="Gata" cancel="Anuleazǎ" remove="Eliminǎ"/>
+					</window>
+				</url>
+				<indentDec hint="Micşoreazǎ indentarea"/>
+				<indentInc hint="Mǎreşte indentarea"/>
+				<color hint="Culoarea fontului"/>
+				<symbols hint="Introdu simbol">
+					<window>
+						<textes title="Introdu simbol" ok="Închide" insert="Introducere"/>
+					</window>
+				</symbols>
+				<html hint="Trecere la o vedere normalǎ sau HTML"/>
+				<image hint="Introdu imagine">
+					<window>
+						<textes title="Imagine" path="Cale:" align="Aliniazǎ:" url="URL:" target="Ţintǎ:" id="ID:" space="Spaţiu:" space_v="Vert:" space_h="Oriz:" size="Dimens:" size_w="Lǎţime" size_h="Înǎlţime" ok="Gata" cancel="Anuleazǎ" remove="Eliminǎ"/>
+					</window>
+				</image>
+				<about hint="Despre FlashArea">
+					<window>
+						<textes title="Despre FlashArea" ok="Gata"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

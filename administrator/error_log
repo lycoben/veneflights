@@ -1,0 +1,2 @@
+[01-Mar-2010 17:10:02] PHP Warning:  file_put_contents(/home/venezuef/public_html/administrator/cache/2bab918bf59047838725c795800ed610.spc) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Permission denied in /home/venezuef/public_html/libraries/simplepie/simplepie.php on line 7219
+[01-Mar-2010 17:10:02] PHP Warning:  /home/venezuef/public_html/administrator/cache/2bab918bf59047838725c795800ed610.spc is not writeable in /home/venezuef/public_html/libraries/simplepie/simplepie.php on line 1623

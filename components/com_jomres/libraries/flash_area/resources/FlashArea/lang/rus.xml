@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="Стили"/>
+				<size hint="Размер шрифта"/>
+				<font hint="Шрифт"/>
+				<bullet hint="Пулька"/>
+				<leading hint="Отбивка">
+					<window>
+						<textes title="Изменить отбивку абзаца" leading="Отбивка" ok="OK" cancel="Отмена"/>
+					</window>
+				</leading>
+				<copy hint="Копировать"/>
+				<cut hint="Вырезать"/>
+				<paste hint="Вставить"/>
+				<undo hint="Отменить"/>
+				<redo hint="Вернуть"/>
+				<bold hint="Полужирный"/>
+				<italic hint="Курсив"/>
+				<underline hint="Подчёркнутый"/>
+				<left hint="Выровнять по левому краю"/>
+				<center hint="Выровнять по центру"/>
+				<right hint="Выровнять по правому краю"/>
+				<url hint="Вставить гиперссылку">
+					<window>
+						<textes title="Гиперссылка" text="Текст:" url="URL:" target="Цель:" ok="OK" cancel="Отмена" remove="Убрать"/>
+					</window>
+				</url>
+				<indentDec hint="Уменшить отступ"/>
+				<indentInc hint="Увеличить отступ"/>
+				<color hint="Цвет шрифта"/>
+				<symbols hint="Вставить символ">
+					<window>
+						<textes title="Вставить символ" ok="Закрыть" insert="Вставить"/>
+					</window>
+				</symbols>
+				<html hint="Переключить режим - Норамальный/Html"/>
+				<image hint="Вставить картинку">
+					<window>
+						<textes title="Картника" path="Адрес:" align="Align:" url="URL:" target="Цель:" id="ID:" space="Пробел:" space_v="Верт." space_h="Гориз." size="Размер:" size_w="Ширина" size_h="Высота" ok="OK" cancel="Отмена" remove="Убрать"/>
+					</window>
+				</image>
+				<about hint="Про FlashArea">
+					<window>
+						<textes title="Про FlashArea" ok="OK"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

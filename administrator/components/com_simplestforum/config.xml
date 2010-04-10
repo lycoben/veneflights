@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+<params addpath="/administrator/components/com_simplestforum/elements">
+    <param name="use_captcha" type="radio" default="0" label="USE CAPTCHA" description="USE THE CAPTCHA ANTI-SPAM UTILITY" menu="hide">
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </param>
+    <param name="viewgid" type="permissiongroup" default="0" label="LABEL VIEW GROUP" description="DESC VIEW GROUP" menu="hide" />
+    <param name="postgid" type="permissiongroup" default="0" label="LABEL POST GROUP" description="DESC POST GROUP" menu="hide" />
+    <param name="moderatorgid" type="permissiongroup" default="23" label="MODERATOR GROUP" description="DESC MODERATOR GROUP" menu="hide" />
+    <param name="dateformat" type="text" default="Y-m-d H:i:s" label="LABEL DATE FORMAT" description="DESC DATE FORMAT" menu="hide" />
+    <param name="disallowednames" type="text" default="admin,moder,manag" label="LABEL DISALLOWED NAMES" description="DESC DISALLOWED NAMES" menu="hide" />
+</params>
+</config>

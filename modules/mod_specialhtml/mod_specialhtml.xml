@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>Special HTML</name>
+  <author>Rony S Y Zebua - Member of Camp26.Com</author>
+  <creationDate>18 Maret 2008</creationDate>
+  <copyright>2008, www.camp26.com</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>ronysyz@gmail.com</authorEmail>
+  <authorUrl>www.camp26.com</authorUrl>
+  <version>1.0.2</version>
+  <description>MODULE : SPECIALHTML</description>
+	<files>
+		<filename module="mod_specialhtml">mod_specialhtml.php</filename>
+		<filename>index.html</filename>
+    	<filename>helper.php</filename>
+		<filename>legacy.php</filename>
+    	<filename>tmpl/default.php</filename>
+    	<filename>tmpl/index.html</filename>
+		<filename>logo.png</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_specialhtml.ini</language>
+	</languages>
+    <params>
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A Suffix to be applied the CSS class of this module, this allowa indivdual nodule styling" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="code_area" type="textarea" default="" label="HTML/JavaScript" cols="40" rows="20" description="Insert special Html or Javascript Here. I.e: Ads Code, Another code" />
+  		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="clean_js" type="list" default="1" label="Clean JS" description="Clean all JavaScript of HTML Line Breaks">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="clean_css" type="list" default="1" label="Clean CSS" description="Clean all Inlined CSS of HTML Line Breaks">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="clean_all" type="list" default="1" label="Clean HTML" description="Clean all HTML of Line Breaks. This may help if you are getting odd empty verticle space in your HTML output.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+  </params>
+</install>

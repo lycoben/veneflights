@@ -1,0 +1,116 @@
+/* hack to center align floated slider tabs */
+
+/* font tweaking for optima/lucida font */
+#ff-optima h1,#ff-optima h2,#ff-optima h3,#ff-optima h4,#ff-optima h5,#ff-optima h6,
+#ff-lucida h1,#ff-lucida h2,#ff-lucida h3,#ff-lucida h4,#ff-lucida h5,#ff-lucida h6 {
+	letter-spacing: -0.07em;
+}
+
+body#ff-optima ,
+body#ff-lucida {
+	letter-spacing: -0.03em;
+}
+
+body#ff-georgia,
+body#ff-georgia.f-default {
+	font-size: 12px;
+}
+
+span.pathway {
+	display: block;
+	float: left;
+	line-height: 27px;
+}
+
+span.pathway a {
+	display: block;
+	float: left;
+}
+
+span.pathway img {
+	vertical-align: middle;
+	display: block;
+	float: left;
+}
+
+
+
+#rokslide-wrapper {
+	display: inline-block;
+	text-align: center;
+}
+
+#rokslide-wrapper del {
+	display: inline-block;
+}
+
+#rokslide-toolbar li {
+	float: left;
+}
+
+#rokslide-toolbar li span {
+	float: left;
+}
+
+.spacer.w49 .block {
+	width: 49.99%;
+}
+
+#rokslide-toolbar span {
+	padding: 0 15px;
+}
+
+#tabmodules {
+	overflow: visible;
+}
+
+#frame .mmpr-2 .module {
+   width: 49.99%;
+}
+
+div.module div div div,
+div.module-hilite1 div div div,
+div.module-hilite2 div div div,
+div.module-hilite3 div div div,
+div.module-hilite4 div div div,
+div.module-hilite1a div div div,
+div.module-hilite2a div div div,
+div.module-hilite3a div div div,
+div.module-hilite4a div div div,
+div.module-hilite5a div div div,
+div.module-hilite1b div div div,
+div.module-hilite2b div div div,
+div.module-hilite3b div div div,
+div.module-hilite4b div div div,
+div.module-hilite5b div div div,
+div.module-color-red div div div,
+div.module-color-blue div div div,
+div.module-color-green div div div,
+div.module-color-darkgray div div div,
+div.module-weather div div div,
+div.module-faq div div div,
+div.module-download div div div,
+td.sidecol div.module-hilite1 div,
+td.sidecol div.module-hilite2 div,
+td.sidecol div.module-hilite3 div,
+td.sidecol div.module-hilite4 div,
+td.sidecol div.module-hilite5 div,
+td.sidecol div.module-ad div,
+#tabmodules div div div,
+#mainbody-padding,
+#bottom-modules-top,
+#bottom-modules,
+#bottom-modules .right,
+#morenews4,
+#mainpage, #right, #mainpage2, #mainpage3  {
+	zoom: 1;
+}
+
+#morenews3 {
+	position: relative;
+}
+
+#headlinemodules a.readon {
+	margin-right: 15px;
+}
+

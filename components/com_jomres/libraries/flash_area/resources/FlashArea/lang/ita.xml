@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="Stili"/>
+				<size hint="Dimensione"/>
+				<font hint="Caratter"/>
+				<bullet hint="Pallottola"/>
+				<leading hint="Condurre">
+					<window>
+						<textes title="Cambi condurre di paragrafo" leading="Condurre" ok="Approvazione" cancel="Annullamento"/>
+					</window>
+				</leading>
+				<copy hint="Copia"/>
+				<cut hint="Taglio"/>
+				<paste hint="Colla"/>
+				<undo hint="Undo"/>
+				<redo hint="Rifaccia"/>
+				<bold hint="Grassetto"/>
+				<italic hint="Corsivo"/>
+				<underline hint="Underline"/>
+				<left hint="Allineisi A Sinistra"/>
+				<center hint="Allinei Il Centro"/>
+				<right hint="Allineisi A Destra"/>
+				<url hint="Inserisca Il Hyperlink">
+					<window>
+						<textes title="Hyperlink" text="Testo:" url="URL:" target="Obiettivo:" ok="Approvazione" cancel="Annullamento" remove="Rimuova"/>
+					</window>
+				</url>
+				<indentDec hint="Faccia diminuire La Rientranza"/>
+				<indentInc hint="Aumenti La Rientranza"/>
+				<color hint="Colore Della Caratter"/>
+				<symbols hint="Inserisca Il Simbolo">
+					<window>
+						<textes title="Inserisca Il Simbolo" ok="Fine" insert="Inserto"/>
+					</window>
+				</symbols>
+				<html hint="Commuti alla vista del Html o di normale"/>
+				<image hint="Inserisca L'Immagine">
+					<window>
+						<textes title="Immagine" path="Percorso:" align="Allineisi:" url="URL:" target="Obiettivo:" id="Identificazione:" space="Spazio:" space_v="Vert" space_h="Hor" size="Formato:" size_w="Larghezza" size_h="Height" ok="Approvazione" cancel="Annullamento" remove="Rimuova"/>
+					</window>
+				</image>
+				<about hint="Circa FlashArea">
+					<window>
+						<textes title="Circa FlashArea" ok="Approvazione"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

@@ -1,0 +1,29 @@
+<config>
+	<params>
+		<param name="minlength" type="text" size="6" default="6" label="COMMENTS_COMMENT_MIN_LENGTH" description="COMMENTS_COMMENT_MIN_LENGTH_DESC" />
+		<param name="maxlength" type="text" size="6" default="1024" label="COMMENTS_COMMENT_MAX_LENGTH" description="COMMENTS_COMMENT_MAX_LENGTH_DESC" />
+
+		<param name="captcha" type="radio" default="1" label="COMMENTS_SPAM_CAPTCHA" description="COMMENTS_SPAM_CAPTCHA_DESC">
+			<option value="0">No</option>
+			<option value="1">Only Guests</option>
+			<option value="2">Anyone</option>
+		</param>
+
+		<param type="spacer" name="@spacer" />
+		<param name="enable_recaptcha" type="radio" default="0" label="COMMENTS_SPAM_RECAPTCHA" description="COMMENTS_SPAM_RECAPTCHA_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="recaptcha_public" type="text" size="40" label="COMMENTS_SPAM_RECAPTCHA_PUBLIC" description="COMMENTS_SPAM_RECAPTCHA_PUBLIC_DESC" />
+		<param name="recaptcha_private" type="text" size="40" label="COMMENTS_SPAM_RECAPTCHA_PRIVATE" description="COMMENTS_SPAM_RECAPTCHA_PRIVATE_DESC" />
+
+		<param type="spacer" name="@spacer" />
+		<param name="enable_akismet" type="radio" default="0" label="COMMENTS_SPAM_AKISMET" description="COMMENTS_SPAM_AKISMET_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="akismet_key" type="text" size="20" label="COMMENTS_SPAM_AKISMET_KEY" description="COMMENTS_SPAM_AKISMET_KEY_DESC" />
+	</params>
+</config>
