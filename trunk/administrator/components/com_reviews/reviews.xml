@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+  <name>Reviews</name>
+  <author>Dotcomworld</author>
+  <creationDate>February 2009</creationDate>
+  <copyright>(C) 2009</copyright>
+  <version>1.5.0</version>
+  <license>Commercial</license>
+  <description>A component for managing Airline Bookings.</description>
+  <install>
+    <sql>
+     <file driver="mysql" charset="utf8">install.mysql.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+    </sql>
+  </uninstall>
+  <files>
+    <filename>reviews.php</filename>
+    <filename>flight.php</filename>
+    <filename>return.php</filename>
+    <filename>seat.php</filename>
+	<filename>images/paypal.gif</filename>
+  </files>
+  <administration>
+    <menu>Airline Details</menu>
+	 <files folder="admin">
+      <filename>install.mysql.sql</filename>
+      <filename>uninstall.mysql.sql</filename>
+	  <filename>images/paypal.gif</filename>
+      <filename>admin.reviews.html.php</filename>
+	  <filename>upload.php</filename>
+      <filename>admin.reviews.php</filename>
+      <filename>tables/review.php</filename>
+      <filename>toolbar.reviews.html.php</filename>
+      <filename>toolbar.reviews.php</filename>
+	  <filename>deletephoto.php</filename>
+	  <filename>uploadmore.php</filename>
+    </files>
+  </administration>
+</install>

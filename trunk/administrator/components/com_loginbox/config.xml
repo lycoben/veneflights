@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+ <params>
+	 <param name="compatibility" type="radio" default="joomla" label="COMPATIBILITY" description="COMPATIBILITY DESC">
+      <option value="joomla">JOOMLA</option>
+      <option value="cb">CB</option>
+    </param>
+     
+      <param name="login_redirection_url" type="text" default="" label="LOGIN REDIRECTION URL" description="LOGIN REDIRECTION URL DESC" />    
+      <param name="signup_redirection_url" type="text" default="" label="SIGNUP REDIRECTION URL" description="SIGNUP REDIRECTION URL DESC" />         
+	 <param name="@spacer" type="spacer" />
+	 
+      <param name="width" type="text" default="400" label="LoginBox width" description="LoginBox width" /> 
+      <param name="height" type="text" default="460" label="LoginBox height" description="LoginBox height" /> 
+      
+      <param name="@spacer" type="spacer" default="" label="CSS SETTINGS" description="CSS SETTINGS" />	 
+	 
+	 <param name="css_choice" type="radio" default="default" label="CSS TO USE" description="CSS TO USE DESC">
+      <option value="default">DEFAULT STYLES</option>
+      <option value="custom">CUSTOM STYLES BELOW</option>
+    </param>
+	<param name="css" type="textarea" default="
+html { /* This is the overall color of the background inside the border */
+background-color: #2d2d2d;
+}
+
+body {/*This is the appearence the area inside the border*/
+margin: 1px; /*provides padding around the body content area*/
+background-color: none;/*This is the color of the area inside the border less the margin value above, Change this if you want yet another border, inside the other*/
+overflow: auto;/*This allows any content larger than the module to be available via a scroll bar. - this should be left as auto*/
+}
+
+a {/*This sets the look of any links*/
+text-decoration: underline !important;/*creates underlines for links such as 'Forgot Password' and 'Forgot Username' - the !important should be left or some browsers will ignore this setting*/
+color: #fff !important;/*Sets the color of the link text*/
+} 
+
+a:hover {/*This sets the appearence of links that are hovered over*/
+text-decoration: none !important;/* notice no underline here - when the link is hovered over by the mouse, the underline dissapears*/
+} 
+
+h3 {/*This is the 'title text' such as 'log in ' and 'register'*/
+font-family: Arial, Verdana, Helvetica;/* This was added to allow control over type face and size. Without this, the browser default may be used with un-predictable results*/
+font-size: 14px;/*sets this size of the text*/
+color: #b9e9c9;/*sets the color of the text*/
+}
+
+label {/*Sets appearence of labels on fields such as password, email, remember me, etc.*/
+font-family: Arial, Verdana, Helvetica;/* This was added to allow control over type face and size. Without this, the brwser default may be used with un predictable results*/
+font-weight: bold;/*makes the text bold*/
+font-size: 12px;/*Sets the size of the text*/
+color: #fff;/*sets the color of the text*/
+}
+
+.fields {/*These set the appearence of the 'fill in the blanks' areas, user names, passwords, etc*/
+margin-bottom: 3px;/*This creates space below the fields. Lowering this value make them render closer together*/
+height: auto;/*This allows the fields to render to a given height. Auto allows the browser to set the height*/
+}
+
+.contentpane/*This is a div box that contains the fields, buttons etc. Basically everything inside the border*/
+height: auto;/*This allows the box to auto fit. */
+
+#system-message {/**/
+position: absolute;/**/
+left: 20px;/**/
+}
+#system-message dt.error { /**/
+display: none; /**/
+}
+#system-message dd.error ul { /*Controls the appearence of the System messages that appear on errors. Such as login errors etc.*/
+font-family: Arial, Verdana, Helvetica;/* Allows control over type face and size. Without this, the browser default may be used with un-predictable results*/
+font-size: 14px;/*sets the size of the message text*/
+color: #c00; /**/
+background-color: #E6C0C0; /**/
+border: 3px solid #DE7A7B !important;/**/ 
+list-style: none;/**/
+padding-right: 5px;/**/
+height: 50px !important;/**/
+width: 200px;/**/
+vertical-align: middle;/**/
+}" label="CSS STYLE" description="CSS STYLE DESC" cols="50" rows="30" />
+
+<param name="@spacer" type="spacer" default="" label="CAPTCHA SETTINGS" description="CAPTCHA SETTINGS" />
+
+		<param name="enable_captcha_login" type="radio" default="1" label="ENABLE CAPTCHA LOGIN" description="ENABLE CAPTCHA LOGIN DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		
+		<param name="enable_captcha_register" type="radio" default="1" label="ENABLE CAPTCHA REGISTER" description="ENABLE CAPTCHA REGISTER DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>		
+		
+		<param name="captcha_allowed_symbols" type="text" size="50" default="23456789abcdeghkmnpqsuvxyz" label="ALLOWED CAPTCHA SYMBOLS" description="ALLOWED CAPTCHA SYMBOLS DESC" />	
+		
+		<param name="captcha_width" type="text" size="50" default="120" label="CAPTCHA WIDTH" description="CAPTCHA WIDTH DESC" />
+		<param name="captcha_height" type="text" size="50" default="60" label="CAPTCHA HEIGHT" description="CAPTCHA HEIGHT DESC" />
+
+
+		<param name="captcha_show_credits" type="radio" default="1" label="CAPTCHA SHOW CREDITS" description="CAPTCHA SHOW CREDITS DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+
+		<param name="captcha_credits" type="text" size="50" default="wowjoomla.com" label="CAPTCHA CREDITS" description="CAPTCHA CREDITS DESC" />				
+
+ </params>
+</config>

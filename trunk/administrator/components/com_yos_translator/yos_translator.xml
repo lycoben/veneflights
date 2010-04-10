@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>yos_translator</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>Oct 2008</creationDate>
+	<author>YOS Team</author>
+	<authorEmail>minhna@gmail.com</authorEmail>
+	<authorUrl>http://www.yopensource.com</authorUrl>
+	<copyright>Copyright YOS team</copyright>
+	<license>commercial</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.0.5</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>An Semi Auto Translate Program</description>
+
+	<!-- Site Main File Copy Section -->
+	<files folder="site">		
+		<filename>index.html</filename>
+	</files>
+	
+	<installfile>install/install.php</installfile>
+	<uninstallfile>install/uninstall.php</uninstallfile>
+        
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="components/com_yos_translator/assets/images/icon-16-translator.png">Yos Translator</menu>
+		<submenu>
+			<menu img="components/com_yos_translator/assets/images/icon-16-config.png" task="config">Configuration</menu>
+			<menu img="components/com_yos_translator/assets/images/icon-16-translator.png" view="contents">Contents</menu>
+			<menu view="menus">Menus</menu>
+			<menu view="modules">Modules</menu>
+			<menu view="categories">Categories</menu>
+			<menu img="components/com_yos_translator/assets/images/icon-16-info.png" task="about">About</menu>
+		</submenu>
+		
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+		<!-- Site Main File Copy Section -->
+			<filename>assets/images/icon-16-config.png</filename>
+			<filename>assets/images/icon-16-info.png</filename>
+			<filename>assets/images/icon-16-translator.png</filename>
+			<filename>assets/images/icon-32-c_translate.png</filename>
+			<filename>assets/images/icon-32-translate.png</filename>
+			<filename>assets/images/icon-48-config.png</filename>
+			<filename>assets/images/icon-48-e_translate.png</filename>
+			<filename>assets/images/icon-48-info.png</filename>
+			<filename>assets/images/icon-48-translate.png</filename>
+			<filename>assets/images/icon-128-translate.png</filename>
+			<filename>assets/images/icon-256-translator.png</filename>
+			<filename>assets/images/spinner.gif</filename>
+			<filename>assets/images/status_g.png</filename>
+			<filename>assets/images/status_r.png</filename>
+			<filename>assets/images/status_y.png</filename>
+			<filename>assets/images/success.png</filename>
+			<filename>assets/yos_translator.css</filename>
+			
+			<filename>controllers/config.php</filename>
+			<filename>controllers/contents.php</filename>
+			<filename>controllers/index.html</filename>
+			<filename>controllers/list.php</filename>
+			<filename>controllers/translateall.php</filename>
+			<filename>controllers/translateone.php</filename>
+			<filename>controllers/translatecategories.php</filename>
+			<filename>controllers/translatemenus.php</filename>
+			<filename>controllers/translatemodules.php</filename>
+			<filename>controllers/upgrade.php</filename>
+
+			<filename>install/install.php</filename>
+			<filename>install/uninstall.php</filename>
+			
+			<filename>helpers/autoupdate.php</filename>
+			<filename>helpers/index.html</filename>
+			<filename>helpers/yos_utility.php</filename>
+			<filename>helpers/translator.php</filename>
+			<filename>helpers/version.xml</filename>
+			<filename>helpers/translatetext.php</filename>
+
+			<filename>models/config.php</filename>
+			<filename>models/contents.php</filename>
+			<filename>models/content_translateall.php</filename>
+			<filename>models/content_translateone.php</filename>
+			<filename>models/index.html</filename>
+			<filename>models/version.php</filename>
+			<filename>models/categories.php</filename>
+			<filename>models/categories_translate.php</filename>
+			<filename>models/menu_translate.php</filename>
+			<filename>models/menus.php</filename>
+			<filename>models/module_translate.php</filename>
+			<filename>models/modules.php</filename>			
+
+
+
+			<filename>tables/content.php</filename>
+			<filename>tables/index.html</filename>
+			<filename>tables/jf_content.php</filename>
+			<filename>tables/jf_table_info.php</filename>
+			<filename>tables/languages.php</filename>
+			<filename>tables/categories.php</filename>
+			<filename>tables/menu.php</filename>
+			<filename>tables/modules.php</filename>
+			
+			<filename>views/about/tmpl/about.php</filename>
+			<filename>views/about/tmpl/index.html</filename>
+			<filename>views/about/index.html</filename>
+			<filename>views/about/view.html.php</filename>
+			
+			<filename>views/config/tmpl/default.php</filename>
+			<filename>views/config/tmpl/index.html</filename>
+			<filename>views/config/index.html</filename>
+			<filename>views/config/view.html.php</filename>
+			
+			<filename>views/contents/tmpl/default.php</filename>
+			<filename>views/contents/tmpl/index.html</filename>
+			<filename>views/contents/tmpl/selectlanguage.php</filename>
+			<filename>views/contents/index.html</filename>
+			<filename>views/contents/view.html.php</filename>
+			
+			<filename>views/content_translateall/tmpl/form.php</filename>
+			<filename>views/content_translateall/tmpl/index.html</filename>
+			<filename>views/content_translateall/index.html</filename>
+			<filename>views/content_translateall/view.html.php</filename>
+			
+			<filename>views/content_translateone/tmpl/form.php</filename>
+			<filename>views/content_translateone/tmpl/index.html</filename>
+			<filename>views/content_translateone/index.html</filename>
+			<filename>views/content_translateone/view.html.php</filename>
+			
+			<filename>views/cpanel/tmpl/default.php</filename>
+			<filename>views/cpanel/tmpl/index.html</filename>
+			<filename>views/cpanel/index.html</filename>
+			<filename>views/cpanel/view.html.php</filename>
+						
+			<filename>views/categories/tmpl/default.php</filename>
+			<filename>views/categories/tmpl/selectlanguage.php</filename>
+			<filename>views/categories/tmpl/index.html</filename>
+			<filename>views/categories/index.html</filename>
+			<filename>views/categories/view.html.php</filename>
+			
+			<filename>views/categories_translate/tmpl/default.php</filename>
+			<filename>views/categories_translate/tmpl/index.html</filename>
+			<filename>views/categories_translate/index.html</filename>
+			<filename>views/categories_translate/view.html.php</filename>
+	
+			<filename>views/menus/tmpl/default.php</filename>
+			<filename>views/menus/tmpl/selectlanguage.php</filename>
+			<filename>views/menus/tmpl/index.html</filename>
+			<filename>views/menus/index.html</filename>
+			<filename>views/menus/view.html.php</filename>
+
+			<filename>views/menu_translate/tmpl/default.php</filename>
+			<filename>views/menu_translate/tmpl/index.html</filename>
+			<filename>views/menu_translate/index.html</filename>
+			<filename>views/menu_translate/view.html.php</filename>
+	
+			<filename>views/modules/tmpl/default.php</filename>
+			<filename>views/modules/tmpl/selectlanguage.php</filename>
+			<filename>views/modules/tmpl/index.html</filename>
+			<filename>views/modules/index.html</filename>
+			<filename>views/modules/view.html.php</filename>
+
+			<filename>views/module_translate/tmpl/default.php</filename>
+			<filename>views/module_translate/tmpl/index.html</filename>
+			<filename>views/module_translate/index.html</filename>
+			<filename>views/module_translate/view.html.php</filename>
+
+
+			<filename>views/index.html</filename>
+			
+			<filename>admin.yos_translator.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+		</files>		
+	</administration>
+</install>

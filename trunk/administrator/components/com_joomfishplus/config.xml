@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="frontEndTranslation" type="usergroup" default="20" label="Frontend translation" description="FETRANSLATE_HELP" />
+		<param name="frontEndPublish" type="usergroup" default="21" label="Frontend publish" description="FEPUBLISH_HELP" />
+	</params>
+</config>

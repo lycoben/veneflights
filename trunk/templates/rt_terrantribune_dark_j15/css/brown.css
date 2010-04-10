@@ -1,0 +1,68 @@
+/* Brown */
+
+body.bc-brown {
+	border-top: 4px solid #C4824B;
+}
+
+.bc-brown .contentheading,
+.bc-brown #main-section a,
+.bc-brown .moduletable h3,
+.bc-brown #left-column .module h3,
+.bc-brown #right-column .module h3,
+.bc-brown #left-column .module-menu h3,
+.bc-brown #right-column .module-menu h3,
+.bc-brown #bottommodules1 .module h3,
+.bc-brown #bottommodules2 .module h3,
+.bc-brown #sub-menu a {
+	color: #C4824B;
+}
+
+.bc-brown img#logo {
+	background: url(../images/brown/logo.png) 0 0 no-repeat;
+}
+
+.bc-brown #showcase {
+	background: #9D6B42 url(../images/brown/showcase-bg.png) 0 0 no-repeat;
+}
+
+.bc-brown .showcase-div {
+	background: url(../images/brown/showcase-div.png) 0 0 repeat-x;
+}
+
+.bc-brown #showcase .column-1 {
+	border-right: 1px solid #C4824B;
+}
+
+.bc-brown #showcase a {
+	color: #F0D7C1;
+}
+
+.bc-brown #showcase ul.latestnews li {
+	background-color: #815634;
+}
+
+.bc-brown #showcase ul.latestnews li:hover {
+	background-color: #614129;
+}
+
+.bc-brown .date-block {
+	border-bottom: 1px solid #C4824B;
+}
+
+.bc-brown span.date-number {
+	background: #CC9061;
+	color: #fff;
+}
+
+.bc-brown #horiz-menu li.active a,
+.bc-brown #horiz-menu li.active .separator,
+.bc-brown #bottom-menu ul#mainlevel-bottom a#active_menu.mainlevel-bottom,
+.bc-brown #bottom-menu ul#mainlevel-bottom a.mainlevel-bottom:hover {
+	border-top: 5px solid #C4824B;
+	color: #C4824B;
+}
+
+.bc-brown #news-rotator .story {
+	border-top: 5px solid #C4824B;
+	color: #F0D7C1;
+}

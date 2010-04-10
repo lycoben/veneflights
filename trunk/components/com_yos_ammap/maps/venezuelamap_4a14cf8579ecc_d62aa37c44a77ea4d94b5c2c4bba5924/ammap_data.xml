@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map map_file="maps/venezuela.swf" tl_long="-73.398304" tl_lat="12.20165" br_long="-59.803955" br_lat="0.649072" zoom="90%" zoom_x="14.5%" zoom_y="5.92%">
+  <areas>
+    <area mc_name="VE_AMZ" title="Amazonas"></area>
+    <area mc_name="VE_ANZ" title="Anzoategui"></area>
+    <area mc_name="VE_APU" title="Apure"></area>
+    <area mc_name="VE_ARA" title="Aragua"></area>
+    <area mc_name="VE_BRN" title="Barinas"></area>
+    <area mc_name="VE_BLV" title="Bolivar"></area>
+    <area mc_name="VE_CRB" title="Carabobo"></area>
+    <area mc_name="VE_CJD" title="Cojedes"></area>
+    <area mc_name="VE_DAM" title="Delta Amacuro"></area>
+    <area mc_name="VE_DFD" title="Distrito Federal"></area>
+    <area mc_name="VE_FLC" title="Falcon"></area>
+    <area mc_name="VE_GUA" title="Guarico"></area>
+    <area mc_name="VE_LAR" title="Lara"></area>
+    <area mc_name="VE_MER" title="Merida"></area>
+    <area mc_name="VE_MRN" title="Miranda"></area>
+    <area mc_name="VE_MNG" title="Monagas"></area>
+    <area mc_name="VE_NES" title="Neuva Esparta"></area>
+    <area mc_name="VE_PRT" title="Portuguesa"></area>
+    <area mc_name="VE_SUC" title="Sucre"></area>
+    <area mc_name="VE_TCH" title="Tachira"></area>
+    <area mc_name="VE_TRJ" title="Trujillo"></area>
+    <area mc_name="VE_YRC" title="Yaracuy"></area>
+    <area mc_name="VE_ZUL" title="Zulia"></area>
+    <area mc_name="VE_DFR" title="Dependencias Federales"></area>
+  </areas>
+
+  <movies>
+    <movie title="Caracas" file="target" color="#CC0000" height="10" width="10" lat="10.53966" long="-66.930992" fixed_size="true"></movie>
+  </movies>
+
+  <labels>
+    <label x="237" y="601" text_size="18" color="#FFFFFF" remain="false">
+      <text>Venezuela States & Territories</text>
+    </label>
+  </labels>
+</map>

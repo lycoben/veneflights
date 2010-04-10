@@ -1,0 +1,3 @@
+
+if(!this.highlighters){this.highlighters={};}
+highlighters['changelog']=[[{'next':1,'regex':/[\d]{2,4}-?[\d]{2}-?[\d]{2}/g,'state':1,'style':'date'},{'regex':/(^[ \t]+)(\*)([ \t]+)((?:[^:]+\:)?)/g,'style':['normal','symbol','normal','file']},{'regex':/(^[ \t]+)((?:[^:]+\:)?)/g,'style':['normal','file']}],[{'exit':true,'regex':/$/g},{'regex':/(?:<?)[A-Za-z0-9_\.\/\-_]+@[A-Za-z0-9_\.\/\-_]+(?:>?)/g,'style':'url'},{'regex':/(?:<?)[A-Za-z0-9_]+:\/\/[A-Za-z0-9_\.\/\-_]+(?:>?)/g,'style':'url'},{'regex':/(?:[A-Za-z0-9_]|[`~!@#$%&*()_=+{}|;:",<.>\/?'\\[\]\^\-])+/g,'style':'name'}]];

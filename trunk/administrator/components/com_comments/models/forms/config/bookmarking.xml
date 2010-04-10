@@ -1,0 +1,73 @@
+<config>
+	<params>
+		<param name="enable_sharing" type="radio" default="1" label="COMMENTS_BOOKMARKS_ENABLED" description="COMMENTS_BOOKMARKS_ENABLED_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_delicious" type="list" default="1" label="COMMENTS_BOOKMARKS_DELICIOUS" description="COMMENTS_BOOKMARKS_DELICIOUS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_furl" type="list" default="1" label="COMMENTS_BOOKMARKS_FURL" description="COMMENTS_BOOKMARKS_FURL_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_yahoo" type="list" default="1" label="COMMENTS_BOOKMARKS_YAHOO" description="COMMENTS_BOOKMARKS_YAHOO_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_google" type="list" default="1" label="COMMENTS_BOOKMARKS_GOOGLE" description="COMMENTS_BOOKMARKS_GOOGLE_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_blinklist" type="list" default="1" label="COMMENTS_BOOKMARKS_BLINKLIST" description="COMMENTS_BOOKMARKS_BLINKLIST_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_magnolia" type="list" default="1" label="COMMENTS_BOOKMARKS_MAGNOLIA" description="COMMENTS_BOOKMARKS_MAGNOLIA_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_facebook" type="list" default="1" label="COMMENTS_BOOKMARKS_FACEBOOK" description="COMMENTS_BOOKMARKS_FACEBOOK_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_digg" type="list" default="1" label="COMMENTS_BOOKMARKS_DIGG" description="COMMENTS_BOOKMARKS_DIGG_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_stumbleupon" type="list" default="1" label="COMMENTS_BOOKMARKS_STUMBLEUPON" description="COMMENTS_BOOKMARKS_STUMBLEUPON_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_technorati" type="list" default="1" label="COMMENTS_BOOKMARKS_TECHNORATI" description="COMMENTS_BOOKMARKS_TECHNORATI_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_newsvine" type="list" default="1" label="COMMENTS_BOOKMARKS_NEWSVINE" description="COMMENTS_BOOKMARKS_NEWSVINE_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_reddit" type="list" default="1" label="COMMENTS_BOOKMARKS_REDDIT" description="COMMENTS_BOOKMARKS_REDDIT_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="sharing_tailrank" type="list" default="1" label="COMMENTS_BOOKMARKS_TAILRANK" description="COMMENTS_BOOKMARKS_TAILRANK_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</config>

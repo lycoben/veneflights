@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="Стилі"/>
+				<size hint="Розмір шрифта"/>
+				<font hint="Шрифт"/>
+				<bullet hint="Балончики"/>
+				<leading hint="Відступ між рядками">
+					<window>
+						<textes title="Відступ між рядками" leading="Відступ" ok="Гаразд" cancel="Відмінити"/>
+					</window>
+				</leading>
+				<copy hint="Скопіювати"/>
+				<cut hint="Вирізати"/>
+				<paste hint="Вставити"/>
+				<undo hint="Відмінити"/>
+				<redo hint="Повторити"/>
+				<bold hint="Жирний"/>
+				<italic hint="Похилий"/>
+				<underline hint="Підкреслений"/>
+				<left hint="Вирівнювати по лівому краю"/>
+				<center hint="Вирівнювати по центру"/>
+				<right hint="Вирівнювати по правому краю"/>
+				<url hint="Вставити гіперлінк">
+					<window>
+						<textes title="Гіперлінк" text="Текст:" url="URL:" target="Target:" ok="Гаразд" cancel="Відмінити" remove="Ліквідувати"/>
+					</window>
+				</url>
+				<indentDec hint="Зменьшити відступ"/>
+				<indentInc hint="Збільшити відступ"/>
+				<color hint="Коріл шрифта"/>
+				<symbols hint="Вставити символ">
+					<window>
+						<textes title="Вибір символа" ok="Закрити" insert="Вставити"/>
+					</window>
+				</symbols>
+				<html hint="Змінити тип редактування (з тагами/без тагів)"/>
+				<image hint="Вставити картинку">
+					<window>
+						<textes title="Вибір картинки" path="Шлях:" align="Вирівнювання:" url="URL:" target="Target:" id="ID:" space="Відступ:" space_v="Верт" space_h="Гориз" size="Розмір:" size_w="Ширина" size_h="Висота" ok="Гаразд" cancel="Відмінити" remove="Ліквідувати"/>
+					</window>
+				</image>
+				<about hint="Про FlashArea">
+					<window>
+						<textes title="Про FlashArea" ok="Надивився"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

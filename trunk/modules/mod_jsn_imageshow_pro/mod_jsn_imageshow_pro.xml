@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JSN ImageShow PRO</name>
+	<author>JoomlaShine.com</author>
+	<creationDate>January 2008</creationDate>
+	<copyright>(C) 2005 - 2008 JoomlaShine.com</copyright>
+	<license>This extension in released under the Commercial Proprietary License</license>
+	<authorEmail>admin@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<version>1.0.6</version>
+	<description>Version: 1.0.6. IMPORTANT! The folder "{joomla_root_folder}/modules/mod_jsn_imageshow_pro/jsn_imageshow_pro" must be WRITABLE (CHMOD 777).</description>
+	<files>
+		<filename module="mod_jsn_imageshow_pro">mod_jsn_imageshow_pro.php</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/loader.swf</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/imageshow.swf</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/swfobject.js</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/swfobject_addon.js</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/is-box.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/shadow.png</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/bamboo.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/bricks.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/clouds.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/clover.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/fabric-jeans.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/fabric-woolen.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/flowers.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/gold.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/grass.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/leather.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/marble.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/metal.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/painting-leaves.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/painting-miracle.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/screws.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/steel.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/stones.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/water.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/wooden-floor.jpg</filename>
+		<filename module="mod_jsn_imageshow_pro">jsn_imageshow_pro/images/bg/wooden-wall.jpg</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="The suffix to be added to class of slideshow's wrapper div. By default the slideshow wrapper div has class 'jsn-imageshow'. You can add any suffix string to that class for CSS styling."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="image_folder" size="75" type="text" default="/images/stories" label="Image Folder" description="The source folder containing images to be presented (starting from the Joomla root URL). JSN ImageShow is capable to scan any folder for images and add them to the slideshow. You can use either standard Joomla! Media Manager or FTP client to create folders and upload images. Once images are ready you can specify the containing folder starting from the Joomla! root URL. Supported image formats are PNG, GIF and JPG."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="width" type="text" default="100%" label="Width (px, %)" description="The width of slideshow module specified in pixels or percentage. You can specify the width of slideshow module in absolute pixels or relative percentage of module's container. If you are not sure what width value to specify, use '100%'. JSN ImageShow will resize the image to ensure the best image presentation. You don't need to bother about matching the module's width with images' width."/>
+		<param name="height" type="text" default="300" label="Height (px)" description="The height of slideshow module specified in pixels. You can specify the height of slideshow module in pixels. JSN ImageShow will resize the image to ensure the best image presentation. You don't need to bother about matching the module's height with images' height."/>
+		<param name="slide_timing" type="text" default="6" label="Slide Timing (sec)" description="The duration of each image presentation specified in seconds. You can specify the duration of each image presentation in seconds. Depending on your photos theme, you can have quick dynamic or slow smooth slideshow."/>
+		<param name="repeat_count" type="text" default="0" label="Slideshow Loop" description="The amount of slideshow loop times. You can specify how many times to loop your slideshow. Value '0' will make infinite loop. For header image presentation infinite loop works best. However, for banners presentation you might want to play slideshow only several times."/>
+		<param name="process_order" type="list" default="forward" label="Image Order" description="The order of image presentation in the slideshow. You can specify the order of image presentation in the slideshow. By default, slideshow module will conduct images list in the order of their appearance in source folder. However, you can specify reverse or random order.">
+			<option value="forward">Forward</option>
+			<option value="backward">Backward</option>
+			<option value="random">Random</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="enable_kenburns" type="radio" default="0" label="Enable 'Ken Burns' Effect" description="Definition whether to enable 'Ken Burns' effect. You can specify to enable special smooth image motion effect called Ken Burns.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="transition_timing" type="text" default="2" label="Transition Timing (sec)" description="The duration of each transition between images specified in seconds. You can specify how long does it takes to transit one image to another in your slideshow."/>
+		<param name="transition_type" type="list" default="random" label="Transition Type" description="The type of image transition. You can specify how one image will be transited to another one.">
+			<option value="none">None</option>
+			<option value="random">Random</option>
+			<option value="fade">Fade</option>
+			<option value="dim">Dim</option>
+			<option value="burn">Burn</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="motion_timing" type="text" default="3" label="Motion Timing (sec)" description="The duration of image motion in seconds. You can specify the duration of motion applied to each image in the slideshow. JSN ImageShow supports 3 type of motions: movement, zooming and rotation. All motion parameters will be specified in 3 fields 'Move Range', 'Zoom Range' and 'Rotation Range' (see further). You can apply 1 or all 3 motions at once."/>
+		<param name="motion_ease" type="list" default="Sine" label="Motion Ease" description="The ease type of image motion animation. You can specify how image motion will be animated.">
+			<option value="random">Random</option>
+			<option value="linear">Linear</option>
+			<option value="Sine">Sine</option>
+			<option value="Elastic">Elastic</option>
+			<option value="Back">Back</option>
+			<option value="Bounce">Bounce</option>
+		</param>
+		<param name="move_range" type="text" default="3" label="Move Range (%)" description="The percentage range to move image. You can specify the range in which to perform image movement. This parameter must be specified as percentage of the module's dimension. Actual movement amount and direction will be randomly counted from specified range for each image motion. Images will be automatically scaled to fit the module's boundary."/>
+		<param name="scale_range" type="text" default="15" label="Zoom Range (%)" description="The percentage range to zoom image. You can specify the range in which to perform image zooming. This parameter must be specified as an additional percentage of the module's dimension. Actual zooming amount and direction (zoom in / zoom out) will be randomly counted from specified range for each image motion. Images will be automatically scaled to fit the module's boundary."/>
+		<param name="rotation_range" type="text" default="0" label="Rotation Range (degree)" description="The degree range to rotate image. You can specify the range in which to rotate perform image rotation. This parameter must be specified as angle degree. Actual rotation amount and orientation (clockwise rotation / counterclockwise rotation) will be randomly counted for each image rotation. Images will be automatically scaled to fit the module's boundary."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="background_type" type="list" default="color" label="Background Type" description="The background type selection. You can specify numerous of slideshow background to make you slideshow have a better look. Also, since background image will be loaded and shown first, it can be used to keep your visitors from boring while they are waiting for slideshow images to be loaded.">
+			<option value="nobackground">No background</option>
+			<option value="color">Color fill</option>
+			<option value="predefined">Predefined image</option>
+			<option value="custom">Custom image</option>
+		</param>
+		<param name="background_color" type="text" default="e5e5e5" label="Background Color Fill" description="The slideshow background color when 'Background Type' parameter is set to 'Color Fill'. The color value must be specified in hex format without any prefix symbols."/>
+		<param name="background_predefined" type="list" default="" label="Background Predefined Image" description="The slideshow background image when 'Background Type' parameter is set to 'Predefined image'. You can specify 1 of numerous predefined background images. All background images are smoothly tiled so will look perfectly with any module's dimension.">
+			<option value="wooden-floor.jpg">Wooden floor</option>
+			<option value="wooden-wall.jpg">Wooden wall</option>
+			<option value="bamboo.jpg">Bamboo</option>
+			<option value="bricks.jpg">Bricks</option>
+			<option value="stones.jpg">Stones</option>
+			<option value="marble.jpg">Marble</option>
+			<option value="water.jpg">Water</option>
+			<option value="clouds.jpg">Clouds</option>
+			<option value="fabric-jeans.jpg">Jeans fabric</option>
+			<option value="fabric-woolen.jpg">Woolen fabric</option>
+			<option value="clover.jpg">Clover</option>
+			<option value="grass.jpg">Grass field</option>
+			<option value="flowers.jpg">Flowers field</option>
+			<option value="metal.jpg">Metal plate</option>
+			<option value="gold.jpg">Golden plate</option>
+			<option value="steel.jpg">Steel plate</option>
+			<option value="screws.jpg">Screws</option>
+			<option value="leather.jpg">Black leather</option>
+			<option value="painting-leaves.jpg">Leaves painting</option>
+			<option value="painting-miracle.jpg">Miracle painting</option>
+		</param>
+		<param name="background_custom" size="75" type="text" default="/images/stories/background-image.jpg" label="Background Custom Image" description="The slideshow background image when 'Background Type' parameters is set to 'Custom image'. You can apply your own image to the background slideshow by specifying path to that image starting from Joomla! Root URL."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_shadow" type="radio" default="0" label="Show Inner Shadow" description="Definition whether to show inner shadow around the module's boundary. You can add surrounding inner shadow to create the feeling that images are located under the webpage.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_progress" type="radio" default="1" label="Show Progress Bar" description="Definition whether to show the progress bar indicating image loading process. You can specify to show the progress bar indicating image loading process during the slideshow. The progress bar will have the same width as the slideshow module and be place opposite the slideshow caption (see later about caption).">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_overlay_effect" type="radio" default="0" label="Show Overlay Effect" description="Definition whether to show overlay effect or not. You can add overlay effects to make your slideshow more lively and stunning. There is numbers of preinstalled overlay effects for you to choose and the more will come in the future. See section 'Overlay effect' bellow for details.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="overlay_effect_predefined" type="list" default="winter_snow" label="Overlay Effect" description="The overlay effect to be applied to the slideshow. You can choose one of numerous preinstalled overlay effects to suite your slideshow theme best.">
+			<option value="winter_snow">Winter snow</option>
+			<option value="autumn_leaves">Autumn leaves</option>
+			<option value="spring_rain">Spring rain</option>
+			<option value="summer_flowers">Summer flowers</option>
+			<option value="aquarium_bubbles">Aquarium bubbles</option>
+			<option value="love_hearts">Love hearts</option>
+			<option value="spark_fall">Spark Fall</option>
+			<option value="star_fly">Star Fly</option>
+			<option value="magic_field">Magic Field</option>
+			<option value="floating_bars_h">Floating Bars (Horizontal)</option>
+			<option value="floating_bars_v">Floating Bars (Vertical)</option>
+			<option value="old_movie">Old Movie</option>
+		</param>
+		<param name="show_overlay_image" type="radio" default="0" label="Show Overlay Image" description="Definition whether to show overlay image or not. You can use any image as an overlay image and place it wherever you like inside the slideshow area. Overlay image will stand above all slideshow images so you can use it as a watermark or additional decoration to your slideshow.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="overlay_image_path" size="75" type="text" default="/images/stories/overlay-image.png" label="Overlay Image Path" description="The path to overlay image file starting from Joomla! root URL. You can use any image of supported formats PNG, GIF and JPG."/>
+		<param name="overlay_image_opacity" type="text" default="75" label="Overlay Image Opacity (%)" description="The opacity of overlay image specified in percents. You can specify any opacity value for your overlay image in the range 0% - 100%."/>
+		<param name="overlay_image_position" type="text" default="100,100" label="Overlay Image Position (X,Y)" description="The position of overlay image specified in pixels. You can place your overlay image wherever you like inside the slideshow area. Position values are counted as distance from Top Left corner of the slideshow area to Top Left corner of the overlay image. Horizontal value (X axis) and Vertical value (Y axis) must be separated by comma."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_caption" type="radio" default="1" label="Show Caption" description="Definition whether to show caption or not. You can specify to show caption for your slideshow. You have full control under what text to present and how to show it. This feature is useful when you are using JSN ImageShow as a header image module.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="caption_source" type="list" default="page_title" label="Caption Source" description="The text source for caption. You can use one of predefined text source or your own text for caption.">
+			<option value="page_title">Page title</option>
+			<option value="site_name">Site name</option>
+			<option value="custom_text">Custom text</option>
+		</param>
+		<param name="caption_custom" type="text" size="75" default="" label="Caption Custom Text" description="The custom user defined text to be used as caption. You can specify your own custom text for caption. Since caption will be presented in single line, it's recommended for you to specify text with appropriate length. This parameter has effects only when 'Caption Source' field is set to 'Custom Text'."/>
+		<param name="caption_font" type="list" default="Arial" label="Caption Font" description="The display font of caption. You can specify one of 3 standard fonts for caption. These fonts are installed on almost every modern computer so you don't need to worry about incompatibility. For the best presentation you should choose the same font that is used in your Joomla! template.">
+			<option value="Arial">Arial</option>
+			<option value="Verdana">Verdana</option>
+			<option value="Times New Roman">Times New Roman</option>
+		</param>
+		<param name="caption_size" type="text" default="12" label="Caption Size" description="The size of caption font specified in points. You can specify the font size of caption text. Since caption will be presented in single line it's recommended for you to choose font size depend on the caption length. The longer the caption length, the smaller it's font size."/>
+		<param name="caption_color" type="text" default="FFFFFF" label="Caption Color" description="The color of caption text specified in hex code format. You can specify any color for your caption text. Since caption text is standing on the background bar it's recommended to choose color with high contrast compared to that of background bar."/>
+		<param name="caption_alignment" type="list" default="left" label="Caption Alignment" description="The horizontal alignment of caption text. You can specify how to align your caption text.">
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="caption_position" type="list" default="bottom" label="Caption Position" description="The vertical position of caption with background. You can specify the caption to be shown on top or bottom of the slideshow area.">
+			<option value="top">Top</option>
+			<option value="bottom">Bottom</option>
+		</param>
+		<param name="caption_padding" type="text" default="6,10" label="Caption Padding (ver,hor)(px)" description="The padding space surrounding caption text specified in pixels. You can specify vertical and horizontal padding space separated by comma."/>
+		<param name="caption_bg_opacity" type="text" default="50" label="Caption Background Opacity (%)" description="The opacity level of caption background. You can specify any opacity value for your caption background in the range 0% - 100%."/>
+		<param name="caption_bg_color" type="text" default="000000" label="Caption Background Color" description="The color of caption background specified in hex code format. You can specify any color for your caption background by using hex code format. It's recommended to choose color with high contrast compared to that of caption text."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="enable_link" type="radio" default="1" label="Enable Image Link" description="Definition whether to assign link to slideshow images. You can specify any link to slideshow images. This can be useful when you have special image slideshow for some article and want visitors to go to that article when they click to slideshow image.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="link_url" size="75" type="text" default="" label="Image Link URL" description="The link URL where to redirect visitors when they click on slideshow image. You can specify any absolute link URL starting from http://"/>
+		<param name="link_open" type="list" default="_blank" label="Open Link Type" description="Definition how to open image link URL. You can specify how to open image link.">
+			<option value="_blank">New browser</option>
+			<option value="_self">Current browser</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="enable_alternative" type="radio" default="0" label="Enable Alternative Content" description="Definition whether to enable alternative content. You can specify the alternative content of your image slideshow to be shown to search engines' bots and screen readers. This feature allows you to have both stunning image slideshow for human and alternative content for machines at one time.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="display_alternative" type="radio" default="0" label="Display Alternative Content" description="Definition whether to display alternative content. In most cases you might want to make alternative content visible for visitors. But if it's necessary you can make it visible only for machines and invisible for visitors.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="alternative_type" type="list" default="text" label="Alternative Content Type" description="Definition the alternative type to be displayed shown for search engines and screen readers. For simple alternative content you can show your custom text string. For complicated alternative content you can show single module or multiple modules from certain module position.">
+			<option value="text">Custom Text</option>
+			<option value="module">Module ID</option>
+			<option value="position">Position Name</option>
+		</param>
+		<param name="alternative_param" size="75" type="text" default="" label="Alternative Content Parameter" description="The value set in accordance with parameter Alternative Content Type above."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="load_swfobject" type="radio" default="1" label="Load SWFObject Library" description="Definiton whether to load javascript library 'SWFOject' for swf file presentation. For proper module functioning 'SWFObject' javascript library must be loaded. However, this library is very popular and it might be already loaded by current template or other modules. If so, it's not necessary to reload it here.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</install>

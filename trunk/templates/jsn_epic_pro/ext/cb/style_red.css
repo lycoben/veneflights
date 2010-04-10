@@ -1,0 +1,33 @@
+
+/********************************************************************
+ * EXTENDED CSS FILE for COMMUNITY BUILDER
+ * ----------------------------------------------------------------
+ * Copyright (C) 2006 - 2008 JoomlaShine.com. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: JoomlaShine.com
+ * Websites:  http://www.joomlashine.com
+*********************************************************************/
+
+
+/* CB Menu */
+
+#jsn-master ul.cbSSmenu a:link,
+#jsn-master ul.cbSSmenu a:visited {
+	border-top-color: #993636;
+	border-bottom-color: #401616;
+	border-left-color: #401616;
+	background-color: #732828;
+	color: #e5cfcf;
+}
+
+#jsn-master ul.cbSSmenu a:hover {
+	border-top-color: #591f1f;
+	background-color: #591f1f;
+}
+
+
+/* CB Info Panel */
+
+#jsn-master table.cb-tips-bg {
+	background-color: #993636;
+}

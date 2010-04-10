@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+* Joomla Community Builder User Plugin: plug_cbautowelcome
+* @version $Id$
+* @package plug_cbautowelcome
+* @subpackage cb.autowelcome.xml
+* @author Nick A. (aka nant)
+* @copyright (C) Nant, JoomlaJoe and Beat, www.joomlapolis.com
+* @license Limited  http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* @final 1.2 RC
+*/
+-->
+<cbinstall version="1.0.3" type="plugin" group="user">
+	<name>CB Auto Welcome</name>
+	<author>Nick A. (aka nant)</author>
+	<creationDate>13 Jun 2008</creationDate>
+	<copyright>(C) 2006,2007,2008 joomlapolis.com</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>nant@joomlapolis.com</authorEmail>
+	<authorUrl>www.joomlapolis.com</authorUrl>
+	<version>1.2 RC</version>
+	<description>
+		Ver. 1.2 RC2 (13-Jun-2008) - Sends each newly registered and approved user personalized welcome message(s) via CB supported PMS component and/or Email.
+		Can also automatically create a connection request to or from one or more prespecified key users.
+		Created by Nant - member of the CB Core Team over at joomlapolis.com !
+		For support forum visit www.joomlapolis.com - there is a dedicated forum area.
+		This work (estimated effort 1 man-months, including research, design, implementation and testing) has been released free of charged. 
+		The author also encourages website administrators to support further development of CB Team released plugins by subscribing 
+		to the yearly documentation service (described here: http://www.joomlapolis.com/content/view/2542/37/). Even Free Beer requires some effort!
+	</description>
+	<files>
+		<filename plugin="cb.autowelcome">cb.autowelcome.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<params>
+		<param name="@spacer" type="spacer" default="This plugin was created by Nick A. with the (much needed) support of Beat." label="Credits:" description="" />
+		<param name="@spacer" type="spacer" default="This plugin is distributed under a limited GNU/GPL license and cannot be modified to work with anything else outside of the Community Builder suite supported by the Joomlapolis.com site" label="License:" description="" />
+		<param name="awAutoMessageEnable" type="radio" default="1" label="Automatic Welcome Message" description="Specify Yes to automatically send a welcome message each new member.">
+			        <option value="0">No</option>
+			        <option value="1">Yes</option>
+		</param>
+		<param name="awMessageMethod" type="radio" default="0" label="Notification Method" description="Select the appropriate notification method to use.">
+			        <option value="0">PMS only</option>
+			        <option value="1">Email only</option>
+			        <option value="2">PMS and Email</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="awPMSMessageSubject" 
+			type="text" 
+			default="Welcome Aboard [Name]!" 
+			label="PMS Welcome Subject" 
+			description="Welcome message subject to use in the PMS delivery. You can use [cbfieldnames] just like in CB."/>
+		<param name="awPMSMessageBody" 
+			type="textarea" 
+			cols="30" 
+			rows="5" 
+			default="Hello [NAME], Welcome to our site!" 
+			label="PMS Welcome Body" 
+			description="Body of Welcome PMS message to send. You can use [cbfieldnames] just like in CB."/>
+		<param name="awPMSFromUserId" 
+			type="text" 
+			default="62" 
+			label="PMS Sender Id" 
+			description="The userid of the sender to be used in case of PM systems (default 62 for admin user)."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="awEMAILMessageSubject" 
+			type="text" 
+			default="Welcome Aboard [NAME]!" 
+			label="EMAIL Welcome Subject" 
+			description="Welcome message subject to use in auto-welcome email. You can use [cbfieldnames] just like in CB."/>
+		<param name="awEMAILMessageBody" 
+			type="textarea" 
+			cols="30" 
+			rows="5" 
+			default="Hello [NAME], Welcome to our site!" 
+			label="EMAIL Welcome Body" 
+			description="Body of auto-welcome email message. You can use [cbfieldnames] just like in CB."/>
+		<param name="awEMAILFromUserId" 
+			type="text" 
+			default="62" 
+			label="EMAIL Sender Id" 
+			description="The userid of the sender - to be used as the sender (default 62 for admin - use 0 for system message)"/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="awAutoConnectEnable" 
+			type="radio" 
+			default="0" 
+			label="Automatic Connection to key user" 
+			description="Specify Yes to connect new users to key user.">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+		</param>
+		<param name="awAutoConnectDirection" 
+			type="radio" 
+			default="0" 
+			label="Direction of Connection request" 
+			description="Specify direction of automatic connection request.">
+				<option value="0">New user requests</option>
+				<option value="1">Key user requests</option>
+		</param>
+		<param name="awConnectMessage" 
+			type="textarea" 
+			cols="30" 
+			rows="5" 
+			default="Automatic Connection Request!" 
+			label="Connection Request Message" 
+			description="Message to send new user (or key user-s) when requesting automatic connection."/>
+		<param name="awKeyUserId" 
+			type="text" 
+			default="62" 
+			label="Key User Ids" 
+			description="The userids to connect with the new user (default 62 for admin, multiple userids comma separated)."/>
+	</params>
+	<tabs>
+	</tabs>
+	<install>
+	</install>
+	    	<queries>
+    		</queries>	
+	<uninstall>
+	    	<queries>
+    		</queries>
+	</uninstall>
+	<database>
+	</database>
+
+</cbinstall>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>		
+        <param name="licence" type="text" default="" label="License Update" description="Input your license" size="50" />
+        <param name="notranslate" type="text" default="" label="Notranslate Configuration" description="Notranslate tag Config. Ex:{yourtext},{/yourtext};{,};[,]" size="50" />
+	</params>
+</config>

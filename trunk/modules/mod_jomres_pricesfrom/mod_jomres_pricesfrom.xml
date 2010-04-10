@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Jomres Prices from</name>
+	<creationDate>February 2008</creationDate>
+	<copyright>(C) 2008 Vince Wooll</copyright>
+	<license>http://www.jomres.net</license>
+	<authorEmail>support@jomres.net</authorEmail>
+	<authorUrl>http://www.jomres.net</authorUrl>
+	<version>2</version>
+	<description>Shows the lower and upper prices for a property. Note these figures are only available when on the viewproperty or dobooking pages of a property.</description>
+	<files>
+		<filename module="mod_jomres_pricesfrom">mod_jomres_pricesfrom.php</filename>
+		<filename module="mod_jomres_pricesfrom">mod_jomres_pricesfrom.xml</filename>
+	</files>
+  <params name="" description="">
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+    <param name="mosres_pf_roomsfrom" type="text" default="Rooms from " label="Before prices text" description="Enter text that goes at the beginning of the prices statement " />
+    <param name="mosres_pf_roomsto"   type="text" default=" to "   		label="Between prices text" description="Enter text that goes between the lower and upper prices " />
+    <param name="mosres_pf_pernight"  type="text" default=" per night"  label="After prices text" description="Enter text that goes after the prices" />
+    <param name="mosres_pf_currency"  type="text" default=""     label="Currency symbol" description="Enter the currency symbol" />
+  </params>	
+</install>

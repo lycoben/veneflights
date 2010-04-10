@@ -1,0 +1,546 @@
+/* *******************************************************************
+/* Title          udde Instant Messages (uddeIM)
+/* Description    Instant Messages System for Mambo 4.5.X/Joomla 1.0.X
+/* Author         Benjamin Zweifel
+/* Version        0.5b
+/* as of          2005/12/09
+/* Contact        uddeim@yahoo.com
+/* Copyright      © by mono, Benjamin Zweifel
+/* License        This is free software and you may redistribute it under the GPL.
+/*                uddeIM comes with absolutely no warranty. For details, see the license at
+/*                http://www.gnu.org/licenses/gpl.txt
+/* *******************************************************************
+/* This is the CSS file for the 'monogram' template
+/* ******************************************************************* */
+
+/* Main container uddeim */
+
+#uddeim img, #uddeim a img { 
+	border: none; 
+}
+
+#uddeim {
+	color: #000000;
+	font-family : sans-serif;
+	font-family: Arial, Helv, Helvetica, "MS Sans Serif", "Sans Serif";	
+	padding: 0px 0px 8px 0px;
+	background: none;
+	-moz-border-radius: 15px;
+}
+
+#uddeim a {
+	color: #FF5A00;	
+	text-decoration: underline;
+}
+
+#uddeim a:hover {
+	text-decoration: none;
+}
+
+
+
+/* Topborder */
+
+
+/* Contentheading, headline */
+
+#uddeim div.contentheading {
+	padding: 10px;
+	border: none;
+}
+
+
+
+
+/* Navigation */
+
+#uddeim-navbar2 {
+	background-color: #4F89D2;
+	padding: 8px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+}
+
+li.uddeim-activemenu {
+	color: #545C66;
+}
+
+#uddeim-navbar2 ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#uddeim-navbar2 ul li {
+	display: inline;
+	margin-right: 7px;
+	font-weight: bold;
+	background: none;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+#uddeim-navbar2 li a {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#uddeim-navbar2 li a:hover {
+	color: #DFE5EC;
+	text-decoration: none;
+}
+
+#uddeim-navbar2 ul li img {
+	margin-right: 3px;
+	margin-bottom: -4px;
+}
+
+
+
+
+/* Everything BETWEEN navigation and bottomborder is wrapped by uddeim-m */
+
+#uddeim-m {
+	background-color: #ECF0F4; 
+	margin: 0;
+	padding: 10px;
+}
+
+
+
+
+
+/* Toplines * (within uddeim-m) */
+
+#uddeim-toplines {
+	font-size: 	11px;
+	padding: 8px;
+}
+
+#uddeim-toplines p {
+	font-size: 	11px;
+	color: #000000;	
+}
+
+
+
+
+/* Overview: Lists (inbox, outbox, trash, archive) */
+
+#uddeim-overview {
+	padding: 8px 8px 0px 8px;
+	/* width: 100%; */
+}
+
+#uddeim-overview table {
+	border: 1px solid #CCCCCC; 
+	border-collapse: collapse; 
+	border-spacing: none;
+}
+
+#uddeim-overview td {
+	border: 1px solid #CCCCCC; 
+	border-collapse: collapse; 
+	border-spacing: none;
+}
+
+#uddeim-overview .sectiontableheader {
+	color: #646E7B;
+	background-color: #D0DCE7;
+	padding: 3px 3px 0 3px;
+	font-weight: normal;
+}
+
+#uddeim-overview .sectiontableentry1 a,
+#uddeim-overview .sectiontableentry2 a  {
+	text-decoration: none;
+	color: #4F89D2;
+}
+
+#uddeim-overview .sectiontableentry1 a:hover,
+#uddeim-overview .sectiontableentry2 a:hover {
+	text-decoration: underline;
+	color: #5FA4FB;
+}
+
+
+#uddeim-overview .sectiontableentry1 td {
+	background-color: #EEEEEE;
+	color: #000000;	
+	padding: 3px;	
+}
+
+#uddeim-overview .sectiontableentry2 td {
+	background-color: #F7F7F7;
+	color: #000000;	
+	padding: 3px;	
+}
+
+
+
+/* Page Navigation (below lists) */
+
+#uddeim-pagenav {
+	font-size: 10px;
+	text-align: right;
+	margin-top: 1px;
+        padding: 1px 5px 1px 5px;
+        line-height: 20px;
+        border: 1px solid #eee;
+}
+
+#uddeim-pagenav .pagenav {
+	color: #000000;
+	background: none;
+        border: none;
+	padding: 2px;
+	background-color: #e0e0e0;
+}
+
+div#uddeim-pagenav a.pagenav {
+	color: #545C66;
+	background: none;
+	text-decoration: none;
+        border: none;
+	padding: 2px;
+	background-color: #e0e0e0;
+	
+}
+
+#uddeim-pagenav a.pagenav:hover {
+	text-decoration: underline;
+}
+
+
+
+/* Message Display */
+/* Header */
+
+div.uddeim-messageheader {
+	position: relative;
+	-moz-border-radius: 10px;
+	padding: 10px;
+	margin: 0 0 10px 0;
+	background: #EAEAEA;
+	border: 1px solid #C5C5C5;
+}
+
+table.innermost {
+	background: none;
+	border: none;
+	border-spacing: 5px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.uddeim-messageheader img.uddeim-tn {
+	display: table-cell;
+	float: left;
+}
+
+div.uddeim-messageheader div.uddeim-messagefrom {
+	float: left;
+	vertical-align: top;
+	margin-left: 10px;
+	color: #000000;	
+}
+
+#uddeim-m div.uddeim-messageheader div.uddeim-messagefrom a {
+	color: #F23F00;
+}
+
+div.uddeim-messageheader ul {
+	position: relative;
+	top: 0px;
+	right: 10px;
+	list-style: none;
+}
+
+div.uddeim-messageheader li {
+	background: url("../../../../../components/com_uddeim/templates/monorange/images/icon_delete.gif") no-repeat 0px 5px;
+	padding-left: 15px;
+}
+
+div.uddeim-messageheader  li.uddeim-messageactionlink-delete {
+	background-image: url("../../../../../components/com_uddeim/templates/monorange/images/icon_delete.gif");
+}
+
+div.uddeim-messageheader  li.uddeim-messageactionlink-block {
+	background-image: url("../../../../../components/com_uddeim/templates/monorange/images/icon_block.gif");
+}
+
+div.uddeim-messageheader  li.uddeim-messageactionlink-archive {
+	background-image: url("../../../../../components/com_uddeim/templates/monorange/images/icon_archive.gif");
+}
+
+#uddeim-m div.uddeim-messageheader li a {
+	color: #808080;
+}
+
+#uddeim-m div.uddeim-messageheader li a:hover, #uddeim-m div.uddeim-messageheader div.uddeim-messagefrom a:hover {
+	color: #9F9F9F;
+	text-decoration: underline;
+}
+
+span.uddeim-clear {
+	clear: both;
+	display: block;
+}
+
+
+
+/* Message Display */
+/* Body */
+
+div.uddeim-messagebody {
+/*	clear: both; */
+	background: #ffffff;
+	border: 1px solid #C0C0C0;
+	padding: 10px;
+	font-size: 1.1em;
+	-moz-border-radius: 10px;
+	color: #000000;	
+}
+
+
+div.uddeim-replyquote {
+	font-size: 0.9em;
+	padding-left: 8px;
+	margin-top: 8px;
+	border-left: 1px solid grey;
+}
+
+
+
+/* Compose, Writeform */
+
+#uddeim-writeform {
+	padding: 10px 8px 0px 8px;
+}
+
+#uddeim-connectionlist ul {
+	margin: 0px;
+	padding: 0px 5px 0px 5px;
+}
+
+#uddeim-connectionlist ul li {
+	display: inline;
+	background: none;
+	margin: 0px;
+	padding: 0px 5px 0px 0px;
+}
+
+#uddeim-writeform textarea {
+	font-size: 11px;
+	width: 450px;
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #cccccc;
+}
+
+#uddeim-writeform input {
+	font-family: Arial, Helv, Helvetica, "MS Sans Serif", "Sans Serif";
+	font-size: 12px;
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #cccccc;
+}
+
+#uddeim-writeform input:hover {
+	color		: #777;
+	background-color: #ffffe0;
+	border		: 1px solid #ccc;
+}
+
+#uddeim-writeform input#input_to_name {
+	width: 200px;
+}
+
+#uddeim-writeform input.button {
+	font-family: Arial, Helv, Helvetica, "MS Sans Serif", "Sans Serif";
+	font-size: 11px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-image: url("../../../../../components/com_uddeim/templates/monorange/images/butonb.gif") no-repeat bottom right;
+	border: 1px solid #808080;
+}
+
+#uddeim-bbemobox table {
+	width: 300px;
+	margin-bottom: 8px;
+	background: #F5F5F5;
+	border: 1px solid #eee;
+}
+
+#uddeim-smileybox table {
+	width: 450px;
+	margin-bottom: 8px;
+	background: #F5F5F5;
+	border: 1px solid #bbb;
+}
+
+.uddeim-sendoption {
+	font-size: 	11px;
+}
+
+
+/* Settings page */
+
+#uddeim-set-emn {
+	padding: 8px 8px 8px 15px;
+	background: #EEEEEE;
+	border: 1px solid #C5C5C5;	
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#uddeim-set-emn h4 {
+	margin-top: 8px;
+}
+
+#uddeim-set-emn h4 {
+	margin-top: 8px;
+}
+
+.uddeim-set-block {
+	padding: 8px;
+	padding-left: 15px;
+	margin-top: 15px;
+	background: #EEEEEE;
+	border: 1px solid #C5C5C5;	
+}
+
+.uddeim-set-block div#uddeim-overview {
+	padding: 0px;
+}
+
+/* Settings: Popup */
+
+#uddeim-set-popup {
+	padding: 8px 8px 8px 15px;
+	border: 1px solid #C5C5C5;	
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#uddeim-set-popup h4 {
+	margin-top: 8px;
+}
+
+#uddeim-set-popup h4 {
+	margin-top: 8px;
+}
+
+/* Settings: Sound */
+
+#uddeim-set-sound {
+	padding: 8px 8px 8px 15px;
+	border: 1px solid #C5C5C5;	
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#uddeim-set-sound h4 {
+	margin-top: 8px;
+}
+
+#uddeim-set-sound h4 {
+	margin-top: 8px;
+}
+
+
+
+/* Bottomlines (within uddeim-m) */
+
+#uddeim-bottomlines {
+	margin-top: 	10px;
+	font-size: 	10px;
+	padding: 0px 8px 8px 8px;
+	color: #666666;
+	line-height: 1.2em;
+}
+
+#uddeim-bottomlines p {
+	font-size: 	11px;
+}
+
+
+
+
+
+
+
+/* Bottomborder */
+
+
+#uddeim-bottomborder {
+	background: #F5F5F5;
+	padding: 10px;
+}
+
+.uddeim-bottomborder a {
+}
+
+#uddeim-bottomborder a {
+	color: #ff5500;
+	font-weight: normal;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+#uddeim-bottomborder a:hover {
+	color: #ffff00;
+	text-decoration: none;
+}
+
+.uddeim-limit-bb {
+	text-align: right;
+	margin-left: 15px;
+}
+
+
+
+
+
+/* Others */
+
+.uddeim-warning {
+	background-color: #993333;
+	color: 			#ffffff;
+	padding: 		10px;
+}
+
+
+
+
+
+/* System message */
+
+#uddeim-message {
+	margin-top: 	8px;
+	padding: 8px;
+}
+
+
+#uddeim-message table {
+	border: 1px solid green;
+	border-spacing: 10px;
+}
+
+#uddeim-message .sectiontableentry1 td {
+	background-color: #ffe0e0;
+	padding-bottom: 8px;
+}
+
+#uddeim-message .sectiontableentry1 td img {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+#uddeim-message .sectiontableentry2 td {
+	background-color: #ffffff;
+	color: #000000;	
+	border: 1px solid #c0c0c0;
+	padding: 15px;
+	font-size: 12px;
+}

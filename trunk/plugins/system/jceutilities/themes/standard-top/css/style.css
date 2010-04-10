@@ -1,0 +1,57 @@
+/* Standard Template */
+#jcepopup-container {
+	background-color: #ffffff;
+}
+#jcepopup-loader {
+	background: #ffffff url(../img/loader.gif) center no-repeat;
+}
+#jcepopup-information {}
+#jcepopup-close {
+	width: 20px;
+	height: 20px;
+	background: #cccccc url(../img/close.png) no-repeat;
+	top: 10px;
+	right: 10px;
+	float: right;
+	position: relative;
+	border: none;
+}
+#jcepopup-content {
+	padding-bottom: 10px;
+}
+#jcepopup-close:hover {
+	background-color: #333333;
+}
+#jcepopup-navigation {
+	line-height: 20px;
+	padding: 10px;
+}
+#jcepopup-previous, #jcepopup-next {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border: none;
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+}
+#jcepopup-previous:hover, #jcepopup-next:hover {
+	background-color: #333333;
+}
+#jcepopup-previous {
+	background-image: url(../img/prev.png);
+	left: 10px;
+}
+#jcepopup-next {
+	background-image: url(../img/next.png);
+	right: 10px;
+}
+#jcepopup-numbers {
+	text-align: center;
+	display: block;
+}
+#jcepopup-caption {
+	padding: 5px 10px;
+	min-height: 5px;
+}
+#jcepopup-caption h4 {}
+#jcepopup-caption p {}

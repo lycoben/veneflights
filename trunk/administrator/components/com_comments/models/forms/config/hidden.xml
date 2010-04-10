@@ -1,0 +1,6 @@
+<config>
+	<params>
+		<param name="hidewarning_gd" type="hidden" default="0" />
+		<param name="hidewarning_captcha_folder" type="hidden" default="0" />
+	</params>
+</config>

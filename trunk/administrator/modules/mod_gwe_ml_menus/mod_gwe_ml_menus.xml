@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" client="administrator"  version="1.5.0" position="status">
+	<name>Multilingual Menu Manipulation</name>
+	<author>Geraint Edwards</author>
+	<creationDate>June 2008</creationDate>
+	<copyright>(C) 2008 GWE Systems Ltd. All rights reserved.</copyright>
+	<license>Open Source License, GPL v2 based</license>
+	<authorUrl>www.gwesystems.com</authorUrl>
+	<version>1.0.0</version>
+	<position published='1'>header</position>
+	<description>
+  <![CDATA[This module magically transforms Joomla menus into language/locale aware menus]]>
+  </description>
+	<files>
+		<filename module="mod_gwe_ml_menus">mod_gwe_ml_menus.php</filename>
+	</files>
+	<params/>
+</install>

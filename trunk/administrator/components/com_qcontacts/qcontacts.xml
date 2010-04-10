@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install method="upgrade" type="component" version="1.5.0">
+	<name>QContacts</name>
+	<author>Massimo Giagnoni</author>
+	<authorEmail>info@latenight-coding.com</authorEmail>
+	<authorUrl>www.latenight-coding.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. Copyright (C) 2008 Massimo Giagnoni. All rights reserved.</copyright>
+	<creationDate>July 2008</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorUrl>www.joomla.org - www.latenight-coding.com</authorUrl>
+	<version>1.0.3</version>
+	<description>A contact manager component. Displays a list of contacts with various informations and a mail-to form.</description>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+			<file driver="mysql">install.nonutf8.sql</file>
+		</sql>
+	</install>
+	<files folder="site">
+	<filename>qcontacts.php</filename>
+	<filename>controller.php</filename>
+	<filename>metadata.xml</filename>
+	<filename>router.php</filename>
+	<filename>index.html</filename>
+	<filename>controllers/index.html</filename>
+	<filename>controllers/captcha.php</filename>
+	<filename>controllers/vcard.php</filename>
+	<filename>css/qcontacts.css</filename>
+	<filename>css/index.html</filename>
+	<filename>includes/index.html</filename>
+	<filename>includes/securimage/index.html</filename>
+	<filename>includes/securimage/securimage.php</filename>
+	<filename>includes/securimage/elephant.ttf</filename>
+	<filename>models/category.php</filename>
+	<filename>models/contact.php</filename>
+	<filename>models/index.html</filename>
+	<filename>views/category/view.html.php</filename>
+	<filename>views/category/view.feed.php</filename>
+	<filename>views/category/metadata.xml</filename>
+	<filename>views/category/index.html</filename>
+	<filename>views/category/tmpl/default.php</filename>
+	<filename>views/category/tmpl/default.xml</filename>
+	<filename>views/category/tmpl/default_items.php</filename>
+	<filename>views/category/tmpl/index.html</filename>
+	<filename>views/contact/view.html.php</filename>
+	<filename>views/contact/metadata.xml</filename>
+	<filename>views/contact/index.html</filename>
+	<filename>views/contact/tmpl/default.php</filename>
+	<filename>views/contact/tmpl/default.xml</filename>
+	<filename>views/contact/tmpl/default_address.php</filename>
+	<filename>views/contact/tmpl/default_form.php</filename>
+	<filename>views/contact/tmpl/index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">languages/site/en-GB.com_qcontacts.ini</language>
+	</languages>
+	<installfile>install.qcontacts.php</installfile>
+	<administration>
+		<menu>QContacts</menu>
+		<submenu>
+		<menu img="" link="option=com_qcontacts">Contacts</menu>
+		<menu img="" link="option=com_categories&amp;section=com_qcontacts_details">Categories</menu>
+		<menu img="" link="option=com_qcontacts&amp;controller=tools">Tools</menu>
+		</submenu>
+			<files folder="admin">
+				<filename>admin.qcontacts.php</filename>
+				<filename>controller.php</filename>
+				<filename>install.qcontacts.php</filename>
+				<filename>qcontacts_cfg.xml</filename>
+				<filename>contact_items.xml</filename>
+				<filename>controllers/contact.php</filename>
+				<filename>controllers/tools.php</filename>
+				<filename>controllers/index.html</filename>
+				<filename>models/qcontacts.php</filename>
+				<filename>models/contact.php</filename>
+				<filename>models/tools.php</filename>
+				<filename>models/index.html</filename>
+				<filename>views/qcontacts/view.html.php</filename>
+				<filename>views/qcontacts/index.html</filename>
+				<filename>views/qcontacts/tmpl/default.php</filename>
+				<filename>views/qcontacts/tmpl/index.html</filename>
+				<filename>views/contact/view.html.php</filename>
+				<filename>views/contact/index.html</filename>
+				<filename>views/contact/tmpl/form.php</filename>
+				<filename>views/contact/tmpl/index.html</filename>
+				<filename>views/tools/view.html.php</filename>
+				<filename>views/tools/index.html</filename>
+				<filename>views/tools/tmpl/default.php</filename>
+				<filename>views/tools/tmpl/index.html</filename>
+				<filename>elements/contact.php</filename>
+				<filename>elements/index.html</filename>
+				<filename>helpers/vcard.php</filename>
+				<filename>helpers/index.html</filename>
+				<filename>tables/contact.php</filename>
+				<filename>tables/index.html</filename>
+				<filename>install.sql</filename>
+				<filename>install.nonutf8.sql</filename>
+				<filename>images/skype.png</filename>
+				<filename>images/yahoo.gif</filename>
+				<filename>images/index.html</filename>
+				<filename>fonts/elephant.ttf</filename>
+				<filename>fonts/Vera.ttf</filename>
+				<filename>fonts/VeraIt.ttf</filename>
+				<filename>fonts/index.html</filename>
+				<filename>index.html</filename>
+			</files>
+			<languages>
+				<language tag="en-GB">languages/admin/en-GB.com_qcontacts.ini</language>
+				<language tag="en-GB">languages/admin/en-GB.com_qcontacts.menu.ini</language>
+			</languages>
+	</administration>
+</install>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="editors-xtd">
+   <name>Editor Button - Login/Logout</name>
+   <author>Anton Nikiforov</author>
+   <creationDate>September 2008</creationDate>
+   <copyright>Copyright (C) 2008 WowJoomla.com. All rights reserved.</copyright>
+   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+   <authorEmail>support@wowjoomla.com</authorEmail>
+   <authorUrl>www.wowjoomla.com</authorUrl>
+   <version>1.0.0</version>
+   <description><![CDATA[Displays a LoginButton icon in the editor. Pressing the icon inserts LoginButton plugin inside a content item or module.]]></description>
+   <files>
+      <filename plugin="loginbutton">loginbutton.php</filename>
+   </files>
+   <params />
+</install>

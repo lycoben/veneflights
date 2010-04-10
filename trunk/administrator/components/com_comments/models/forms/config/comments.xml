@@ -1,0 +1,79 @@
+<config>
+	<params>
+		<param name="enable_comments" type="radio" default="0" label="COMMENTS_COMMENTS_ENABLED" description="COMMENTS_COMMENTS_ENABLED_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="guestcomment" type="radio" default="1" label="COMMENTS_GUEST_COMMENTS_ENABLED" description="COMMENTS_GUEST_COMMENTS_ENABLED_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<!-- <param name="commentfeeds" type="radio" default="1" label="COMMENTS_COMMENT_FEEDS" description="COMMENTS_COMMENT_FEEDS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param> -->
+
+		<param name="enable_ratings" type="radio" default="1" label="COMMENTS_COMMENT_RATING_ENABLED" description="COMMENTS_COMMENT_RATING_ENABLED_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="enable_html" type="radio" default="0" label="COMMENTS_COMMENT_HTML_ENABLED" description="COMMENTS_COMMENT_HTML_ENABLED_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="enable_bbcode" type="radio" default="1" label="COMMENTS_COMMENT_BBCODE_ENABLED" description="COMMENTS_COMMENT_BBCODE_ENABLED_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="enable_gravatar" type="radio" default="0" label="COMMENTS_GRAVATAR_ENABLED" description="COMMENTS_GRAVATAR_ENABLED_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="list_order" type="radio" default="ASC" label="COMMENTS_LIST_ORDER" description="COMMENTS_LIST_ORDER_DESC">
+			<option value="ASC">Oldest First</option>
+			<option value="DESC">Newest First</option>
+		</param>
+
+		<param name="pagination" type="list" default="0" label="COMMENTS_PAGINATION_ENABLED" description="COMMENTS_PAGINATION_ENABLED_DESC">
+			<option value="0">All</option>
+			<option value="5">5</option>
+			<option value="10">10</option>
+			<option value="20">20</option>
+			<option value="50">50</option>
+		</param>
+
+		<param name="dformat" type="list" default="" label="COMMENTS_DATE_FORMAT" description="COMMENTS_DATE_FORMAT_DESC">
+			<option value="">COMMENTS_SYSTEM_DEFAULT</option>
+			<option value="%c">Wed 17 Jul 18:00:05 2008</option>
+			<option value="%Y-%m-%d %H:%M:%S">2007-06-17 18:00:05</option>
+			<option value="%d-%m-%Y">17-06-2007</option>
+			<option value="%A %e %B, %Y">Tuesday 17 July, 2007</option>
+			<option value="%e %B %Y">17 July 2007</option>
+		</param>
+
+		<param type="spacer" name="@spacer" />
+		<param name="notify_comments" type="radio" default="1" label="COMMENTS_COMMENT_NOTIFY" description="COMMENTS_COMMENT_NOTIFY_DESC">
+			<option value="0">No</option>
+			<option value="1">Only Guests</option>
+			<option value="2">Anyone</option>
+		</param>
+		<param name="emailto" type="text" size="40" default="" label="COMMENTS_COMMENT_NOTIFY_ADDRESS" description="COMMENTS_COMMENT_NOTIFY_ADDRESS_DESC" />
+
+		<param type="spacer" name="@spacer" />
+		<param name="moderate_comments" type="radio" default="1" label="COMMENTS_COMMENTS_MODERATION" description="COMMENTS_COMMENTS_MODERATION_DESC">
+			<option value="0">No</option>
+			<option value="1">Only Guests</option>
+			<option value="2">Anyone</option>
+		</param>
+
+		<param name="flooduser" type="text" size="5" default="30" label="COMMENTS_COMMENT_FLOOD_TIME_USER" description="COMMENTS_COMMENT_FLOOD_TIME_USER_DESC" />
+
+		<param name="floodany" type="text" size="5" default="1" label="COMMENTS_COMMENT_FLOOD_TIME_WORLD" description="COMMENTS_COMMENT_FLOOD_TIME_WORLD_DESC" />
+	</params>
+</config>

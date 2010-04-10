@@ -1,0 +1,20 @@
+/* font tweaking for optima/lucida font */
+#ff-optima h1,#ff-optima h2,#ff-optima h3,#ff-optima h4,#ff-optima h5,#ff-optima h6, #ff-lucida h1,#ff-lucida h2,#ff-lucida h3,#ff-lucida h4,#ff-lucida h5,#ff-lucida h6 {letter-spacing: -0.07em;}
+body#ff-optima, body#ff-lucida {letter-spacing: -0.03em;}
+body#ff-georgia, body#ff-georgia.f-default {font-size: 12px;}
+#bottom-menu {zoom: 1;}
+.menu span {cursor:pointer;}
+#searchmod, #searchmod2, #main-body, #main-body2, #header-panel, #top-bg, #mid-panel-bg, #mid-panel-bg-alt, #mid-panel-bg2, #mid-panel-bg3, #bottommodules, #mainmodules, #mainmodules2, #mainmodules.alt, #maincol, #maincol-alt, #leftcol, #leftcol2, #rightcol, #rightcol2, #maincol-border-left, #maincol-border-left2, #maincol-border-right, #maincol-border-right2, #maincol1, #maincol2, #maincol3, #maincol4, #maincol5, .submenu-top, .submenu-top2, .submenu-top3, .submenu-main, .submenu-main2, .submenu-bottom, .submenu-bottom2, .submenu-bottom3, .submenu-main h3, .top-module, #header-top, #leftcol .module, #leftcol2 .module, #rightcol .module, #rightcol2 .module, #leftcol .module-hilite1 h3, #leftcol2 .module-hilite1 h3, #rightcol .module-hilite1 h3, #rightcol2 .module-hilite1 h3, #maincol .padding, #maincol-alt .padding, #leftcol .inner, #leftcol2 .inner, #rightcol .inner, #rightcol2 .inner, .submenu-main h3, .padding, #showcase-bottom, #showcase-bottom2, #showcase-bottom3 {zoom: 1;}
+.rok-content-rotator div.clr {display: none;}
+.rok-content-rotator div.content {width: 380px;padding-bottom: 0;margin-left: 0;margin-top: 0;}
+#sl_horiz #sl_rememberme {width: 120px;}
+#maincol {margin-bottom: -18px;}
+#maincol-alt {margin-bottom: -14px;}
+.rok-content-rotator a.readon {background: url(../images/learn-more-ie7.png) 0 0 no-repeat;height: 27px;}
+#sl_horiz #sl_rememberme {width: 110px;font-size: 90%;}
+#sl_horiz #sl_lostpass {margin: 0;font-size: 90%;}
+#sl_horiz #sl_lostname {margin: 0;font-size: 90%;}
+#sl_horiz #sl_register {margin: 0;font-size: 90%;}
+.showcase-bg {z-index:15;}
+.rotator-module {z-index: 20;position:relative;}
+#moduleslide {padding-top: 15px !important;}

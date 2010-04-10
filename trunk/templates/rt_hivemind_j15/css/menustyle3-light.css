@@ -1,0 +1,360 @@
+/* Menustyle 3 */
+
+/* @group Horizontal Menu */
+
+#horiz-menu {
+	height: 30px;
+	margin-right: 20px;
+	float: right;
+	margin-top: 20px;
+}
+
+#horiz-menu2 {
+	height: 30px;
+	padding: 0 12px 0 12px;
+}
+
+#horiz-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#horiz-menu li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#horiz-menu a {
+	white-space: nowrap;
+	display: block;
+	float: left;
+	height: 32px;
+	line-height: 29px;
+	padding: 0 17px;
+	font-weight: normal;
+	font-size: 100%;
+	color: #777;
+	background: url(../images/light/menus/menustyle3/menu3-dot.png) 50% 100% no-repeat;
+}
+
+#horiz-menu a:hover {
+	background: url(../images/light/menus/menustyle3/menu3-dot-active.png) 50% 100% no-repeat;
+	text-decoration: none;
+	color: #333;
+}
+
+#horiz-menu li li a, 
+#horiz-menu li li a:hover,
+#horiz-menu li:hover li a,
+#horiz-menu li.sfHover li a,
+#horiz-menu li.parent:hover li a,
+#horiz-menu li.parent.sfHover li a,
+#horiz-menu li.active.parent:hover li a,
+#horiz-menu li.active.parent.sfHover li a {
+	border: 0;
+	background: none;
+	color: #777;
+}
+
+#horiz-menu li li.parent:hover,
+#horiz-menu li li.parent.sfHover,
+#horiz-menu li li.active.parent:hover,
+#horiz-menu li li.active.parent.sfHover {
+	background: none;
+}
+
+#horiz-menu li:hover a,
+#horiz-menu li.sfHover a,
+#horiz-menu li:hover a.topdaddy,
+#horiz-menu li.sfHover a.topdaddy,
+#horiz-menu a.topdaddy:hover {
+	background: none;
+}
+
+#horiz-menu li li:hover,
+#horiz-menu li li.sfHover,
+#horiz-menu li li:hover a:hover,
+#horiz-menu li li.sfHover a:hover,
+#horiz-menu li.active li:hover a:hover {
+	background: none;
+	color: #333;
+}
+
+#horiz-menu li:hover li a,
+#horiz-menu li.sfHover li a,
+#horiz-menu li.active:hover a,
+#horiz-menu li.active.sfHover a {
+	background: url(../images/light/menus/menustyle3/menu3-l.png) 0 0 repeat-x;
+}
+
+#horiz-menu li.active,
+#horiz-menu.splitmenu li.active:hover,
+#horiz-menu.splitmenu li.active.sfHover,
+#horiz-menu li.active.parent:hover,
+#horiz-menu li.active.parent.sfHover,
+#horiz-menu li.active:hover,
+#horiz-menu li.active.sfHover {
+	background: url(../images/light/menus/menustyle3/menu3-r.png) 100% 0 no-repeat;
+}
+
+#horiz-menu li.active a,
+#horiz-menu.splitmenu li.active:hover a,
+#horiz-menu.splitmenu li.active.sfHover a,
+#horiz-menu li.active.parent:hover a,
+#horiz-menu li.active.parent.sfHover a,
+#horiz-menu li.active:hover a,
+#horiz-menu li.active.sfHover a {
+	background: url(../images/light/menus/menustyle3/menu3-l.png) 0 0 no-repeat;
+	color: #333;
+}
+
+#horiz-menu li:hover,
+#horiz-menu li.sfHover,
+#horiz-menu li.parent:hover,
+#horiz-menu li.parent.sfHover {
+	background: url(../images/light/menus/menustyle3/menu3-dot-active.png) 50% 100% no-repeat;
+}
+
+#horiz-menu li:hover a,
+#horiz-menu li.sfHover a,
+#horiz-menu li.parent a:hover,
+#horiz-menu li.parent.sfHover a {
+	background: url(../images/light/menus/menustyle3/menu3-dot-active.png) 50% 100% no-repeat;
+}
+
+#horiz-menu li li.parent a.daddy,
+#horiz-menu li.active li.parent a.daddy {
+	background: url(../images/light/menus/menustyle3/menu3-dot.png) 95% 50% no-repeat;
+}
+
+#horiz-menu li li.parent:hover a.daddy,
+#horiz-menu li.active li.parent:hover a.daddy {
+	background: url(../images/light/menus/menustyle3/menu3-dot.png) 95% 50% no-repeat;
+}
+
+#horiz-menu li li, 
+#horiz-menu li:hover li,
+#horiz-menu li.sfHover li,
+#horiz-menu li.parent:hover li,
+#horiz-menu li.parent.sfHover li,
+#horiz-menu li.active.parent:hover li,
+#horiz-menu li.active.parent.sfHover li {
+	background: url(../images/light/menus/menustyle3/menu3-sidediv.png) 0 100% repeat-x;
+}
+
+#horiz-menu ul ul {
+	background: #F3F6F6;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+#horiz-menu ul ul ul {
+	background: #F3F6F6;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+/* mouseovers */
+
+#horiz-menu li li a:hover {
+	background: none;
+}
+
+#horiz-menu li li.active,
+#horiz-menu li.active li a,
+#horiz-menu li.active li a:hover {
+	background: none;
+}
+
+#horiz-menu li li a {
+	font-size: 100%;
+	font-weight: normal;
+	color: #fff;
+}
+
+.menutop li.sfHover ul {
+	left: 0;
+	top: 33px;
+}
+
+div#horiz-menu li li a {
+	height:28px;
+	line-height:28px;
+}
+
+/* @end */
+
+/* @group Sub Menu */
+
+ul.menu {
+	margin: 0;
+	padding: 0;
+	background: url(../images/light/menus/menustyle3/menu3-line.png) 11px 0 repeat-y;
+}
+
+ul.menu li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu a:hover {
+	text-decoration: none;
+	color: #777;
+	background: url(../images/light/menus/menustyle3/menu3-sideactive.png) 4px 3px no-repeat;
+}
+
+ul.menu li.active {
+	background: url(../images/light/menus/menustyle3/menu3-sideactive-tab-r.png) 100% 0 no-repeat;
+}
+
+ul.menu li.active a,
+ul.menu li.active a:hover {
+	background: url(../images/light/menus/menustyle3/menu3-sideactive-tab-l.png) 0 0 no-repeat;
+}
+
+ul.menu li.active a {
+	color: #333;
+}
+
+ul.menu li.active li,
+ul.menu li.active.parent li {
+	background: none;
+}
+
+ul.menu li.active.parent li a{
+	background: url(../images/light/menus/menustyle3/menu3-side-sub.png) 19px 11px no-repeat;
+}
+
+ul.menu span {
+	display: block;
+}
+
+ul.menu a {
+	display: block;
+	line-height: 24px;
+	text-indent: 15px;
+	height: 24px;
+	color: #777;
+}
+
+ul.menu ul {
+	margin: 4px 0;
+}
+
+ul.menu ul li a {
+	text-indent: 24px;
+}
+
+ul.menu ul a {
+	background: none;
+	text-indent: 0;
+}
+
+ul.menu ul {
+	margin-left: 10px;
+	padding: 0;
+}
+
+ul.menu ul ul {
+	padding: 0;
+	margin-left: 20px;
+}
+
+ul.menu li li {
+	padding: 0;
+	margin: 0;
+}
+
+ul.menu ul a {
+	text-indent: 0;
+}
+
+ul.menu li.active li a {
+	color: #777;
+	background: url(../images/light/menus/menustyle3/menu3-side-sub.png) 0 7px no-repeat;
+	border: 0;
+}
+
+ul.menu li li.active a,
+ul.menu li li a:hover,
+ul.menu li.active li a:hover {
+	color: #333;
+	background: url(../images/light/menus/menustyle3/menu3-side-sub.png) 19px 11px no-repeat;
+}
+
+ul.menu li a {
+	color: #777;
+	padding-left: 10px;
+	background: url(../images/light/menus/menustyle3/menu3-dot.png) 8px 8px no-repeat;
+}
+
+/* @end */
+
+/* @group Mainmenu */
+
+a.mainlevel {
+	display: block;
+	line-height: 24px;
+	height: 26px;
+	font-size: 100%;
+	padding-left: 24px;
+	text-decoration: none;
+	color: #777;
+	background: url(../images/light/menus/menustyle3/menu3-dot.png) 8px 8px no-repeat;
+}
+
+a#active_menu {
+	color: #333;
+	background: url(../images/light/menus/menustyle3/menu3-sideactive.png) 4px 3px no-repeat;
+	border: 0;
+}
+
+a#active_menu.sublevel {
+	color: #333;
+	background: url(../images/light/menus/menustyle3/menu3-side-sub.png) 4px 7px no-repeat;
+}
+
+a.sublevel {
+	text-decoration: none;
+	line-height: 25px;
+	padding-left: 18px;
+	color: #777;
+	background: url(../images/light/menus/menustyle3/menu3-side-sub.png) 4px 7px no-repeat;
+}
+
+a.mainlevel:hover {
+	text-decoration: none;
+	background: url(../images/light/menus/menustyle3/menu3-sideactive.png) 4px 3px no-repeat;
+	color: #333;
+}
+
+a.sublevel:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+/* @end */
+
+div.module-menu h3 {
+	padding: 0 0 0 8px;
+}
+
+div.module-menu div div div {
+	padding-bottom: 20px;
+	padding-top: 10px;
+	margin-bottom: 35px;
+}
+
+div.module-menu div div div div {
+	padding: 0;
+	margin: 0;
+}
+
+div.module-menu td {
+	background: url(../images/light/menus/menustyle3/menu3-line.png) 11px 0 repeat-y;
+}
+

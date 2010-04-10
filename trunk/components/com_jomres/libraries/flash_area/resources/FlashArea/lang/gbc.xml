@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="样式"/>
+				<size hint="字体大小"/>
+				<font hint="字体"/>
+				<bullet hint="实心圆"/>
+				<leading hint="前导">
+					<window>
+						<textes title="改变段落前导" leading="前导" ok="确认" cancel="取消"/>
+					</window>
+				</leading>
+				<copy hint="拷贝"/>
+				<cut hint="剪切"/>
+				<paste hint="粘贴"/>
+				<undo hint="撤销"/>
+				<redo hint="重做"/>
+				<bold hint="粗体"/>
+				<italic hint="斜体"/>
+				<underline hint="下划线"/>
+				<left hint="左对齐"/>
+				<center hint="居中"/>
+				<right hint="右对齐"/>
+				<url hint="插入超链接">
+					<window>
+						<textes title="超链接" text="文本:" url="网页地址:" target="目标:" ok="确认" cancel="取消" remove="删除"/>
+					</window>
+				</url>
+				<indentDec hint="减少缩进"/>
+				<indentInc hint="增加缩进"/>
+				<color hint="字体颜色"/>
+				<symbols hint="插入符号">
+					<window>
+						<textes title="插入符号" ok="关闭" insert="插入"/>
+					</window>
+				</symbols>
+				<html hint="切换到普通或网页视图"/>
+				<image hint="插入图片">
+					<window>
+						<textes title="图片" path="路径:" align="对齐:" url="网页地址:" target="目标:" id="标识符:" space="间隔:" space_v="垂直" space_h="水平" size="大小:" size_w="宽" size_h="高" ok="确认" cancel="取消" remove="删除"/>
+						
+						
+					</window>
+				</image>
+				<about hint="关于FlashArea">
+					<window>
+						<textes title="关于FlashArea" ok="关闭"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

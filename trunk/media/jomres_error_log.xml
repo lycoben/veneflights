@@ -1,0 +1,16 @@
+<errorlog>
+	<errorlogentry>
+		<datetime>2008-09-30 10:15:50 (PDT)</datetime>
+		<jomressession>be6d6f575922343667501ad13b084cec</jomressession>
+		<task>saveHotelSettings</task>
+		<requesturi><![CDATA[/index.php?option=com_jomres]]></requesturi>
+			<message><![CDATA[Fatal Error: Invalid token (# 256).User id ' - '&nbsp;&nbsp;.Error in line 1268 of file '/home/yachtchr/public_html/components/com_jomres/libraries/jomres/functions/functions.php'.Script: '/index.php']]></message>
+	</errorlogentry>
+	<errorlogentry>
+		<datetime>2008-09-28 23:27:26 (PDT)</datetime>
+		<jomressession>4e8472a93a2c57f0be74254ea0fb5f59</jomressession>
+		<task>deleteProperty</task>
+		<requesturi><![CDATA[/index.php?option=com_jomres&task=deleteProperty&jomrestoken=44b095ec3d4271f642aa7465c84983cb&Itemid=27&property_uid=0&sure=1]]></requesturi>
+			<message><![CDATA[Error, couldn't delete ]]></message>
+	</errorlogentry>
+</errorlog>

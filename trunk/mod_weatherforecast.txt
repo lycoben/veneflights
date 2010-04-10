@@ -1,0 +1,2966 @@
+HTTP/1.1 200 OK
+Date: Sun, 28 Sep 2008 05:17:17 GMT
+Server: Apache/1.3.33 (Unix) PHP/4.4.0
+Cache-control: no-cache, must-revalidate, no-cache="Set-Cookie", private
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Pragma: no-cache
+X-CreationTime: 0.087
+Set-Cookie: rc=%2C00000.93119; path=/; expires=Fri, 27-Sep-2013 05:17:17 GMT; domain=.wunderground.com
+Set-Cookie: DT=1222579037:30493:l3a18; path=/; expires=Fri, 01-Jan-2010 00:00:00 GMT; domain=.wunderground.com
+Connection: close
+Content-Type: text/html
+
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+		<meta http-equiv="Refresh" content="1834;URL=/global/stations/93119.html?MR=1" />
+		<meta name="ICBM" content="-37.02000046, 174.80000305" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "ICRAonline v2.0" l gen true for "http://www.wunderground.com" r (nz 0 vz 0 lz 0 oz 0 cz 0) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.wunderground.com"  r (n 0 s 0 v 0 l 0))' />
+  <title>Auckland, New Zealand Forecast : Weather Underground</title>
+		<link rel="alternate" type="application/rss+xml" title="Auckland, New Zealand RSS" href="http://rss.wunderground.com/auto/rss_full/global/stations/93119.xml" />
+		<link rel="stylesheet" type="text/css" href="http://icons-pe.wxug.com/css/wu2_base.css?v=2008072801" />
+		<link rel="stylesheet" type="text/css" href="http://icons-pe.wxug.com/css/wu2_wrapper.css?v=2008091801" />
+		<link rel="stylesheet" type="text/css" href="http://icons-pe.wxug.com/css/wu2_print.css?v=2008071002" media="print" />
+		<link rel="stylesheet" type="text/css" href="http://icons-pe.wxug.com/css/wu2_conditions.css?v=2008042401" />
+	<link rel="search" href="/scripts/opensearchdescription.xml" type="application/opensearchdescription+xml" title="Weather Underground" />
+	<script language="javascript" type="text/javascript" src="http://icons-pe.wxug.com/scripts/mootools-wu-1.11.js"></script>
+		<script type="text/javascript" src="/stationmaps/WeatherValueDisplay.js"></script>
+		<script type="text/javascript" src="/stationmaps/rtupdate.js?v=1.1"></script>
+		<script type="text/javascript" src="/stationmaps/ootimer.js"></script>
+		<script type="text/javascript" src="/stationmaps/windanimation.js"></script>
+		<script type="text/javascript" src="/scripts/addtofavorites.js"></script>
+	<script language="javascript" type="text/javascript">
+		<!--
+			function bodyOnLoad()
+			{
+			
+				GetUpdateConds();
+			
+			}
+		//-->
+	</script>
+		<script language="javascript" type="text/javascript" src="http://icons-pe.wxug.com/scripts/tablesort.js"></script>
+</head>
+<!-- Iterate ad calls
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		CAMPAIGN - WUND-00078 468x60_0 - 
+	
+		CAMPAIGN - WUND-00077 RightTower_0 - 
+	
+		CAMPAIGN - WUND-00076 Box_0 - 
+	
+-->
+	<body onload="bodyOnLoad()">
+<a name="top"></a>
+<table cellspacing="0" cellpadding="0" class="full" id="mainContent">
+	<tr>
+		<td id="left">
+		<div id="logo"><a href="/"><img src="http://icons-pe.wxug.com/i/w/logo.gif" width="120" height="70" alt="Weather Underground" /></a></div>
+		<div id="favorites">
+		<div class="leftTitle">Favorites</div>
+		<div class="p5 bgW">You don't appear to have any favorites yet, or your cookies may be disabled.</div>
+		<div class="sm"><a href="/favorites/edit.html" class="leftLink">Edit My Favorites</a></div>
+</div>
+<div id="sidePhoto">
+	<div class="leftTitle">WunderPhotos</div>
+	<div class="taC"><a href="/wximage/viewsingleimage.html?mode=singleimage&amp;handle=thunderweather&amp;number=522&amp;thumbstart=5&amp;gallery=CURRWEATHER"><img src="http://icons-pe.wunderground.com/data/wximagenew/t/thunderweather/522-thumb.jpg" width="107" height="80" alt="" class="condIcon" /></a></div>
+		<div class="bgW">
+		<ul>
+		<li><a href="/wximage/imagesearch.html?citybox=on&city=Auckland&countrybox=on&country=New Zealand&submit=go">Auckland</a></li>
+		<li><a href="/wximage/imagesearch.html?countrybox=on&country=New Zealand&submit=go">New Zealand</a></li>
+		</ul>
+		</div>
+	<div class="sm"><a href="/wximage/viewimages.html" class="leftLink">Browse All Photos</a></div>
+</div>
+		<div id="sideWunderMap">
+	<div class="leftTitle">WunderMap</div>
+		<div class="taC"><a href="/wundermap/?lat=-37.02000046&amp;lon=174.80000305&amp;zoom=10&amp;pin=Auckland%2c%20New%20Zealand"><img src="http://icons-pe.wxug.com/i/w/WunderMapThumb.gif" width="120" height="80" alt="" class="condIcon" /></a></div>
+		<div class="sm"><a href="/wundermap/?lat=-37.02000046&amp;lon=174.80000305&amp;zoom=10&amp;pin=Auckland%2c%20New%20Zealand" class="leftLink">View WunderMap</a></div>
+</div>
+		<div id="sideFeatures">
+	<div class="leftTitle">Website Spotlight</div>
+	<ul>
+		<li><a href="/US/Region/US/Temperature.html">Weather Maps</a></li>
+		<li><a href="/calculators/solar.html">Solar Calculator</a> <span class="new">new!</span></li>
+		<li><a href="/printer/cityforecast.asp?wmo=">Forecast Flyer</a></li>
+		<li><a href="/community/chat.asp">Community Chat</a></li>
+		<li><a href="/education/education.asp">Education</a></li>
+		<li><a href="/sky/index.asp">Astronomy</a></li>
+		<li><a href="http://printer.wunderground.com/global/stations/93119.html" target="new">Print This Page</a></li>
+	</ul>
+	<div class="sm"><a href="/blog/WundergroundDevs/show.html" class="leftLink">Developer's Blog</a></div>
+</div>
+		</td>
+		<td id="right">
+<table cellspacing="0" cellpadding="0" class="full">
+	<tr>
+		<td id="member">
+		Welcome to Weather Underground! <a href="/login.asp" class="b">Sign In</a> or <a href="/members/signup.asp" class="b">Create an Account</a>. Edit my <a href="/member/membersettings.html?page=prefs" class="b">Page Preferences</a>.
+		</td>
+		<td id="wunder">Other Wunders: <a href="http://m.wund.com/">Mobile</a> - <a href="http://i.wund.com/">iPhone</a> - <a href="http://www.wund.com/">Lite</a> - <a href="/download/index.asp">Desktop</a></td>
+	</tr>
+</table>
+		<script language="javascript" type="text/javascript">
+<!--
+/* ChangeFastForecastText
+	change the fast forecast hint text
+*/
+var wui_search_value = "City, State, Zip, Airport Code, or Country";
+var wui_search_changed = 0;
+function ChangeFastForecastText()
+{
+	var search_select = document.getElementById('wuSelect').value;
+	var search_obj = document.getElementById('wuSearch');
+
+	if (wui_search_changed == 1)
+		return;
+
+	if (search_select=="WEATHER")
+	{
+		wui_search_value="City, State, Zip, Airport Code, or Country";
+	}
+	else if (search_select=="PWS")
+	{
+		wui_search_value="Enter a PWS ID (e.g. KCASANFR14)";
+	}
+	else if (search_select=="PHOTO")
+	{
+		wui_search_value="Enter a Photo Title Keyword(s)";
+	}
+	else if (search_select=="BLOG")
+	{
+		wui_search_value="Enter Blog Text";
+	}
+	else
+	{
+		return false;
+	}
+
+	search_obj.value = wui_search_value;
+
+}
+
+/*  SubmitFastForecastSearch
+		submits a fast forecast seach based on search type from wuSelect.value
+*/
+function SubmitFastForecastSearch()
+{
+	var url=new String();
+	var search_select = document.getElementById('wuSelect').value;
+	var search = document.getElementById('wuSearch').value;
+		
+	if (search_select=="WEATHER")
+	{
+		url='/cgi-bin/findweather/getForecast?query='+search;
+	}
+	else if (search_select=="PWS")
+	{
+		url='/weatherstation/WXDailyHistory.asp?ID='+search;
+	}
+	else if (search_select=="PHOTO")
+	{
+		url='/wximage/imagesearch.html?titlebox=on&submit=go&title='+search;
+	}
+	else if (search_select=="BLOG")
+	{
+		url='/BlogSearch.asp?query='+search;
+	}
+	else
+	{
+		return false;
+	}
+
+	url+='&wuSelect='+search_select;
+
+	window.location = url;
+
+	return true;
+}
+-->
+</script>
+<div id="search">
+	<form action="/cgi-bin/findweather/hdfForecast" name="wxsearch">
+		<table cellspacing="0" cellpadding="2" class="full">
+		<tr>
+		<td class="nobr"><span id="searchText">Search:</span></td>
+		<td><input type="text" name="query" value="" onfocus="if(this.value==wui_search_value)this.value='';this.className='focused'" class="unfocus" id="wuSearch" onchange="wui_search_changed=1;" onblur="wui_search_changed=1;"/></td>
+		<td>
+		<select name="searchType" id="wuSelect" onchange="ChangeFastForecastText()">
+		<option value="WEATHER" >Weather Conditions</option>
+		<option value="PWS" >Personal Weather Stations</option>
+		<option value="PHOTO" >WunderPhotos</option>
+		<option value="BLOG" >Blogs</option>
+		</select>
+		</td>
+		<td class="full"><input type="submit" value="Go" id="wuSubmit" onclick="SubmitFastForecastSearch(); return false;" /></td>
+		</tr>
+		</table>
+	</form>
+</div>
+<script language="javascript" type="text/javascript">
+	//set the forecast text on load
+	ChangeFastForecastText();
+</script>
+		<table cellspacing="0" cellpadding="0" id="features">
+	<tr>
+		<td><div class="b">Features:</div></td>
+		<td id="featureLinks">
+		<table cellspacing="0" cellpadding="0" class="full">
+		<tr>
+		<td><a href="/tropical/">Tropical / Hurricane</a></td>
+		<td><a href="/radar/map.asp">NEXRAD Radar</a></td>
+		<td><a href="/satellite/vis/1k/US.html">Zoom Satellite</a></td>
+		<td><a href="/ski/">Ski / Snow</a></td>
+		<td><a href="/MAR/">Marine</a></td>
+		<td><a href="/climate/">Climate Change</a></td>
+		<td><a href="/tornado/">Tornadoes</a></td>
+		<td><a href="/wxradio/index.html">WX Radio</a></td>
+		<td><a href="/sports/">Sports</a></td>
+		</tr>
+		<tr>
+		<td><a href="/weatherstation/">Weather Stations</a></td>
+		<td><a href="/radar/mosaic.asp">Regional Radar</a></td>
+		<td><a href="/severe.asp">Severe</a></td>
+		<td><a href="/blog/index.html?range=updated">WunderBlogs</a></td>
+		<td><a href="/wximage/viewimages.html">WunderPhotos</a></td>
+		<td><a href="/tripplanner/index.asp">Trip Planner</a></td>
+		<td><a href="/history/">History Data</a></td>
+		<td><a href="/webcams/index.html">Webcams</a></td>
+		<td><a href="/US/Region/US/Temperature.html">Maps</a></td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+		<div class="innerFrame">
+		<div class="innerContent">
+		<br class="clear" />
+		<center class="bm10 taC"><div id="topBanner">
+  <a href="http://server2.as5000.com/AS5000/adserver/click?ID=WUND-00078&C=11&T=1222579037"><img width="728" height="90" src="http://server2.as5000.com/AS5000/adserver/image?ID=WUND-00078&amp;C=11&amp;T=1222579037" alt=""></a>
+</div></center>
+<table cellspacing="0" cellpadding="0" class="full" id="cityTable">
+	<tr>
+		<td class="nobr full">
+		<h1>Auckland, New Zealand </h1>
+		</td>
+		<td class="extraText">
+		<span><a href="/php/editfavs.php?addfav=00000.93119" onClick="return !make_ajax_request('/favorites/submit.html?action=addfavorite&place=00000.93119', this.parentNode);">Add to My Favorites</a></span>
+		</td>
+		<td class="extraText">
+		</td>
+		<td class="extraText">-</td>
+		<td class="extraIcon"><a href="http://ical.wunderground.com/auto/ical/global/stations/93119.ics?units=both"><img src="http://icons-pe.wxug.com/graphics/ical.gif" height="14" alt="iCal Feed" /></a></td>
+		<td class="extraIcon"><a href="http://rss.wunderground.com/auto/rss_full/global/stations/93119.xml?units=both"><img src="http://icons-pe.wxug.com/graphics/rss/rssmini.gif" height="14" alt="RSS Feed" /></a></td>
+		<!--//<td class="extraIcon"><a class="a2a_dd" onmouseover="a2a_show_dropdown(this)" onmouseout="a2a_onMouseOut_delay()" href="http://www.addtoany.com/subscribe?linkname=San%20Francisco%2C%20CA&amp;linkurl=http%3A%2F%2Frss.wunderground.com/auto/rss_full/global/stations/93119.xml?units=both"><img src="http://static.addtoany.com/buttons/subscribe_16_16.gif" width="16" height="16" border="0" alt="Subscribe"/></a></td>//-->
+	</tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="full" id="titleBar">
+	<tr>
+		<td class="full">
+		Local Time:
+		<span class="b">6:17 PM NZDT</span>
+		&mdash; <a href="/picktimezone.asp?tz=Pacific/Auckland">Set My Timezone</a>
+		</td>
+		<td class="nobr">Lat/Lon: <span class="b">37.0&#176; S 174.8&#176; E</span> (<a href="http://maps.google.com/maps?q=-37.02000046,174.80000305" target="new">Google Map</a>)</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+	<table cellspacing="0" cellpadding="2" class="full" id="tropicNotice">
+		<tr>
+		<td><img src="http://icons-pe.wxug.com/graphics/smash/blue_hurricane.gif" height="22" width="22" alt="" /></td>
+		<td class="full">
+		<span class="b">Tropical Weather:</span>
+		<a href="/tropical/tracking/at200811.html">Hurricane Kyle
+</a> (North Atlantic)
+		<a href="/tropical/tracking/wp200819.html">Super Typhoon Jangmi
+</a> (Western Pacific)
+		<a href="/tropical/tracking/cp200896_model.html">Invest 96
+</a> (Central Pacific)
+		</td>
+		</tr>
+	</table>
+		</td>
+	</tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="full">
+	<tr>
+		<td class="vaT">
+		<div class="bm15">
+<iframe width="0" height="0" border="0" src="http://stationdata.wunderground.com/xmlrequest.html" id="condscript"></iframe>
+<script type="text/javascript" >
+//
+// put in some code to disable rtupdate in older safari's
+//
+var disablertupdate=0;
+disablertupdate = CheckBrowserDisable();
+  window.wind_animate=new Array();
+	if (getWUIDomain)
+	{
+  var url='http://stationdata.'+getWUIDomain()+'/cgi-bin/stationlookup?station=';
+	}
+	else
+	{
+  var url='http://stationdata.wunderground.com/cgi-bin/stationlookup?station=';
+	}
+  //var timeout=1000*60*15; // 15 minutes
+  var timeout=5; // 15 minutes
+  url=url+'IFRANKLI1,'
+  url=url+'IAUCKLAN27,'
+  url=url+'IMANUKAU2,'
+  url=url+'IAUCKLAN31,'
+  url=url+'IAUCKLAN33,'
+  url=url+'IAUCKLAN22,'
+  url=url+'IAUCKLAN7,'
+  url=url+'IAUCKLAN5,'
+  url=url+'IAUCKLAN16,'
+  url=url+'IAUCKLAN17,'
+  url=url+'IAUCKLAN32,'
+  url=url+'MD0000,'
+  url=url+'IWAITAKE1,'
+  url=url+'I90580129,'
+  url=url+'IAUCKLAN30,'
+  url=url+'I90580546,'
+  url=url+'IAUCKLAN28,'
+  url=url+'IRODNEYA2,'
+  timeout = 2.5 ;
+  if (timeout < 5)
+	timeout = 5;
+
+  url=url+'&format=js&maxage='+ (2*timeout);
+
+  timeout*=1000;
+  //alert('timeout:'+timeout);
+
+
+  
+    
+		if (disablertupdate==0)
+      		SetUpdateURL(url,timeout);
+    
+  
+
+window.addEvent('domready', function(){
+	if('/global/stations/93119.html'.contains('?')){var separator = '&';}else{var separator = '?';}
+	var condsboxurl = "/global/stations/93119.html"+separator+"responder=1&request=conditions";
+	var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/";
+
+	var stationselector = $('stationselector'), curcondload = $('curcondload'), condsFader = new Fx.Style('curcondbox', 'opacity' ,{duration: 400});
+	stationselector.addEvent('change', function(e){
+		e = new Event(e).stop();
+		var x = $('stationselector').selectedIndex;
+		var value = $('stationselector').getElements('option')[x].value;
+		new Ajax(value, { method: 'get', onComplete: function(){
+			curcondload.setStyle('background', 'url('+imgSrcPrefix+'arrow-loading-white.gif) no-repeat center');
+			condsFader.start(1,0).chain(function(){
+				new Ajax(condsboxurl, { method: 'get', update: 'curcondbox', evalScripts: 'yes', onComplete: function(){
+						condsFader.start(0,1).chain(function(){
+							curcondload.setStyle('background','');
+						});
+					}
+				}).request();
+			});
+			}
+		}).request();
+	});
+});
+</script>
+	<table cellspacing="0" cellpadding="0" class="blueTop">
+		<tr>
+		<td class="hLeft"><img src="http://icons-pe.wxug.com/graphics/wu2/headerBlue-left.gif" width="20" height="20" alt="" /></td>
+		<td class="hCenter">Current Conditions <span id="curcondload">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+		<td class="hRight"><img src="http://icons-pe.wxug.com/graphics/wu2/headerBlue-right.gif" width="20" height="20" alt="" /></td>
+		</tr>
+		<tr>
+		<td class="sLeft"><img src="http://icons-pe.wxug.com/graphics/wu2/subBlue-left.gif" width="20" height="6" alt="" /></td>
+		<td class="sCenter">&nbsp;</td>
+		<td class="sRight"><img src="http://icons-pe.wxug.com/graphics/wu2/subBlue-right.gif" width="20" height="6" alt="" /></td>
+		</tr>
+	</table>
+	<div class="blueBox">
+	<div id="curcondbox">
+		<div class="subG b">Auckland, NZ (Airport)</div>
+		<div class="bm10">Updated: <span class="pwsrt" pwsid="NZAA" pwsunit="both" pwsvariable="lu" value="1222578000">6:00 PM NZDT on September 28, 2008</span></div>
+		<table cellspacing="0" cellpadding="0" class="full">
+		<tr>
+		<td class="vaT full">
+		<table cellspacing="0" cellpadding="5" class="full">
+		<tr>
+		<td class="vaM taC"><img src="http://icons-pe.wxug.com/i/c/a/partlycloudy.gif" width="42" height="42" alt="Partly Cloudy" class="condIcon" /></td>
+		<td class="vaM taC full">
+		<div style="font-size: 17px;"><span class="pwsrt" pwsid="NZAA" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="57">
+  <span class="nobr"><span class="b">57</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">14</span>&nbsp;&#176;C</span>
+</span></div>
+		<div class="b" style="font-size: 14px;">Partly Cloudy</div>
+		</td>
+		</tr>
+		</table>
+		<table cellspacing="0" cellpadding="0" class="dataTable">
+		<tbody>
+		<tr>
+		<td>Humidity:</td>
+		<td class="full b"><span class="pwsrt" pwsid="NZAA" pwsunit="both" pwsvariable="humidity" english="" metric="" value="55"><nobr>55%</nobr></span></td>
+		</tr>
+		<tr>
+		<td class="nobr">Dew Point:</td>
+		<td class="full b"><span  class="pwsrt" pwsid="NZAA" pwsunit="both" pwsvariable="dewptf"  english="&deg;F" metric="&deg;C" value="41">
+  <span class="nobr"><span class="b">41</span>&nbsp;&deg;F</span>
+  /
+  <span class="nobr"><span class="b">5</span>&nbsp;&deg;C</span>
+</span></td>
+		</tr>
+		<tr>
+		<td>Wind:</td>
+		<td class="full b">
+		<span class="pwsrt" pwsid="NZAA" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h">
+  <span class="nobr"><span class="b">12</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">18</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">5.1</span>&nbsp;m/s</span>
+		</span>
+		<span class="nb"> from the </span>
+		<span class="pwsrt" pwssetobject="window.wind_animate['CONDBOXWIND']" pwsid="NZAA" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		<div id="condboxWindDiv">
+		<img src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif" alt="" id="condboxArrowDiv" />
+		</div>
+		<script type="text/javascript">
+		window.wind_animate['CONDBOXWIND']=new WindRotate("condboxArrowDiv",14,240);
+		</script>
+		</td>
+		</tr>
+		<tr>
+		<td>Pressure:</td>
+		<td class="full b">
+		<span class="pwsrt" pwsid="NZAA" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.95">
+  <b>29.95</b>&nbsp;in
+  /
+  <b>1014</b>&nbsp;hPa
+</span>
+		(Steady)
+		</td>
+		</tr>
+		<tr>
+		<td>Visibility:</td>
+		<td class="b">
+  <span class="nobr"><span class="b">31.1</span>&nbsp;miles</span>
+  /
+  <span class="nobr"><span class="b">50.0</span>&nbsp;kilometers</span>
+</td>
+		</tr>
+		<tr>
+		<td>UV:</td>
+		<td class="b">1 <span class="nb">out of 16</span></td>
+		</tr>
+		<tr>
+		<td class="vaT">Clouds:</td>
+		<td class="b">
+		<div>
+<b>Few</b>
+<!--(FEW)-->
+		<span class="nb">
+  <span class="nobr"><span class="b">3000</span>&nbsp;ft</span>
+  /
+  <span class="nobr"><span class="b">914</span>&nbsp;m</span>
+</span>
+		</div>
+		<div class="nb">(Above Ground Level)</div>
+		</td>
+		</tr>
+		<tr>
+		<td>Elevation:</td>
+		<td>
+  <span class="nobr"><span class="b">20</span>&nbsp;ft</span>
+  /
+  <span class="nobr"><span class="b">6</span>&nbsp;m</span>
+</td>
+		</tr>
+		</tbody>
+		</table>
+		<form>
+		<table cellspacing="0" cellpadding="1" class="full">
+		<tr>
+		<td colspan="4"><div class="subG b">Rapid Fire Updates:</div></td>
+		</tr>
+		<tr>
+		<td><input type="radio" name="rapid" onclick="window.open(this.value,'_self')" value="/cgi-bin/findweather/getForecast?setpref=PWSRT&value=1&referer=%2fglobal%2fstations%2f93119%2ehtml" checked="checked" /></td>
+		<td>Enable</td>
+		<td><input type="radio" name="rapid" onclick="window.open(this.value,'_self')" value="/cgi-bin/findweather/getForecast?setpref=PWSRT&value=0&referer=%2fglobal%2fstations%2f93119%2ehtml"  /></td>
+		<td>Disable</td>
+		</tr>
+		<tr>
+		<td colspan="4"><div class="tm10 subG b">Source for Current Conditions:</div></td>
+		</tr>
+		<tr>
+		<td><input type="radio" name="obsource" onclick="window.open(this.value,'_self')" value="/cgi-bin/findweather/getForecast?setpref=PWSOBS&value=1&referer=%2fglobal%2fstations%2f93119%2ehtml" checked="checked" /></td>
+		<td>PWS &amp; Airport</td>
+		<td><input type="radio" name="obsource" onclick="window.open(this.value,'_self')" value="/cgi-bin/findweather/getForecast?setpref=PWSOBS&value=0&referer=%2fglobal%2fstations%2f93119%2ehtml"  /></td>
+		<td>Airport Only</td>
+		</tr>
+		</table>
+		</form>
+		<p>&raquo; <a href="#History">Weather History for This Location</a></p>
+		</td>
+		<td class="vaT">
+		<table cellspacing="0" cellpadding="1" id="radarTable">
+		<tr>
+		<td colspan="2">
+	<script type="text/javascript">
+window.addEvent('domready', function(){
+	if('/global/stations/93119.html'.contains('?')){var separator = '&';}else{var separator = '?';}
+	var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/";
+	var radarurl = "/global/stations/93119.html"+separator+"responder=1&request=radarbox";
+	var camurl = "/global/stations/93119.html"+separator+"responder=1&request=cambox";
+	var metarboxurl = "/global/stations/93119.html"+separator+"responder=1&request=metarbox";
+	var condsboxurl = "/global/stations/93119.html"+separator+"responder=1&request=conditions";
+	var hasradar = 1;
+	var hascams = 1
+	var active = "webcam"
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('L(Q==1){M q=3 R.S(\'T\',\'U\',{V:W})}M n=3 R.S(\'I\',\'U\',{V:W});M 6=$(\'10\'),N=$(\'T\'),o=$(\'o\'),g=$(\'g\'),p=$(\'p\'),h=$(\'h\'),i=$(\'i\'),X=$(\'X\');L(Q==1){p.r(\'s\',2(e){e=3 t(e).u();6.7(\'8\',\'v(\'+w+\'x-y-z.A) B-C D\');3 9(\'/?a.0.E=Y&a.0.F=11\',{b:\'c\'}).d();p.l().4(\'J\');o.l().4(\'K\');p.l().5(\'K\');o.l().5(\'J\');q.f(1,0).G(2(){3 9(12,{b:\'c\',H:N,m:2(){6.7(\'8\',\'\');q.f(0,1)}}).d()})});o.r(\'s\',2(e){e=3 t(e).u();6.7(\'8\',\'v(\'+w+\'x-y-z.A) B-C D\');3 9(\'/?a.0.E=Y&a.0.F=13\',{b:\'c\'}).d();o.l().4(\'J\');p.l().4(\'K\');o.l().5(\'K\');p.l().5(\'J\');q.f(1,0).G(2(){3 9(14,{b:\'c\',H:N,Z:15,m:2(){6.7(\'8\',\'\');L(16==1){17()}q.f(0,1)}}).d()})})}g.r(\'s\',2(e){e=3 t(e).u();6.7(\'8\',\'v(\'+w+\'x-y-z.A) B-C D\');3 9(\'/?a.0.E=O&a.0.F=18\',{b:\'c\',m:2(){g.4(\'j\');h.4(\'k\');i.4(\'k\');g.5(\'k\');h.5(\'j\');i.5(\'j\');n.f(1,0).G(2(){3 9(P,{b:\'c\',H:\'I\',m:2(){6.7(\'8\',\'\');n.f(0,1)}}).d()})}}).d()});h.r(\'s\',2(e){e=3 t(e).u();3 9(\'/?a.0.E=O&a.0.F=19\',{b:\'c\',m:2(){h.4(\'j\');g.4(\'k\');i.4(\'k\');h.5(\'k\');g.5(\'j\');i.5(\'j\');n.f(1,0).G(2(){6.7(\'8\',\'v(\'+w+\'x-y-z.A) B-C D\');3 9(P,{b:\'c\',H:\'I\',m:2(){6.7(\'8\',\'\');n.f(0,1)}}).d()})}}).d()});i.r(\'s\',2(e){e=3 t(e).u();3 9(\'/?a.0.E=O&a.0.F=1a\',{b:\'c\',m:2(){i.4(\'j\');h.4(\'k\');g.4(\'k\');i.5(\'k\');h.5(\'j\');g.5(\'j\');n.f(1,0).G(2(){6.7(\'8\',\'v(\'+w+\'x-y-z.A) B-C D\');3 9(P,{b:\'c\',H:\'I\',Z:\'1b\',m:2(){6.7(\'8\',\'\');n.f(0,1)}}).d()})}}).d()});',62,74,'||function|new|addClass|removeClass|curload|setStyle|background|Ajax|setprefs|method|get|request||start|showmetar|showaviation|showradio|activeTab|inactiveTab|getParent|onComplete|metarFade|showcam|showradar|radarcamFade|addEvent|click|Event|stop|url|imgSrcPrefix|arrow|loading|white|gif|no|repeat|center|key|val|chain|update|metarbox|active|inactive|if|var|radarcambox|SHOWMETAR|metarboxurl|hasradar|Fx|Style|radarcamBox|opacity|duration|400|playerbox|RADARBOX|evalScripts|curcondload|RADAR|radarurl|WEBCAM|camurl|true|hascams|LoadCams|METAR|AVIATION|WXRADIO|yes'.split('|'),0,{}))
+});
+</script>
+		<table cellspacing="0" cellpadding="0" class="full" id="radarTab">
+		<tr>
+		<td class="sm taC active"><a id="showradar" href="">Satellite</a></td>
+		<td class="sm taC inactive"><a id="showcam" href="/cgi-bin/findweather/getForecast?setpref=RADARBOX&value=WEBCAM">Webcam</a></td>
+		</tr>
+		</table>
+		<div id="radarcamBox">
+		<div><a href="/wundermap/?lat=-37.02000046&amp;lon=174.80000305&amp;zoom=8&amp;pin=Auckland%2c%20New%20Zealand&amp;type=hyb&amp;rad=0&amp;wxsn=0&amp;svr=0&amp;cams=0&amp;sat=1&amp;sat.num=1&amp;sat.spd=25&amp;sat.opa=85&amp;sat.gtt1=109&amp;sat.gtt2=108&amp;sat.type=VIS&amp;riv=0&amp;mm=0&amp;hur=0"><img src="http://wublast.wunderground.com/cgi-bin/WUBLAST?lat=-37.02000046&lon=174.80000305&zoom=3&width=140&height=140&key=sat_vis&basemap=1&gtt=108&borders=1&timelabel=0&proj=ll&theme=WUNIDS" height="140" width="140" alt="" /></a></div>
+	 <div class="taC sm">Click Image to Enlarge</div>
+		</div>
+		<div id="camBox"></div>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="/stationmaps/gmap.asp?lat=-37.02000046&amp;lon=174.80000305&amp;zoom=10&amp;pin=Auckland%2c%20New%20Zealand"><img src="http://icons-pe.wxug.com/graphics/smash/blue_globe.gif" alt="" height="22" width="22" alt="" /></a></td>
+		<td><a href="/stationmaps/gmap.asp?lat=-37.02000046&amp;lon=174.80000305&amp;zoom=10&amp;pin=Auckland%2c%20New%20Zealand">WunderMap</a> <span class="new">new!</span></td>
+		</tr>
+		<tr>
+		<td><a href="/history/airport/NZAA/1972/1/1/PlannerHistory.html"><img src="http://icons-pe.wxug.com/graphics/smash/blue_tripPlanner.gif" alt="Trip Planner" height="22" width="22" /></a></td>
+		<td><a href="/history/airport/NZAA/1972/1/1/PlannerHistory.html">Trip Planner</a></td>
+		</tr>
+		<tr>
+		<td><a href="#PWS"><img src="http://icons-pe.wxug.com/graphics/smash/blue_weatherStation.gif" alt="Weather Stations" height="22" width="22" /></a></td>
+		<td><a href="#PWS">Weather Stations</a></td>
+		</tr>
+		</table>
+		</td>
+		</tr>
+		</table>
+	</div>
+<div class="taC" id="sourceSelect">
+	<div class="taL">Select a source for your current conditions:</div>
+	<select id="stationselector">
+		<optgroup label="Select an Airport:">
+		<option selected="selected" value="/?setprefs.0.key=00000193119WS&setprefs.0.val=NZAA">Auckland (NZAA)</option>
+		</optgroup>
+		<optgroup label="Select a PWS:">
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IFRANKLI1">Awhitu</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN27">Mount Roskill</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IMANUKAU2">Ardmore</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN31">Remuera</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN33">Howick, Auckland</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN22">Glendowie</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN7">Grey Lynn</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN5">St Heliers Bay</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN16">Eastern Beach</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN17">Mission Bay</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN32">RNZYS</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=MD0000">APRSWXNET Auckland NZ</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IWAITAKE1">Massey</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=I90580129">Waiuku</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN30">Oneroa</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=I90580546">Albany</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IAUCKLAN28">Onetangi</option>
+		<option value="/?setprefs.0.key=00000193119WS&setprefs.0.val=IRODNEYA2">Auckland</option>
+		</optgroup>
+	</select>
+</div>
+<div class="selectorBox tm10">
+	<table cellspacing="0" cellpadding="0" id="typeTable" style="width: 363px;">
+		<tr>
+		<td id="showmetar" class="inactiveTab"><a href="/cgi-bin/findweather/getForecast?setpref=SHOWMETAR&value=METAR">Raw METAR</a></td>
+		<td id="showaviation" class="activeTab"><a href="/cgi-bin/findweather/getForecast?setpref=SHOWMETAR&value=AVIATION">Aviation</a></td>
+		<td id="showradio" class="inactiveTab"><a href="/cgi-bin/findweather/getForecast?setpref=SHOWMETAR&value=WXRADIO">Weather Radio</a></td>
+		</tr>
+	</table>
+</div>
+<div id="metarbox">
+	<table cellspacing="0" cellpadding="0" class="dataTable" style="width: 363px;">
+		<tbody>
+		<tr>
+		<td>Flight Rule:</td>
+		<td><span class="b">VFR</span> (NZAA)</td>
+		</tr>
+		<tr>
+		<td>Wind Speed:</td>
+		<td>
+  <span class="nobr"><span class="b">12</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">18</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">5.1</span>&nbsp;m/s</span>
+</td>
+		</tr>
+		<tr>
+		<td>Wind Dir:</td>
+		<td><span class="b">240&deg;</span> (WSW)</td>
+		</tr>
+		<tr>
+		<td>Ceiling:</td>
+		<td>Unlimited</td>
+		</tr>
+		</tbody>
+		<tr class="gHover">
+		<td colspan="2" class="dataFooter taC">
+		<a href="/Aviation/index.html?query=NZAA#METAR">Full Report</a>
+		&mdash;
+		<a href="/Aviation_Maps/">Pilot Maps</a>
+		</td>
+		</tr>
+	</table>
+</div>
+		<div class="noGap">&nbsp;</div>
+	</div>
+	<table cellspacing="0" cellpadding="0" class="blueBottom">
+		<tr>
+		<td class="bLeft"><div></div></td>
+		<td class="bCenter full"><div></div></td>
+		<td class="bRight"><div></div></td>
+		</tr>
+	</table>
+</div>
+		<div class="bm15">
+	<a name="History"></a>
+	<div class="modBox">
+		<script type="text/javascript">
+		window.addEvent('domready', function(){
+		var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/wu2/";
+		var jsname ="history";
+		var localslider = new Fx.Slide(jsname + '_contain');
+		var closeurl = "/?setprefs.0.key=History&setprefs.0.val=0";
+		var openurl = "/?setprefs.0.key=History&setprefs.0.val=1";
+		var iswxstn = 0;
+		$(jsname+'_control').addEvent('click',function(e){
+		e=new Event(e);
+		if(localslider.wrapper.offsetHeight!=0&&localslider.wrapper.offsetWidth!=0){
+		if(iswxstn){$$('img.windvane').addClass('none');}
+		}
+		localslider.toggle().chain(function(){
+		if(localslider.wrapper.offsetHeight==0||localslider.wrapper.offsetWidth==0){
+		$(jsname+'_bar').addClass('close');
+		$(jsname+'_bar').removeClass('open');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_down.gif');
+		new Ajax(closeurl,{method:'get'}).request();
+		}else{
+		$(jsname+'_bar').addClass('open');
+		$(jsname+'_bar').removeClass('close');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_up.gif');
+		new Ajax(openurl,{method:'get'}).request();
+		if(iswxstn){$$('img.windvane').removeClass('none');}
+		}
+		});
+		e.stop();
+		});
+		});
+		</script>
+		<table id="history_bar" cellspacing="0" cellpadding="2" class="full open">
+		<tr>
+		<td class="full">History & Almanac</td>
+		<td><a id="history_control" href="/cgi-bin/findweather/getForecast?setpref=History&value=0"><img id="history_image" src="http://icons-pe.wxug.com/graphics/wu2/ico_up.gif" alt="Hide" /></a></td>
+		</tr>
+		</table>
+	</div>
+		<div id="history_contain">
+		<table cellspacing="0" cellpadding="0" class="dataTable">
+		<tbody>
+		<tr>
+		<td colspan="3" style="background-color: #F5F5F5;">
+	<div class="b">Detailed History and Climate</div>
+	<form action="/cgi-bin/findweather/getForecast">
+		<input type=hidden value=NZAA name=code> <input type=hidden value=airport name=airportorwmo> <input type=hidden value=DailyHistory name=historytype>
+		<table cellpadding="0" cellspacing="0" class="center" id="dateSelector">
+		<tr class="vaM">
+		<td>
+		<select name="month">
+		<option  value="1" >January</option>
+		<option  value="2" >February</option>
+		<option  value="3" >March</option>
+		<option   value="4" >April</option>
+		<option   value="5" >May</option>
+		<option   value="6" >June</option>
+		<option   value="7" >July</option>
+		<option   value="8" >August</option>
+		<option SELECTED  value="9" >September</option>
+		<option   value="10" >October</option>
+		<option   value="11" >November</option>
+		<option   value="12" >December</option>
+		</select>
+		</td>
+		<td>
+		<select name="day">
+		<option >1</option>
+		<option >2</option>
+		<option >3</option>
+		<option >4</option>
+		<option >5</option>
+		<option >6</option>
+		<option >7</option>
+		<option >8</option>
+		<option >9</option>
+		<option >10</option>
+		<option >11</option>
+		<option >12</option>
+		<option >13</option>
+		<option >14</option>
+		<option >15</option>
+		<option >16</option>
+		<option >17</option>
+		<option >18</option>
+		<option >19</option>
+		<option >20</option>
+		<option >21</option>
+		<option >22</option>
+		<option >23</option>
+		<option >24</option>
+		<option >25</option>
+		<option >26</option>
+		<option >27</option>
+		<option selected>28</option>
+		<option >29</option>
+		<option >30</option>
+		<option >31</option>
+		</select>
+		</td>
+		<td>
+		<select name="year">
+		<option selected>2008</option>
+		<option >2007</option>
+		<option >2006</option>
+		<option >2005</option>
+		<option >2004</option>
+		<option >2003</option>
+		<option >2002</option>
+		<option >2001</option>
+		<option >2000</option>
+		<option >1999</option>
+		<option >1998</option>
+		<option >1997</option>
+		<option >1996</option>
+		</select>
+		</td>
+		<td><input type="submit" value="View" /></td>
+		</tr>
+		</table>
+	</form>
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td colspan="3">
+		<ul>
+		<li><a href="/NORMS/DisplayIntlNORMS.asp?CityCode=93119&Units=both">Seasonal Weather Averages</a></li>
+		</ul>
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		</div>
+</div>
+		<table cellspacing="0" cellpadding="0" class="full">
+		<tr>
+		<td class="taC" style="width: 50%; padding-bottom: 10px;">
+		<center>
+	<table bgcolor=#DDDDDD cellspacing=2 cellpadding=1 width=125 border=0>
+		<tr>
+		<td align=center valign=middle><a href="http://www12.virtualtourist.com/Australia/New_Zealand/Auckland/?s=wu"><img src="http://ads.wunderground.com/ads/images/wu-7.jpg" width="53" height="72" border="1" alt="" /></a></td>
+		<td nowrap align=center valign=middle><font face="arial narrow" color="red" size=3><b>Meet<br>Locals</b></font></td>
+		</tr>
+		<tr>
+		<td bgcolor="#ffffff" colspan=2 align=center><a href="http://www12.virtualtourist.com/Australia/New_Zealand/Auckland/?s=wu" style="text-decoration: none; color: #000;"><font size=-1 face="arial narrow,sans">Read their travel tips for <span class="b" style="text-decoration: underline; color: #00F;">Auckland hotels</span>!</font></a></td>
+		</tr>
+	</table>
+</center>
+		</td>
+		<td class="taC" style="width: 50%; padding-bottom: 10px;">
+		<table cellpadding=0 cellspacing=0>
+<tr>
+<td valign=middle><a href="http://www.tripadvisor.com/Tourism-g187147-Paris_Ile_de_France-Vacations-m10665-m10886.html" rel="nofollow"><img src="http://icons-pe.wunderground.com/ads/images/Trip-Paris.gif" height=105 width=10 border=0></a></td>
+<td>
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+  <td width="10" height="54"><img src="http://icons-pe.wunderground.com/ads/images/TripAdvisor-TL.gif" width="10" height="54"></td>
+  <td align="left" background="http://icons-pe.wunderground.com/ads/images/TripAdvisor-T.gif">
+  <a href="http://www.tripadvisor.com/ZipFinder-zz93119-m10886.html" rel="nofollow"><img src="http://icons-pe.wunderground.com/ads/images/TripAdvisor-Blinky.gif" width="105" height="54" alt="TripAdvisor - Hotels and Vacation Packages" border=0></a></td>
+  <td width="10" height="54"><img src="http://icons-pe.wunderground.com/ads/images/TripAdvisor-TR.gif" width="10" height="54"></td>
+  </tr>
+  <tr>
+  <td background="http://icons-pe.wunderground.com/ads/images/TAanimatedL.gif"><img src="http://icons-pe.wunderground.com/ads/images/TAanimatedL.gif" width="10" height="48"></td>
+  <td align="center" width="105">
+ <font size=-1 face="arial narrow">
+  <a href="http://www.tripadvisor.com/ZipFinder-zz93119-m10886.html" rel="nofollow">Unbiased reviews<br>and advice for <br><b>Auckland</b><!--<br> hotels and other cities--></a>
+  </font>
+</td>
+  <td background="http://icons-pe.wunderground.com/ads/images/TAanimatedR.gif"><img src="http://icons-pe.wunderground.com/ads/images/TAanimatedR.gif" width="10" height="48"></td>
+  </tr>
+  <tr>
+  <td width="10" height="10"><img src="http://icons-pe.wunderground.com/ads/images/TAanimatedBL.gif" width="10" height="23"></td>
+  <td width="105"><a href="http://www.tripadvisor.com/ZipFinder-z00000-m10886.html" rel="nofollow"><img src="http://icons-pe.wunderground.com/ads/images/TAanimatedB.gif" width="105" height="23" border="0"></a></td>
+  <td width="10" height="10"><img src="http://icons-pe.wunderground.com/ads/images/TAanimatedBR.gif" width="10" height="23"></td>
+  </tr>
+</table>
+</td>
+<td valign=middle><a href="http://las-vegas-hotels.tripadvisor.com/Tourism-g45963-Las_Vegas_Nevada-Vacations-m10665-m10886.html" rel="nofollow"><img src="http://icons-pe.wunderground.com/ads/images/Trip-Vegas.gif" height=105 width=12 border=0></a></td>
+</tr>
+</table>
+		</td>
+		</tr>
+		</table>
+		<div class="bm15">
+	<div class="modBox">
+		<script type="text/javascript">
+		window.addEvent('domready', function(){
+		var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/wu2/";
+		var jsname ="astro";
+		var localslider = new Fx.Slide(jsname + '_contain');
+		var closeurl = "/?setprefs.0.key=Sky&setprefs.0.val=0";
+		var openurl = "/?setprefs.0.key=Sky&setprefs.0.val=1";
+		var iswxstn = 0;
+		$(jsname+'_control').addEvent('click',function(e){
+		e=new Event(e);
+		if(localslider.wrapper.offsetHeight!=0&&localslider.wrapper.offsetWidth!=0){
+		if(iswxstn){$$('img.windvane').addClass('none');}
+		}
+		localslider.toggle().chain(function(){
+		if(localslider.wrapper.offsetHeight==0||localslider.wrapper.offsetWidth==0){
+		$(jsname+'_bar').addClass('close');
+		$(jsname+'_bar').removeClass('open');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_down.gif');
+		new Ajax(closeurl,{method:'get'}).request();
+		}else{
+		$(jsname+'_bar').addClass('open');
+		$(jsname+'_bar').removeClass('close');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_up.gif');
+		new Ajax(openurl,{method:'get'}).request();
+		if(iswxstn){$$('img.windvane').removeClass('none');}
+		}
+		});
+		e.stop();
+		});
+		});
+		</script>
+		<table id="astro_bar" cellspacing="0" cellpadding="2" class="full open">
+		<tr>
+		<td class="full">Astronomy</td>
+		<td><a id="astro_control" href="/cgi-bin/findweather/getForecast?setpref=Sky&value=0"><img id="astro_image" src="http://icons-pe.wxug.com/graphics/wu2/ico_up.gif" alt="Hide" /></a></td>
+		</tr>
+		</table>
+	</div>
+<div id="astro_contain">
+	<table cellspacing="0" cellpadding="0" class="dataTable">
+		<thead>
+		<tr>
+		<td>September 28, 2008</td>
+		<td>Rise:</td>
+		<td>Set:</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td>Actual Time</td>
+		<td>7:01 AM NZDT</td>
+		<td>7:22 PM NZDT</td>
+		</tr>
+		<tr>
+		<td>Civil Twilight</td>
+		<td>6:35 AM NZDT</td>
+		<td>7:48 PM NZDT</td>
+		</tr>
+		<tr>
+		<td>Nautical Twilight</td>
+		<td>6:05 AM NZDT</td>
+		<td>8:18 PM NZDT</td>
+		</tr>
+		<tr>
+		<td>Astronomical Twilight</td>
+		<td>5:34 AM NZDT</td>
+		<td>8:49 PM NZDT</td>
+		</tr>
+		<tr>
+		<td>Moon</td>
+		<td>6:06 AM NZDT</td>
+		<td>6:13 PM NZDT</td>
+		</tr>
+		<tr>
+		<td>Length Of Visible Light:</td>
+		<td colspan="2">13h 12m</td>
+		</tr>
+		<tr>
+		<td>Length of Day</td>
+		<td colspan="2">
+		<div>12h 20m</div>
+		<div>Tomorrow will be <span class="b">2m 22s longer</span>.</div>
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td colspan="3">
+		<p class="taC"><a href="http://www.wunderground.com/global/stations/93119.html?MR=0&extendedsun=sunon" class="subLink">Extended View</a></p>
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td colspan="3">
+		<div class="b">Waning Crescent, 1% of the Moon is Illuminated</div>
+		<table cellspacing="0" cellpadding="0" class="full" id="moonTable">
+		<tr>
+		<td><img src="http://icons-pe.wxug.com/graphics/moonpictssouthern/moon28.gif" width="48" height="48" alt="" /></td>
+		<td><img src="http://icons-pe.wxug.com/graphics/moonpictssouthern/moon1.gif" width="48" height="48" alt="" /></td>
+		<td><img src="http://icons-pe.wxug.com/graphics/moonpictssouthern/moon8.gif" width="48" height="48" alt="" /></td>
+		<td><img src="http://icons-pe.wxug.com/graphics/moonpictssouthern/moon16.gif" width="48" height="48" alt="" /></td>
+		<td><img src="http://icons-pe.wxug.com/graphics/moonpictssouthern/moon23.gif" width="48" height="48" alt="" /></td>
+		</tr>
+		<tr>
+		<td class="b">
+		Today
+		</td>
+		<td>
+		<div class="b">9 / 29</div>
+		<div class="sm">New</div>
+		</td>
+		<td>
+		<div class="b">10 / 7</div>
+		<div class="sm">First Quarter</div>
+		</td>
+		<td>
+		<div class="b">10 / 15</div>
+		<div class="sm">Full</div>
+		</td>
+		<td>
+		<div class="b">10 / 22</div>
+		<div class="sm">Last Quarter</div>
+		</td>
+		</tr>
+		</table>
+		<p>For more information about the solar system:</p>
+		<ul>
+		<li><a href="/sky/ShowSky.asp?TheLat=-37.02000046&TheLon=174.80000305&TimeZoneName=Pacific/Auckland">View the Full Star Chart!</a></li>
+		<li><a href="/about/faq/twilights.asp">Definitions of Astronomy Terms</a></li>
+		</ul>
+		</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+		<div class="bm15"><div class="mainB">Free Weather Stickers&reg; for Your Homepage!</div>
+<table cellspacing="0" cellpadding="10" class="full" id="promoTable">
+	<tr class="vaT">
+		<td>
+		<div class="bm10">We've cooked up some fun dynamic images for you to put on your homepage.</div>
+		<ul>
+		<li>18 <span class="b red">NEW</span> Stickers!</li>
+		<li>Multiple Styles to Choose From</li>
+		<li>Display Current conditions</li>
+		</ul>
+		<p class="taC"><a href="/geo/BannerPromo/global/stations/93119.html" class="subLink">Get Your Weather Sticker!</a></p>
+		</td>
+  <td>
+		<div class="taC" id="stickerBox" onclick=window.location="/geo/BannerPromo/global/stations/93119.html">
+		<div class="smB">
+		Auckland,
+		</div>
+		<div class="smB">
+		<div>
+  <span class="nobr"><span class="b">57</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">14</span>&nbsp;&#176;C</span>
+</div>
+		<div>Partly Cloudy</div>
+		<div>at 6:00 PM NZDT</div>
+		</div>
+		<p class="nobr sm">(Click for forecast)</p>
+		<div class="tm10"><img src="http://icons-pe.wxug.com/graphics/wu2/logo_footer.gif" width="53" height="25" alt="" /></div>
+		</div>
+		</td>
+	</tr>
+</table>
+</div>
+		<div style="width: 375px;"></div>
+		</td>
+		<td><div class="w10"></div></td>
+		<td class="vaT full">
+		<div class="bm15">
+	<div class="mainB">
+		<table cellspacing="0" cellpadding="0" class="full">
+		<tr>
+		<td class="full">
+		5-Day Forecast
+		for
+		Auckland
+		</td>
+		<td class="nobr"><a href="/member/membersettings.html?page=icons" id="iconsLink">Customize Your Icons!</a></td>
+		</tr>
+		</table>
+	</div>
+	<table cellspacing="0" cellpadding="0" class="dataTable">
+		<thead>
+		<tr>
+		<td class="taC" style="width: 20%;">Sunday</td>
+		<td class="taC" style="width: 20%;">Monday</td>
+		<td class="taC" style="width: 20%;">Tuesday</td>
+		<td class="taC" style="width: 20%;">Wednesday</td>
+		<td class="taC" style="width: 20%;">Thursday</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr class="wHover noBorder">
+		<td class="taC" >
+		<div><img src="http://icons-pe.wxug.com/i/c/a/mostlysunny.gif" alt="Scattered Clouds" width="42" height="42" class="condIcon" /></div>
+		<div class="b nobr">
+		<span style="color: #900;">62&deg; F</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">50&deg; F</span>
+		<br />
+		<span style="color: #900;">17&deg; C</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">10&deg; C</span>
+		</div>
+		</td>
+		<td class="taC" >
+		<div><img src="http://icons-pe.wxug.com/i/c/a/chancerain.gif" alt="Chance of Rain" width="42" height="42" class="condIcon" /></div>
+		<div class="b nobr">
+		<span style="color: #900;">60&deg; F</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">53&deg; F</span>
+		<br />
+		<span style="color: #900;">16&deg; C</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">12&deg; C</span>
+		</div>
+		</td>
+		<td class="taC" >
+		<div><img src="http://icons-pe.wxug.com/i/c/a/chancerain.gif" alt="Chance of Rain" width="42" height="42" class="condIcon" /></div>
+		<div class="b nobr">
+		<span style="color: #900;">60&deg; F</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">50&deg; F</span>
+		<br />
+		<span style="color: #900;">16&deg; C</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">10&deg; C</span>
+		</div>
+		</td>
+		<td class="taC" >
+		<div><img src="http://icons-pe.wxug.com/i/c/a/chancerain.gif" alt="Chance of Rain" width="42" height="42" class="condIcon" /></div>
+		<div class="b nobr">
+		<span style="color: #900;">57&deg; F</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">48&deg; F</span>
+		<br />
+		<span style="color: #900;">14&deg; C</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">9&deg; C</span>
+		</div>
+		</td>
+		<td class="taC" >
+		<div><img src="http://icons-pe.wxug.com/i/c/a/chancerain.gif" alt="Chance of Rain" width="42" height="42" class="condIcon" /></div>
+		<div class="b nobr">
+		<span style="color: #900;">57&deg; F</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">51&deg; F</span>
+		<br />
+		<span style="color: #900;">14&deg; C</span>
+		<span style="font-weight: normal; color: #999;">|</span>
+		<span style="color: #009;">11&deg; C</span>
+		</div>
+		</td>
+		</tr>
+		<tr class="wHover noBorder">
+		<td class="taC" >
+		Scattered Clouds
+		</td>
+		<td class="taC" >
+		Chance of Rain
+		<div>
+		<span class="b green">20%</span> chance of precipitation
+		</div>
+		</td>
+		<td class="taC" >
+		Chance of Rain
+		<div>
+		<span class="b green">50%</span> chance of precipitation
+		</div>
+		</td>
+		<td class="taC" >
+		Chance of Rain
+		<div>
+		<span class="b green">50%</span> chance of precipitation
+		</div>
+		</td>
+		<td class="taC" >
+		Chance of Rain
+		<div>
+		<span class="b green">20%</span> chance of precipitation
+		</div>
+		</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+		<table cellspacing="0" cellpadding="0" class="full">
+		<tr>
+		<td class="full vaT">
+		<center>
+  <a href="http://server2.as5000.com/AS5000/adserver/click?ID=WUND-00076&C=6&T=1222579037"><img width="300" height="250" src="http://server2.as5000.com/AS5000/adserver/image?ID=WUND-00076&amp;C=6&amp;T=1222579037" alt=""></a>
+</center>
+		<div class="tm10 bm15">
+	<div class="modBox">
+		<script type="text/javascript">
+		window.addEvent('domready', function(){
+		var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/wu2/";
+		var jsname ="wundfct";
+		var localslider = new Fx.Slide(jsname + '_contain');
+		var closeurl = "/?setprefs.0.key=DETFCT&setprefs.0.val=0";
+		var openurl = "/?setprefs.0.key=DETFCT&setprefs.0.val=1";
+		var iswxstn = 0;
+		$(jsname+'_control').addEvent('click',function(e){
+		e=new Event(e);
+		if(localslider.wrapper.offsetHeight!=0&&localslider.wrapper.offsetWidth!=0){
+		if(iswxstn){$$('img.windvane').addClass('none');}
+		}
+		localslider.toggle().chain(function(){
+		if(localslider.wrapper.offsetHeight==0||localslider.wrapper.offsetWidth==0){
+		$(jsname+'_bar').addClass('close');
+		$(jsname+'_bar').removeClass('open');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_down.gif');
+		new Ajax(closeurl,{method:'get'}).request();
+		}else{
+		$(jsname+'_bar').addClass('open');
+		$(jsname+'_bar').removeClass('close');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_up.gif');
+		new Ajax(openurl,{method:'get'}).request();
+		if(iswxstn){$$('img.windvane').removeClass('none');}
+		}
+		});
+		e.stop();
+		});
+		});
+		</script>
+		<table id="wundfct_bar" cellspacing="0" cellpadding="2" class="full open">
+		<tr>
+		<td class="full">Extended Forecast</td>
+		<td><a id="wundfct_control" href="/cgi-bin/findweather/getForecast?setpref=DETFCT&value=0"><img id="wundfct_image" src="http://icons-pe.wxug.com/graphics/wu2/ico_up.gif" alt="Hide" /></a></td>
+		</tr>
+		</table>
+	</div>
+<div id="wundfct_contain">
+<table cellspacing="0" cellpadding="0" class="dataTable">
+	<thead>
+		<tr>
+		<td colspan="2">Updated: 12:00 PM NZST on September 27, 2008</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/mostlysunny.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Sunday</div>
+		Scattered Clouds.
+		High:
+		62&deg; F.
+		/
+		17&deg; C.
+		Wind
+		light.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/nt_mostlysunny.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Sunday Night</div>
+		Scattered Clouds.
+		Low:
+		50&deg; F.
+		/
+		10&deg; C.
+		Wind
+		light.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/chancerain.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Monday</div>
+		Chance of Rain.
+		Partly Cloudy.
+		High:
+		60&deg; F.
+		/
+		16&deg; C.
+		Wind
+		North
+		17 mph.
+		/
+		28 km/h.
+		Chance of precipitation 20%.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/nt_rain.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Monday Night</div>
+		Rain.
+		Low:
+		53&deg; F.
+		/
+		12&deg; C.
+		Wind
+		West
+		13 mph.
+		/
+		21 km/h.
+		Chance of precipitation 90%.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/chancerain.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Tuesday</div>
+		Chance of Rain.
+		Scattered Clouds.
+		High:
+		60&deg; F.
+		/
+		16&deg; C.
+		Wind
+		WSW
+		22 mph.
+		/
+		36 km/h.
+		Chance of precipitation 50%.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/nt_mostlysunny.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Tuesday Night</div>
+		Scattered Clouds.
+		Low:
+		50&deg; F.
+		/
+		10&deg; C.
+		Wind
+		SW
+		15 mph.
+		/
+		25 km/h.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/chancerain.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Wednesday</div>
+		Chance of Rain.
+		Scattered Clouds.
+		High:
+		57&deg; F.
+		/
+		14&deg; C.
+		Wind
+		WNW
+		24 mph.
+		/
+		39 km/h.
+		Chance of precipitation 50%.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/nt_chancerain.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Wednesday Night</div>
+		Chance of Rain.
+		Partly Cloudy.
+		Low:
+		48&deg; F.
+		/
+		9&deg; C.
+		Wind
+		SW
+		22 mph.
+		/
+		36 km/h.
+		Chance of precipitation 20%.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/chancerain.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Thursday</div>
+		Chance of Rain.
+		Scattered Clouds.
+		High:
+		57&deg; F.
+		/
+		14&deg; C.
+		Wind
+		WSW
+		20 mph.
+		/
+		32 km/h.
+		Chance of precipitation 20%.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/nt_chancerain.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Thursday Night</div>
+		Chance of Rain.
+		Overcast.
+		Low:
+		51&deg; F.
+		/
+		11&deg; C.
+		Wind
+		SW
+		20 mph.
+		/
+		32 km/h.
+		Chance of precipitation 30%.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/mostlysunny.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Friday</div>
+		Scattered Clouds.
+		High:
+		62&deg; F.
+		/
+		17&deg; C.
+		Wind
+		SW
+		13 mph.
+		/
+		21 km/h.
+		</td>
+		</tr>
+		<tr class="wHover">
+		<td><img src="http://icons-pe.wxug.com/i/c/a/nt_partlycloudy.gif" width="42" height="42" alt="" class="condIcon" /></td>
+		<td class="full">
+		<div class="b">Friday Night</div>
+		Partly Cloudy.
+		Low:
+		51&deg; F.
+		/
+		11&deg; C.
+		Wind
+		West
+		6 mph.
+		/
+		10 km/h.
+		</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+		<div class="bm15">
+	<div class="modBox">
+		<script type="text/javascript">
+		window.addEvent('domready', function(){
+		var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/wu2/";
+		var jsname ="sports";
+		var localslider = new Fx.Slide(jsname + '_contain');
+		var closeurl = "/?setprefs.0.key=FOOTBALL&setprefs.0.val=0";
+		var openurl = "/?setprefs.0.key=FOOTBALL&setprefs.0.val=1";
+		var iswxstn = 0;
+		$(jsname+'_control').addEvent('click',function(e){
+		e=new Event(e);
+		if(localslider.wrapper.offsetHeight!=0&&localslider.wrapper.offsetWidth!=0){
+		if(iswxstn){$$('img.windvane').addClass('none');}
+		}
+		localslider.toggle().chain(function(){
+		if(localslider.wrapper.offsetHeight==0||localslider.wrapper.offsetWidth==0){
+		$(jsname+'_bar').addClass('close');
+		$(jsname+'_bar').removeClass('open');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_down.gif');
+		new Ajax(closeurl,{method:'get'}).request();
+		}else{
+		$(jsname+'_bar').addClass('open');
+		$(jsname+'_bar').removeClass('close');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_up.gif');
+		new Ajax(openurl,{method:'get'}).request();
+		if(iswxstn){$$('img.windvane').removeClass('none');}
+		}
+		});
+		e.stop();
+		});
+		});
+		</script>
+		<table id="sports_bar" cellspacing="0" cellpadding="2" class="full open">
+		<tr>
+		<td class="full">Sports Weather</td>
+		<td><a id="sports_control" href="/cgi-bin/findweather/getForecast?setpref=FOOTBALL&value=0"><img id="sports_image" src="http://icons-pe.wxug.com/graphics/wu2/ico_up.gif" alt="Hide" /></a></td>
+		</tr>
+		</table>
+	</div>
+		<div id="sports_contain">
+		<table cellspacing="0" cellpadding="0" class="dataTable">
+		<thead>
+		<tr>
+		<td>NFL:</td>
+		<td>Date:</td>
+		<td>Forecast:</td>
+		</tr>
+		</thead>
+		<tbody>
+	<tr>
+		<td><a href="/sports/NFL/hometeam/Carolina:Panthers.html?st=1222606800">Falcons vs. Panthers</a></td>
+		<td>1:00 PM EDT on September 28, 2008</td>
+		<td>Partly Cloudy,
+  <span class="nobr"><span class="b">79</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">26</span>&nbsp;&#176;C</span>
+</td>
+	</tr>
+	<tr>
+		<td><a href="/sports/NFL/hometeam/Cincinnati:Bengals.html?st=1222606800">Browns vs. Bengals</a></td>
+		<td>1:00 PM EDT on September 28, 2008</td>
+		<td>Partly Cloudy,
+  <span class="nobr"><span class="b">76</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">24</span>&nbsp;&#176;C</span>
+</td>
+	</tr>
+		</tbody>
+		<thead>
+		<tr>
+		<td>College Football:</td>
+		<td>Date:</td>
+		<td>Forecast:</td>
+		</tr>
+		</thead>
+		<tbody>
+	<tr>
+		<td><a href="/sports/CFB_1/hometeam/North_Carolina_State:Wolfpack.html?st=1222543800">Bulls vs. Wolfpack</a></td>
+		<td>7:30 PM EDT on September 27, 2008</td>
+		<td>Chance of Rain,
+  <span class="nobr"><span class="b">72</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">22</span>&nbsp;&#176;C</span>
+</td>
+	</tr>
+	<tr>
+		<td><a href="/sports/CFB_1/hometeam/LSU:Tigers.html?st=1222543800">Bulldogs vs. Tigers</a></td>
+		<td>6:30 PM CDT on September 27, 2008</td>
+		<td>Clear,
+  <span class="nobr"><span class="b">76</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">24</span>&nbsp;&#176;C</span>
+</td>
+	</tr>
+		</tbody>
+		<thead>
+		<tr>
+		<td>MLB:</td>
+		<td>Date:</td>
+		<td>Forecast:</td>
+		</tr>
+		</thead>
+		<tbody>
+	<tr>
+		<td><a href="/sports/MLB/hometeam/St._Louis:Cardinals.html?st=1222542900">Reds vs. Cardinals</a></td>
+		<td>6:15 PM CDT on September 27, 2008</td>
+		<td>Clear,
+  <span class="nobr"><span class="b">72</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">22</span>&nbsp;&#176;C</span>
+</td>
+	</tr>
+	<tr>
+		<td><a href="/sports/MLB/hometeam/Arizona:Diamondbacks.html?st=1222546200">Rockies vs. Diamondbacks</a></td>
+		<td>5:10 PM MST on September 27, 2008</td>
+		<td>Partly Cloudy,
+  <span class="nobr"><span class="b">99</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">37</span>&nbsp;&#176;C</span>
+</td>
+	</tr>
+		</tbody>
+		<thead>
+		<tr>
+		<td>Football (Soccer):</td>
+		<td>Date:</td>
+		<td>Forecast:</td>
+		</tr>
+		</thead>
+		<tbody>
+	<tr>
+		<td><a href="/sports/IFB_MLS/hometeam/:New_England.html?st=1222543800">Columbus vs. New England</a></td>
+		<td>12:30 AM BST on September 28, 2008</td>
+		<td>Chance of Rain, High 59&deg; F/ 15&deg; C</td>
+	</tr>
+	<tr>
+		<td><a href="/sports/IFB_MLS/hometeam/:New_York.html?st=1222543800">Colorado vs. New York</a></td>
+		<td>7:30 PM EDT on September 27, 2008</td>
+		<td>Thunderstorm,
+  <span class="nobr"><span class="b">67</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">19</span>&nbsp;&#176;C</span>
+</td>
+	</tr>
+		</tbody>
+		<thead>
+		<tr>
+		<td>NASCAR:</td>
+		<td>Date:</td>
+		<td>Forecast:</td>
+		</tr>
+		</thead>
+		<tbody>
+	<tr>
+		<td><a href="/sports/NAS/stadium/42:NAS?st=1222611300">Camping World RV 400</a></td>
+		<td>1:15 PM CDT on September 28, 2008</td>
+		<td>Partly Cloudy,
+  <span class="nobr"><span class="b">79</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">26</span>&nbsp;&#176;C</span>
+</td>
+	</tr>
+	<tr>
+		<td><a href="/sports/NAS/stadium/15:NAS?st=1223216400">AMP Energy 500</a></td>
+		<td>1:20 PM CDT on October 05, 2008</td>
+		<td>Average High 79&deg; F/ 26&deg; C</td>
+	</tr>
+		</tbody>
+		<tbody>
+		</tbody>
+		<tr>
+		<td colspan="3" class="taC dataFooter">
+		View Schedules:
+		<a href="/sports/NFL/">NFL</a> |
+		<a href="/sports/CFB/">CFB</a> |
+		<a href="/sports/MLB/">MLB</a> |
+		<a href="/sports/IFB/">IFB</a> |
+		<a href="/sports/NAS/">NASCAR</a> |
+		<a href="/sports/GLF/">PGA Golf</a>
+		</td>
+		</tr>
+		</table>
+		</div>
+</div>
+		<div class="bm15">
+	<div class="modBox">
+		<script type="text/javascript">
+		window.addEvent('domready', function(){
+		var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/wu2/";
+		var jsname ="localblog";
+		var localslider = new Fx.Slide(jsname + '_contain');
+		var closeurl = "/?setprefs.0.key=BLOGS&setprefs.0.val=0";
+		var openurl = "/?setprefs.0.key=BLOGS&setprefs.0.val=1";
+		var iswxstn = 0;
+		$(jsname+'_control').addEvent('click',function(e){
+		e=new Event(e);
+		if(localslider.wrapper.offsetHeight!=0&&localslider.wrapper.offsetWidth!=0){
+		if(iswxstn){$$('img.windvane').addClass('none');}
+		}
+		localslider.toggle().chain(function(){
+		if(localslider.wrapper.offsetHeight==0||localslider.wrapper.offsetWidth==0){
+		$(jsname+'_bar').addClass('close');
+		$(jsname+'_bar').removeClass('open');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_down.gif');
+		new Ajax(closeurl,{method:'get'}).request();
+		}else{
+		$(jsname+'_bar').addClass('open');
+		$(jsname+'_bar').removeClass('close');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_up.gif');
+		new Ajax(openurl,{method:'get'}).request();
+		if(iswxstn){$$('img.windvane').removeClass('none');}
+		}
+		});
+		e.stop();
+		});
+		});
+		</script>
+		<table id="localblog_bar" cellspacing="0" cellpadding="2" class="full open">
+		<tr>
+		<td class="full">Blogs in This Country</td>
+		<td><a id="localblog_control" href="/cgi-bin/findweather/getForecast?setpref=BLOGS&value=0"><img id="localblog_image" src="http://icons-pe.wxug.com/graphics/wu2/ico_up.gif" alt="Hide" /></a></td>
+		</tr>
+		</table>
+	</div>
+		<div id="localblog_contain">
+		<table cellspacing="0" cellpadding="0" class="dataTable">
+		<thead>
+		<tr>
+		<td>City:</td>
+		<td>Member:</td>
+		<td>Title:</td>
+		<td>Last Activity:</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr class="wHover">
+		<td colspan="4" class="taC"><p>There are no recent blogs in this area. Why not <a href="/member/createaccount.html?type=blog">create your own</a>?</p></td>
+		</tr>
+		</tbody>
+		<tr>
+		<td colspan="4" class="taC dataFooter">Blogs for people who love weather and the outdoors! <a href="/blog/">View All Blogs &raquo;</a></td>
+		</tr>
+		</table>
+		</div>
+</div>
+		</td>
+		<td class="vaT taC" style="padding-left: 5px;">
+  <a href="http://server2.as5000.com/AS5000/adserver/click?ID=WUND-00077&C=9&T=1222579037"><img width="160" height="600" src="http://server2.as5000.com/AS5000/adserver/image?ID=WUND-00077&amp;C=9&amp;T=1222579037" alt=""></a>
+<br /><br />
+		</td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<div class="pageTop">: <a href="#">Top of Page</a> :</div>
+<a name="PWS"></a>
+	<div class="modBox">
+		<script type="text/javascript">
+		window.addEvent('domready', function(){
+		var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/wu2/";
+		var jsname ="wxstn";
+		var localslider = new Fx.Slide(jsname + '_contain');
+		var closeurl = "/?setprefs.0.key=WXSN&setprefs.0.val=0";
+		var openurl = "/?setprefs.0.key=WXSN&setprefs.0.val=1";
+		var iswxstn = 1;
+		$(jsname+'_control').addEvent('click',function(e){
+		e=new Event(e);
+		if(localslider.wrapper.offsetHeight!=0&&localslider.wrapper.offsetWidth!=0){
+		if(iswxstn){$$('img.windvane').addClass('none');}
+		}
+		localslider.toggle().chain(function(){
+		if(localslider.wrapper.offsetHeight==0||localslider.wrapper.offsetWidth==0){
+		$(jsname+'_bar').addClass('close');
+		$(jsname+'_bar').removeClass('open');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_down.gif');
+		new Ajax(closeurl,{method:'get'}).request();
+		}else{
+		$(jsname+'_bar').addClass('open');
+		$(jsname+'_bar').removeClass('close');
+		$(jsname+'_image').setProperty('src',imgSrcPrefix+'ico_up.gif');
+		new Ajax(openurl,{method:'get'}).request();
+		if(iswxstn){$$('img.windvane').removeClass('none');}
+		}
+		});
+		e.stop();
+		});
+		});
+		</script>
+		<table id="wxstn_bar" cellspacing="0" cellpadding="2" class="full open">
+		<tr>
+		<td class="full">Weather Stations</td>
+		<td><a id="wxstn_control" href="/cgi-bin/findweather/getForecast?setpref=WXSN&value=0"><img id="wxstn_image" src="http://icons-pe.wxug.com/graphics/wu2/ico_up.gif" alt="Hide" /></a></td>
+		</tr>
+		</table>
+	</div>
+<div id="wxstn_contain">
+<div class="selectorBox">
+	<table cellspacing="0" cellpadding="0" class="full" id="typeTable">
+		<tr>
+		<td id="allwxstn" class="activeTab"><a href="/cgi-bin/findweather/getForecast?setpref=WSLIST&value=ALLWS#PWS">All Weather Stations</a></td>
+		<td id="pwsonly" class="inactiveTab"><a href="/cgi-bin/findweather/getForecast?setpref=WSLIST&value=WUPWS#PWS">Personal Weather Stations</a></td>
+		<td id="madisonly" class="inactiveTab"><a href="/cgi-bin/findweather/getForecast?setpref=WSLIST&value=MADIS#PWS">MADIS Weather Stations</a></td>
+		<td class="inactiveTab"><a href="/stationmaps/gmap.asp?lat=-37.02000046&lon=174.80000305&zoom=10">Weather Stations WunderMap</a></td>
+		</tr>
+	</table>
+</div>
+<div id="wxstnbox">
+		<table cellspacing="0" cellpadding="0" class="dataTable tm10" onclick="sortColumn(event)">
+		<thead>
+		<tr>
+		<td class="sortH nobr">Station Location</td>
+		<td class="sortH nobr">Temp.</td>
+		<td class="sortH nobr">Dew Point</td>
+		<td class="sortH nobr">Humidity</td>
+		<td class="sortH nobr">Wind</td>
+		<td class="sortH nobr">Pressure</td>
+		<td class="sortH nobr">Precipitation</td>
+		<td class="sortH nobr">Elevation</td>
+		<td class="sortH nobr">Updated</td>
+		<td class="sortH nobr">Type</td>
+		<td class="sortH nobr">&nbsp;</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IFRANKLI1">Awhitu, Waiuku</a>
+		<div class="none">
+		<a href="http://www.weather-display.com/windy/gb/grahamsbeach.htm">Awhitu weather data</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IFRANKLI1">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IFRANKLI1">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IFRANKLI1" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="55.6">
+  <span class="nobr"><span class="b">55.6</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">13.1</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IFRANKLI1" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="43">
+  <span class="nobr"><span class="b">43</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">6</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IFRANKLI1" pwsunit="both" pwsvariable="humidity" english="" metric="" value="63">63%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="1WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="1ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['1WIND']=new WindRotate("1ArrowDiv",14,255);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IFRANKLI1" pwssetobject="window.wind_animate['1WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IFRANKLI1" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="17.3">
+  <span class="nobr"><span class="b">17.3</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">27.8</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">7.7</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IFRANKLI1" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.98">
+  <span class="nobr"><span class="b">29.98</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1015.1</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">300 ft</td>
+		<td><span class="pwsrt" pwsid="IFRANKLI1" pwsunit="both" pwsvariable="lu" value="1222579036">6:17 PM NZDT</span></td>
+		<td class="nobr"><span class="green">Rapid Fire</span></td>
+		<td><a href="http://www.weather-display.com/windy/gb/grahamsbeach.htm">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN27">Mount Roskill, Auckland</a>
+		<div class="none">
+		<a href="http://www.sanctuaryweather.co.nz">The Sanctuary Weather Station</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN27">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN27">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN27" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="60.6">
+  <span class="nobr"><span class="b">60.6</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">15.9</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN27" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="42">
+  <span class="nobr"><span class="b">42</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">6</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN27" pwsunit="both" pwsvariable="humidity" english="" metric="" value="50">50%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="2WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="2ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['2WIND']=new WindRotate("2ArrowDiv",14,249);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN27" pwssetobject="window.wind_animate['2WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN27" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="5.0">
+  <span class="nobr"><span class="b">5.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">8.0</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">2.2</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN27" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.98">
+  <span class="nobr"><span class="b">29.98</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1015.1</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">177 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN27" pwsunit="both" pwsvariable="lu" value="1222578608">6:10 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.sanctuaryweather.co.nz">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IMANUKAU2">Ardmore, Papakura</a>
+		<div class="none">
+		<a href="http://www.phy.auckland.ac.nz/html/ardmore.html">Ardmore Field Station</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IMANUKAU2">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IMANUKAU2">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IMANUKAU2" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="60.6">
+  <span class="nobr"><span class="b">60.6</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">15.9</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IMANUKAU2" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="46">
+  <span class="nobr"><span class="b">46</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">8</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IMANUKAU2" pwsunit="both" pwsvariable="humidity" english="" metric="" value="58">58%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="3WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="3ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['3WIND']=new WindRotate("3ArrowDiv",14,241);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IMANUKAU2" pwssetobject="window.wind_animate['3WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IMANUKAU2" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="10.0">
+  <span class="nobr"><span class="b">10.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">16.1</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">4.5</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IMANUKAU2" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.95">
+  <span class="nobr"><span class="b">29.95</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1014.1</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  -
+/ hr</td>
+		<td class="nobr">120 ft</td>
+		<td><span class="pwsrt" pwsid="IMANUKAU2" pwsunit="both" pwsvariable="lu" value="1222578163">6:02 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.phy.auckland.ac.nz/html/ardmore.html">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN31">Remuera, Auckland City</a>
+		<div class="none">
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN31">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN31">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN31" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="63.1">
+  <span class="nobr"><span class="b">63.1</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">17.3</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN31" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="42">
+  <span class="nobr"><span class="b">42</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">6</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN31" pwsunit="both" pwsvariable="humidity" english="" metric="" value="46">46%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="4WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="4ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['4WIND']=new WindRotate("4ArrowDiv",14,284);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN31" pwssetobject="window.wind_animate['4WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WNW">
+		WNW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN31" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="1.0">
+  <span class="nobr"><span class="b">1.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">1.6</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">0.4</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN31" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="30.01">
+  <span class="nobr"><span class="b">30.01</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1016.1</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">150 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN31" pwsunit="both" pwsvariable="lu" value="1222578855">6:14 PM NZDT</span></td>
+		<td>Normal</td>
+		<td>&nbsp;</td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN33">Howick, Auckland, Howick West</a>
+		<div class="none">
+		<a href="http://www.janter.co.nz">Visit Website</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN33">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN33">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN33" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="61.5">
+  <span class="nobr"><span class="b">61.5</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">16.4</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN33" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="38">
+  <span class="nobr"><span class="b">38</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">3</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN33" pwsunit="both" pwsvariable="humidity" english="" metric="" value="44">44%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="5WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="5ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['5WIND']=new WindRotate("5ArrowDiv",14,252);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN33" pwssetobject="window.wind_animate['5WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN33" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="10.0">
+  <span class="nobr"><span class="b">10.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">16.1</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">4.5</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN33" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.88">
+  <span class="nobr"><span class="b">29.88</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1011.7</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">170 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN33" pwsunit="both" pwsvariable="lu" value="1222578962">6:16 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.janter.co.nz">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN22">Glendowie, Auckland</a>
+		<div class="none">
+		<a href="http://www.planits.co.nz">PLANITS Ltd Web site</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN22">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN22">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN22" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="64.3">
+  <span class="nobr"><span class="b">64.3</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">17.9</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN22" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="39">
+  <span class="nobr"><span class="b">39</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">4</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN22" pwsunit="both" pwsvariable="humidity" english="" metric="" value="39">39%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="6WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="6ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['6WIND']=new WindRotate("6ArrowDiv",14,261);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN22" pwssetobject="window.wind_animate['6WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="West">
+		West
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN22" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="6.0">
+  <span class="nobr"><span class="b">6.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">9.7</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">2.7</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN22" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.88">
+  <span class="nobr"><span class="b">29.88</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1011.7</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">806 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN22" pwsunit="both" pwsvariable="lu" value="1222578906">6:15 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.planits.co.nz">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN7">Grey Lynn, Auckland</a>
+		<div class="none">
+		<a href="http://www.greylynnweather.net">Grey Lynn Weather - Webcam</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN7">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN7">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN7" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="57.8">
+  <span class="nobr"><span class="b">57.8</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">14.3</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN7" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="39">
+  <span class="nobr"><span class="b">39</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">4</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN7" pwsunit="both" pwsvariable="humidity" english="" metric="" value="50">50%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="7WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="7ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['7WIND']=new WindRotate("7ArrowDiv",14,197);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN7" pwssetobject="window.wind_animate['7WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="SSW">
+		SSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN7" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="14.1">
+  <span class="nobr"><span class="b">14.1</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">22.7</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">6.3</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN7" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.98">
+  <span class="nobr"><span class="b">29.98</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1015.1</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">184 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN7" pwsunit="both" pwsvariable="lu" value="1222579036">6:17 PM NZDT</span></td>
+		<td class="nobr"><span class="green">Rapid Fire</span></td>
+		<td><a href="http://www.greylynnweather.net">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN5">St Heliers Bay, Auckland</a>
+		<div class="none">
+		<a href="http://homepages.kcbbs.gen.nz/marks/">St Heliers Weather</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN5">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN5">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN5" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="63.3">
+  <span class="nobr"><span class="b">63.3</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">17.4</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN5" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="43">
+  <span class="nobr"><span class="b">43</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">6</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN5" pwsunit="both" pwsvariable="humidity" english="" metric="" value="48">48%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="8WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="8ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['8WIND']=new WindRotate("8ArrowDiv",14,217);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN5" pwssetobject="window.wind_animate['8WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="SW">
+		SW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN5" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="9.0">
+  <span class="nobr"><span class="b">9.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">14.5</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">4.0</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN5" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.94">
+  <span class="nobr"><span class="b">29.94</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1013.8</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">150 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN5" pwsunit="both" pwsvariable="lu" value="1222576245">5:30 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://homepages.kcbbs.gen.nz/marks/">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN16">Eastern Beach, Auckland</a>
+		<div class="none">
+		<a href="http://www.angelfire.com/tv2/lukeplace/">Weather Data - Web Cam</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN16">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN16">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN16" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="61.7">
+  <span class="nobr"><span class="b">61.7</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">16.5</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN16" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="41">
+  <span class="nobr"><span class="b">41</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">5</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN16" pwsunit="both" pwsvariable="humidity" english="" metric="" value="46">46%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="9WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="9ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['9WIND']=new WindRotate("9ArrowDiv",14,232);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN16" pwssetobject="window.wind_animate['9WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="SW">
+		SW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN16" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="0.0">
+  <span class="nobr"><span class="b">0.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">0.0</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">0.0</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN16" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.91">
+  <span class="nobr"><span class="b">29.91</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1012.8</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">40 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN16" pwsunit="both" pwsvariable="lu" value="1222578946">6:15 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.angelfire.com/tv2/lukeplace/">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN17">Mission Bay, Mission Bay, Auckland</a>
+		<div class="none">
+		<a href="http://mission-bay.sig.net.nz">Mission Bay Weather Station</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN17">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN17">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN17" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="61.0">
+  <span class="nobr"><span class="b">61.0</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">16.1</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN17" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="12">
+  <span class="nobr"><span class="b">12</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">-11</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN17" pwsunit="both" pwsvariable="humidity" english="" metric="" value="14">14%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="10WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="10ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['10WIND']=new WindRotate("10ArrowDiv",14,221);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN17" pwssetobject="window.wind_animate['10WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="SW">
+		SW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN17" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="7.0">
+  <span class="nobr"><span class="b">7.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">11.3</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">3.1</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN17" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.82">
+  <span class="nobr"><span class="b">29.82</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1009.7</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">350 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN17" pwsunit="both" pwsvariable="lu" value="1222578684">6:11 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://mission-bay.sig.net.nz">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN32">RNZYS, Westhaven</a>
+		<div class="none">
+		<a href="http://www.waihekeweather.net">Waiheke Weather</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN32">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN32">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN32" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="59.5">
+  <span class="nobr"><span class="b">59.5</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">15.3</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN32" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="39">
+  <span class="nobr"><span class="b">39</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">4</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN32" pwsunit="both" pwsvariable="humidity" english="" metric="" value="46">46%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="11WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="11ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['11WIND']=new WindRotate("11ArrowDiv",14,201);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN32" pwssetobject="window.wind_animate['11WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="SSW">
+		SSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN32" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="9.0">
+  <span class="nobr"><span class="b">9.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">14.5</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">4.0</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN32" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.94">
+  <span class="nobr"><span class="b">29.94</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1013.8</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">30 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN32" pwsunit="both" pwsvariable="lu" value="1222578916">6:15 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.waihekeweather.net">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=MD0000">APRSWXNET Auckland , Auckland</a>
+		<div class="none">
+		<a href="http://madis.noaa.gov">Meteorological Assimilation Data Ingest System</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=MD0000">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=MD0000">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="MD0000" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="56">
+  <span class="nobr"><span class="b">56</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">13.3</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="MD0000" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="42">
+  <span class="nobr"><span class="b">42</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">6</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="MD0000" pwsunit="both" pwsvariable="humidity" english="" metric="" value="60">60%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="12WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="12ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['12WIND']=new WindRotate("12ArrowDiv",14,255);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="MD0000" pwssetobject="window.wind_animate['12WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="MD0000" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="12">
+  <span class="nobr"><span class="b">12</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">19.3</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">5.4</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="MD0000" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.86">
+  <span class="nobr"><span class="b">29.86</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1011.1</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">656 ft</td>
+		<td><span class="pwsrt" pwsid="MD0000" pwsunit="both" pwsvariable="lu" value="1222578060">6:01 PM NZDT</span></td>
+		<td class="nobr">MADIS</td>
+		<td><a href="http://madis.noaa.gov">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IWAITAKE1">Massey, Waitakere City</a>
+		<div class="none">
+		<a href="http://www.weather-west.net/our_weather.htm">Auckland West Weather</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IWAITAKE1">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IWAITAKE1">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IWAITAKE1" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="59.2">
+  <span class="nobr"><span class="b">59.2</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">15.1</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IWAITAKE1" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="37">
+  <span class="nobr"><span class="b">37</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">3</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IWAITAKE1" pwsunit="both" pwsvariable="humidity" english="" metric="" value="43">43%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="13WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="13ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['13WIND']=new WindRotate("13ArrowDiv",14,237);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IWAITAKE1" pwssetobject="window.wind_animate['13WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IWAITAKE1" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="9.0">
+  <span class="nobr"><span class="b">9.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">14.5</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">4.0</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IWAITAKE1" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.97">
+  <span class="nobr"><span class="b">29.97</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1014.8</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">61 ft</td>
+		<td><span class="pwsrt" pwsid="IWAITAKE1" pwsunit="both" pwsvariable="lu" value="1222578911">6:15 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.weather-west.net/our_weather.htm">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=I90580129">Waiuku, Auckland</a>
+		<div class="none">
+		<a href="http://www.leaveoff.net/weather/">Waiuku Weather</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=I90580129">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=I90580129">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="I90580129" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="60.4">
+  <span class="nobr"><span class="b">60.4</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">15.8</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="I90580129" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="40">
+  <span class="nobr"><span class="b">40</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">4</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="I90580129" pwsunit="both" pwsvariable="humidity" english="" metric="" value="46">46%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="14WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="14ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['14WIND']=new WindRotate("14ArrowDiv",14,196);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="I90580129" pwssetobject="window.wind_animate['14WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="SSW">
+		SSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="I90580129" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="2.0">
+  <span class="nobr"><span class="b">2.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">3.2</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">0.9</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="I90580129" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.97">
+  <span class="nobr"><span class="b">29.97</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1014.8</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">150 ft</td>
+		<td><span class="pwsrt" pwsid="I90580129" pwsunit="both" pwsvariable="lu" value="1222578877">6:14 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.leaveoff.net/weather/">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN30">Oneroa, Waiheke Island</a>
+		<div class="none">
+		<a href="http://www.waihekeweather.net">Waiheke Weather</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN30">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN30">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN30" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="67.4">
+  <span class="nobr"><span class="b">67.4</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">19.7</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN30" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="44">
+  <span class="nobr"><span class="b">44</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">7</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN30" pwsunit="both" pwsvariable="humidity" english="" metric="" value="43">43%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="15WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="15ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['15WIND']=new WindRotate("15ArrowDiv",14,248);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN30" pwssetobject="window.wind_animate['15WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN30" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="3.0">
+  <span class="nobr"><span class="b">3.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">4.8</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">1.3</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN30" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.99">
+  <span class="nobr"><span class="b">29.99</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1015.5</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">0 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN30" pwsunit="both" pwsvariable="lu" value="1222578926">6:15 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.waihekeweather.net">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=I90580546">Albany, Auckland</a>
+		<div class="none">
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=I90580546">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=I90580546">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="I90580546" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="55.9">
+  <span class="nobr"><span class="b">55.9</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">13.3</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="I90580546" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="39">
+  <span class="nobr"><span class="b">39</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">4</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="I90580546" pwsunit="both" pwsvariable="humidity" english="" metric="" value="52">52%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="16WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="16ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['16WIND']=new WindRotate("16ArrowDiv",14,270);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="I90580546" pwssetobject="window.wind_animate['16WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="West">
+		West
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="I90580546" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="0.0">
+  <span class="nobr"><span class="b">0.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">0.0</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">0.0</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="I90580546" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.98">
+  <span class="nobr"><span class="b">29.98</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1015.1</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">10 ft</td>
+		<td><span class="pwsrt" pwsid="I90580546" pwsunit="both" pwsvariable="lu" value="1222578909">6:15 PM NZDT</span></td>
+		<td>Normal</td>
+		<td>&nbsp;</td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN28">Onetangi, Waiheke Island</a>
+		<div class="none">
+		<a href="http://www.waihekeweather.net">Waiheke Weather</a>,
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IAUCKLAN28">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IAUCKLAN28">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN28" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="58.1">
+  <span class="nobr"><span class="b">58.1</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">14.5</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN28" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="48">
+  <span class="nobr"><span class="b">48</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">9</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IAUCKLAN28" pwsunit="both" pwsvariable="humidity" english="" metric="" value="68">68%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="17WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="17ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['17WIND']=new WindRotate("17ArrowDiv",14,248);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IAUCKLAN28" pwssetobject="window.wind_animate['17WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IAUCKLAN28" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="0.0">
+  <span class="nobr"><span class="b">0.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">0.0</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">0.0</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN28" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="29.98">
+  <span class="nobr"><span class="b">29.98</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1015.1</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">300 ft</td>
+		<td><span class="pwsrt" pwsid="IAUCKLAN28" pwsunit="both" pwsvariable="lu" value="1222578919">6:15 PM NZDT</span></td>
+		<td>Normal</td>
+		<td><a href="http://www.waihekeweather.net">Website</a></td>
+		</tr>
+		<tr>
+		<td>
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IRODNEYA2">Auckland</a>
+		<div class="none">
+		<a href="/cgi-bin/findweather/getForecast?setpref=00000193119WS&value=IRODNEYA2">Set as Default Current Conditions</a>,
+		<a href="/weatherstation/WXDailyHistory.asp?ID=IRODNEYA2">Historical Data &amp; Charts</a>
+		</div>
+		</td>
+		<td><span class="pwsrt" pwsid="IRODNEYA2" pwsunit="both" pwsvariable="tempf" english="&deg;F" metric="&deg;C" value="64.1">
+  <span class="nobr"><span class="b">64.1</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">17.8</span>&nbsp;&#176;C</span>
+</span></td>
+		<td><span class="pwsrt" pwsid="IRODNEYA2" pwsunit="both" pwsvariable="dewptf" english="&deg;F" metric="&deg;C" value="46">
+  <span class="nobr"><span class="b">46</span>&nbsp;&#176;F</span>
+  /
+  <span class="nobr"><span class="b">8</span>&nbsp;&#176;C</span>
+</span></td>
+		<td class="b"><span class="pwsrt" pwsid="IRODNEYA2" pwsunit="both" pwsvariable="humidity" english="" metric="" value="52">52%</span></td>
+		<td>
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td style="border: 0; padding: 0;">
+		<div id="18WindDiv" style="position:relative; top:1px;left:1px; width:14px; height:14px; overflow:hidden; "><img id="18ArrowDiv" class="windvane" style="left:0px;position:relative; overflow: hidden;" src="http://icons-pe.wxug.com/graphics/360arrows_blue.gif"></div>
+		<script type="text/javascript">
+		window.wind_animate['18WIND']=new WindRotate("18ArrowDiv",14,249);
+		</script>
+		</td>
+		<td style="border: 0; padding: 0;">
+		<span class="pwsrt" pwsid="IRODNEYA2" pwssetobject="window.wind_animate['18WIND']" pwsunit="both" pwsvariable="winddir" english="" metric="" value="WSW">
+		WSW
+		</span>
+		&nbsp;at&nbsp;
+		<span class="pwsrt" pwsid="IRODNEYA2" pwsunit="both" pwsvariable="windspeedmph" english="mph" metric="km/h" value="3.0">
+  <span class="nobr"><span class="b">3.0</span>&nbsp;mph</span>
+  /
+  <span class="nobr"><span class="b">4.8</span>&nbsp;km/h</span>
+		/ <span class="nobr"><span class="b">1.3</span>&nbsp;m/s</span>
+		</span>
+		</td>
+		</tr>
+		</table>
+		</td>
+		<td><span class="pwsrt" pwsid="IRODNEYA2" pwsunit="both" pwsvariable="baromin" english="in" metric="hPa" value="30.17">
+  <span class="nobr"><span class="b">30.17</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b">1021.6</span>&nbsp;hPa</span>
+</span></td>
+		<td>
+  <span class="nobr"><span class="b">0.00</span>&nbsp;in</span>
+  /
+  <span class="nobr"><span class="b"> 0</span>&nbsp;mm</span>
+/ hr</td>
+		<td class="nobr">0 ft</td>
+		<td><span class="pwsrt" pwsid="IRODNEYA2" pwsunit="both" pwsvariable="lu" value="1222578909">6:15 PM NZDT</span></td>
+		<td>Normal</td>
+		<td>&nbsp;</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+<p class="taC b">Would you like to share your weather data with the rest of the world?</p>
+<p class="taC"><a href="/weatherstation/index.asp" class="subLink">Add Your Weather Station!</a></p>
+<script type="text/javascript">
+window.addEvent('domready', function(){
+	if('/global/stations/93119.html'.contains('?')){var separator = '&';}else{var separator = '?';}
+	var imgSrcPrefix = "http://icons-pe.wxug.com/graphics/";
+	var wxstnboxurl = "/global/stations/93119.html"+separator+"responder=1&request=wxstnbox";
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('H b=6 E.B(\'n\',\'G\',{F:D}),8=$(\'8\'),7=$(\'7\'),9=$(\'9\');8.u(\'r\',2(e){6 z(e).y();8.3(\'a\');7.3(\'5\');9.3(\'5\');8.4(\'5\');7.4(\'a\');9.4(\'a\');6 g(\'/?f.0.v=t&f.0.s=A\',{d:\'l\',q:2(){$$(\'m.i\').3(\'k\');b.j(1,0).c(2(){6 g(x,{d:\'l\',w:\'n\',o:\'p\',q:2(){b.j(0,1).c(2(){$$(\'m.i\').4(\'k\')})}}).h()})}}).h()});7.u(\'r\',2(e){6 z(e).y();6 g(\'/?f.0.v=t&f.0.s=C\',{d:\'l\'}).h();7.3(\'a\');8.3(\'5\');7.3(\'5\');9.3(\'5\');7.4(\'5\');8.4(\'a\');9.4(\'a\');$$(\'m.i\').3(\'k\');b.j(1,0).c(2(){6 g(x,{d:\'l\',w:\'n\',o:\'p\',q:2(){b.j(0,1).c(2(){;$$(\'m.i\').4(\'k\')})}}).h()})});9.u(\'r\',2(e){6 z(e).y();6 g(\'/?f.0.v=t&f.0.s=I\',{d:\'l\'}).h();9.3(\'a\');8.3(\'5\');7.3(\'5\');9.4(\'5\');8.4(\'a\');7.4(\'a\');$$(\'m.i\').3(\'k\');b.j(1,0).c(2(){6 g(x,{d:\'l\',w:\'n\',o:\'p\',o:\'p\',q:2(){b.j(0,1).c(2(){$$(\'m.i\').4(\'k\')})}}).h()})});',45,45,'||function|addClass|removeClass|inactiveTab|new|pwsonly|allwxstn|madisonly|activeTab|wxstnFade|chain|method||setprefs|Ajax|request|windvane|start|none|get|img|wxstnbox|evalScripts|yes|onComplete|click|val|WSLIST|addEvent|key|update|wxstnboxurl|stop|Event|ALLWS|Style|WUPWS|900|Fx|duration|opacity|var|MADIS'.split('|'),0,{}))
+});
+</script>
+</div>
+		<br class="clear" />
+		</div>
+		</div>
+		<div class="innerFrame">
+	<div class="innerContent">
+		<br class="clear" />
+		<div id="footer">
+		<div id="footerTop">
+		<div class="clear"></div>
+		<div class="mainB">Please Visit Our Sponsors:</div>
+	<div style="background-color: #EEEEEE;">
+		<div style="clear: both;">&nbsp;</div>
+		<div class="ad125">
+		<!-- CLSM-00018 1 -->
+		<a href="http://server.as5000.com/AS5000/adserver/click?ID=CLSM-00018&C=1"><img src="http://icons.wunderground.com/ads/images/CLSM-00014-cmb71_125x125.gif" width=125 height=125 alt="Classmates
+
+"></a>
+	</div>
+		<div class="ad125">
+		<!-- VDON-00058 3 -->
+		<a href="http://server.as5000.com/AS5000/adserver/click?ID=VDON-00058&C=3"><img src="http://icons.wunderground.com/ads/images/VDON_VTG_creative.gif" width=125 height=125 alt="
+
+"></a>
+		</div>
+		<div class="ad125">
+		<!-- VDON-00061 2 -->
+		</div>
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<br>
+<div id="linkAds"> <div class="clear"></div>
+<!-- ADPL-00032 -->
+<div class="taC">
+		<div class="b">Vacation Deals</div>
+<center>
+<a href="http://www.redweek.com">
+<img src="http://icons.wunderground.com/ads/images/ADPL-00032-Redweek_logo2.jpg" width=100 height=25 border=0></a></center>
+<ul>
+<li><a href="http://www.redweek.com">Timeshare Rentals</a></li>
+<li><a href="http://www.redweek.com">Save money with Timeshare rentals</a></li>
+</ul>
+</div>
+<!-- CNDO-00002 -->
+<div class="taC">
+		<div class="b">Auckland<a href="http://www.condocompany.com/">Condos</a> and Vacations</div>
+<a href="http://www.condocompany.com/"><center><img src="http://icons.wunderground.com/ads/images/CONDO-cclogo.jpg" alt="Condominiums for sale, for rent, and vacation rentals" width="100" height="25" border="0"></center></a>
+<ul>
+<li><a href="http://miami.condocompany.com">Miami Condos</a></li>
+<li><a href="http://www.condocompany.com">Auckland Condos</a></li>
+<li><a href="http://www.caregiversofamerica.com/">Home Health Care Services</a></li>
+<li><a href="http://www.bestofvegas.com">Las Vegas Hotels</a></li>
+<li><a href="http://www.beachstore.com/">Beach Umbrellas</a></li>
+</ul>
+</div>
+<div class="taC">
+		<div class="b">Auckland Tickets and Technology</div>
+<ul>
+<li><a href="http://www.xpandercommunications.com/">VOIP Phone Systems</a></li>
+<li><a href="http://www.dwtickets.com/">Disney Tickets</a></li>
+<li><a href="http://www.premiumseatsusa.com/">Event and Concert Tickets</a></li>
+<li><a href="http://www.orlandofuntickets.com/">Disney Tickets</a></li>
+</ul>
+</div><!-- UGEN-00003 -->
+<div class="taC">
+	<div class="b">Real Estate Guide</div>
+	<ul>
+		<li><a href="http://www.50stateshomesforsale.com">Auckland Homes For Sale</a></li>
+<li><a href="http://www.foreclosures.bz">Auckland Foreclosures</a></li>
+	</ul>
+</div>
+<div class="taC">
+	<div class="b">Hot Travel Savings</div>
+	<ul>
+		<li><a href="http://www.rentalcars.bz">Auckland Car Rentals</a></li>
+		<li><a href="http://www.findhotels.cc">Auckland Hotels</a></li>
+		<li><a href="http://www.airlinetickets.vc">Auckland Airline Tickets</a></li>
+		<li><a href="http://www.4lasvegasvacation.org">Las Vegas Travel Deals</a></li>
+	</ul>
+</div>
+<div class="taC">
+	<div class="b">Real Estate</div>
+	<ul>
+		<li><a href="http://www.us-homes-for-sale.com">Auckland Homes For Sale</a></li>
+		<li><a href="http://www.foreclosures.bz">Auckland Foreclosures</a></li>
+		<li><a href="http://www.bankruptcy.vc">New Zealand Bankruptcy</a></li>
+	</ul>
+</div>
+<div class="taC">
+	<div class="b">Advice on Surgery...</div>
+	<ul>
+		<li><a href="http://www.pmrsurgery.com/lapbandsurgery/">Auckland Lap Band Surgery</li>
+	</ul>
+</div>
+<div class="taC">
+	<div class="b">How To Save Money On...</div>
+	<ul>
+		<li><a href="http://www.realestateideas.org">Auckland Reduced Homes For Sale</a></li>
+		<li><a href="http://www.4traveldeals.org">Auckland Travel Deals</a></li>
+		<li><a href="http://www.pipelinereservations.com">Auckland Cheap Hotels</li>
+		<li><a href="http://www.singles4singles.org/">Auckland Singles - Online Dating</a></li>
+		<li><a href="http://www.magnetsinc.com">Magnets</a></li>
+	</ul>
+</div>
+<!-- ATDC-00001 -->
+<div class="taC">
+		<div class="b">Tickets and Worldwide Attractions</div>
+<ul>
+<li><a href="http://www.attraction-tickets-direct.co.uk">Disney Tickets</a></li>
+<li><a href="http://www.dosomethingdifferent.com">Tours and Tickets</a></li>
+</ul>
+</div>
+<!-- GREE-00006 -->
+		<div class="taC">
+		<div class="b">College Students</div>
+		<ul>
+		<li><a href="http://www.greek101.com/">Fraternity</a></li>
+		<li><a href="http://www.greek101.com/">Sorority</a></li>
+		<li><a href="http://puertorealestate.com">Puerto Escondido</a></li>
+		</ul>
+	</div>
+<div class="clear"></div></div>
+		<div class="clear"></div>
+		</div>
+		<div>Find the Weather for any <b>City</b>, <b>State</b> or <b>ZIP Code</b>, or <b>Airport Code</b> or <b>Country</b>:</div>
+		<form action="/cgi-bin/findweather/hdfForecast">
+		<table cellpadding="0" cellspacing="2" border="0">
+		<tr>
+		<td><input type="text" name="query" size="30" /></td>
+  <td><input type="submit" value="WunderSearch&#8482;" /></td>
+		</tr>
+		</table>
+		</form>
+		<div id="services">
+		<div class="b">Custom Weather Services</div>
+		<div>In addition to this website, we provide a number of free and professional weather services.</div>
+		<div class="serviceItems"><a href="/autobrand/">Website Autobrands&reg;</a>, <a href="/newspaper/index.asp">Newspapers</a>, <a href="http://wiki.wunderground.com/index.php/Weather_Stickers">Weather Stickers&reg;</a>, <a href="http://wiki.wunderground.com/index.php/API_-_XML">API / XML Feeds</a>, <a href="/about/data.asp">About Our Data</a></div>
+		</div>
+		<div id="advertise">
+		<div class="b">Advertise On This Site</div>
+		<div>Weather Underground has extensive targeting capabilities to fulfill all of your client's advertising needs.</div>
+		<div class="serviceItems"><a href="/about/adinfo.asp">Advertising Information</a>, <a href="http://icons-pe.wxug.com/graphics/WUMediaKit.pdf" target="new">Media Kit (PDF)</a></div>
+		</div>
+		<table cellspacing="0" cellpadding="0" id="signature">
+		<tr>
+		<td><img src="http://icons-pe.wxug.com/graphics/wu2/logo_footer.gif" width="53" height="25" alt="" /></td>
+		<td class="nobr"><a href="/about/background.asp">About Us</a> - <a href="/about/contact.asp">Contact</a> - <a href="http://wuhelp.wunderground.com/?AS5000_page=WUND-00078:468x60_0,WUND-00077:RightTower_0,WUND-00076:Box_0,">Support</a> - <a href="/about/employment.asp">Employment</a> - <a href="/about/pr/news.asp">Press Releases</a> - <a href="/members/tos.asp">Terms of Service</a> - <a href="/members/tos.asp#privacy">Privacy Policy</a> - <a href="http://www.cafepress.com/wunderground/">WU Gear</a></td>
+		<td class="full taR">: <a href="#">Top of Page</a> :</td>
+		</tr>
+		</table>
+		</div>
+		<br class="clear" />
+	</div>
+</div>
+<div id="pageEnd"><img src="http://icons-pe.wxug.com/i/w/bg-corner.gif" height="20" width="20" alt="" /></div>
+<div id="copyright">Copyright &copy; 2008 Weather Underground, Inc.</div>
+<table cellspacing="0" cellpadding="0" id="signaturePrint">
+	<tr>
+		<td><img src="http://icons-pe.wxug.com/graphics/wu2/logo_footer.gif" width="53" height="25" alt="" /></td>
+		<td>
+		<div>Copyright &copy; 2008 Weather Underground, Inc.</div>
+		</td>
+	</tr>
+</table>
+		</td>
+	</tr>
+</table>
+		<script language="javascript" src="/set.js"></script>
+		<!-- Start Quantcast tag -->
+		<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+		<script type="text/javascript">_qacct="p-01lvMKu--eLQE";quantserve();</script>
+		<noscript><img src="http://pixel.quantserve.com/pixel/p-01lvMKu--eLQE.gif" style="display: none" height="1" width="1" alt="Quantcast" /></noscript>
+		<!-- End Quantcast tag -->
+<script type="text/javascript">
+	var gaJsHost = "http://www.";
+	gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	if (gaJsHost!= "https://ssl." && gaJsHost!="http://www.")
+		gaJsHost = "http://www.";
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-5000463-5");
+	pageTracker._trackPageview();
+</script>
+	<!--Tacoda tracking codes-->
+	<SCRIPT LANGUAGE="JavaScript">var tcdacmd="dt";</SCRIPT>
+	<SCRIPT SRC="http://an.tacoda.net/an/11619/slf.js" LANGUAGE="JavaScript"></SCRIPT>
+</body>
+	</html>
+	<!-- WUICATEGORY | CityPage | IntlCity -->
+	<!-- SERVERHOSTNAME | l3a18 | Sep 10 2008 19:28:11 -->
+<!-- 0.107:0 -->

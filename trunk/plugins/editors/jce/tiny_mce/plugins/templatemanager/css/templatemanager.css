@@ -1,0 +1,10 @@
+/* CSS file for FileManager plugin */
+div#browser {
+	margin-top: 0px;
+}
+.panel_wrapper div.current {
+	height: 120px;
+}
+div.action.save{
+	background: url(../img/save.gif) no-repeat; 
+}

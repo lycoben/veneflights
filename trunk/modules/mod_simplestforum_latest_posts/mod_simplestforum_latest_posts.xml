@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Simplest Forum - Latest Posts</name>
+	<author>Ambitionality Software LLC</author>
+	<creationDate>2008-05-30</creationDate>
+	<copyright>All rights reserved by Ambitionality Software LLC 2008.</copyright>
+	<license>GPL 2.0</license>
+	<authorEmail>info@ambitionality.com</authorEmail>
+	<authorUrl>www.ambitionality.com</authorUrl>
+	<version>1.0.2</version>
+	<description>DESC MODULE</description>
+	<files>
+		<filename module="mod_simplestforum_latest_posts">mod_simplestforum_latest_posts.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+    <languages>
+        <language tag="en-GB">en-GB.mod_simplestforum_latest_posts.ini</language>
+        <language tag="fr-FR">fr-FR.mod_simplestforum_latest_posts.ini</language>
+    </languages>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+        <param name="introchars" type="text" default="50" label="LABEL INTRO CHARS" description="DESC INTRO CHARS" />
+        <param name="numposts" type="text" default="8" label="LABEL NUM POSTS" description="DESC NUM POSTS" />
+        <param name="forumids" type="text" default="" label="LABEL FORUM IDS" description="DESC FORUM IDS" />
+        <param name="readmore" type="text" default="READ MORE" label="LABEL READMORE" description="DESC READMORE" />
+        <param name="showdate" type="radio" default="1" label="LABEL SHOW DATE" description="DESC SHOW DATE">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="dateformat" type="text" default="Y-m-d H:i" label="LABEL DATE FORMAT" description="DESC DATE FORMAT" />
+    </params>
+</install>

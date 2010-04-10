@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<FlashArea>
+	<Toolbar>
+		<buttons>
+			<options>
+				<styles hint="Styles"/>
+				<size hint="Font Size"/>
+				<font hint="Font"/>
+				<bullet hint="Bullet"/>
+				<leading hint="Leading">
+					<window>
+						<textes title="Change paragraph leading" leading="Leading" ok="OK" cancel="Cancel"/>
+					</window>
+				</leading>
+				<copy hint="Copy"/>
+				<cut hint="Cut"/>
+				<paste hint="Paste"/>
+				<undo hint="Undo"/>
+				<redo hint="Redo"/>
+				<bold hint="Bold"/>
+				<italic hint="Italic"/>
+				<underline hint="Underline"/>
+				<left hint="Align Left"/>
+				<center hint="Align Center"/>
+				<right hint="Align Right"/>
+				<url hint="Insert Hyperlink">
+					<window>
+						<textes title="Hyperlink" text="Text:" url="URL:" target="Target:" ok="OK" cancel="Cancel" remove="Remove"/>
+					</window>
+				</url>
+				<indentDec hint="Decrease Indent"/>
+				<indentInc hint="Increase Indent"/>
+				<color hint="Font Color"/>
+				<symbols hint="Insert Symbol">
+					<window>
+						<textes title="Insert Symbol" ok="Close" insert="Insert"/>
+					</window>
+				</symbols>
+				<html hint="Switch to Normal or Html view"/>
+				<image hint="Insert Image">
+					<window>
+						<textes title="Image" path="Path:" align="Align:" url="URL:" target="Target:" id="ID:" space="Space:" space_v="Vert" space_h="Hor" size="Size:" size_w="Width" size_h="Height" ok="OK" cancel="Cancel" remove="Remove"/>
+					</window>
+				</image>
+				<about hint="About FlashArea">
+					<window>
+						<textes title="About FlashArea" ok="OK"/>
+					</window>
+				</about>
+			</options>
+		</buttons>
+	</Toolbar>
+</FlashArea>

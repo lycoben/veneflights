@@ -1,0 +1,7 @@
+<config>
+	<params>
+		<param name="blockusers" type="textarea" default="" cols="30" rows="4" label="COMMENTS_BLOCKING_USERS" description="COMMENTS_BLOCKING_USERS_DESC" />
+		<param name="blockips" type="textarea" default="" cols="30" rows="4" label="COMMENTS_BLOCKING_IPS" description="COMMENTS_BLOCKING_IPS_DESC" />
+		<param name="blockhosts" type="textarea" default="" cols="30" rows="4" label="COMMENTS_BLOCKING_HOSTS" description="COMMENTS_BLOCKING_HOSTS_DESC" />
+	</params>
+</config>

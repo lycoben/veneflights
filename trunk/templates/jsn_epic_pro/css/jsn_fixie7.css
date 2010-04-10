@@ -1,0 +1,25 @@
+
+/********************************************************************
+ * JOOMLA! TEMPLATE CSS FILE
+ * ----------------------------------------------------------------
+ * Copyright (C) 2005 - 2008 JoomlaShine.com. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: JoomlaShine.com
+ * Websites:  http://www.joomlashine.com
+ * ----------------------------------------------------------------
+ * 
+ * CSS FIX for IE7:
+ * Special fixes for IE7
+ *
+*********************************************************************/
+
+div.grid2,
+div.grid3,
+div.grid4,
+div.grid5,
+ul.hlist-left,
+ul.hlist-right,
+.clearafter,
+div.module-box > div > div > div {
+	height: 1%;
+}

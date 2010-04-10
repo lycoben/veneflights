@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+<name>Airline Booking Module</name>
+<author>Dotcomworld</author>
+<description>Module that helps to search flights within a user specified time.</description>
+<files>
+			 <filename module="mod_booking">mod_booking.php</filename>
+			 <filename module="mod_booking">xp_progress.js</filename>
+</files>
+</install>

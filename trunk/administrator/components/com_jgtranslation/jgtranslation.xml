@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+  <name>JGtranslation</name>
+  <creationDate>11.02.2008</creationDate>
+  <author>Ossolution Team</author>
+  <authorEmail>contact@joomservices.com</authorEmail>
+  <authorUrl>http://www.joomservices.com</authorUrl>
+  <copyright>Ossolution Team</copyright>
+  <license>GPL</license>
+  <version>1.2</version>
+  <description>This component is used together with joomfish extension to provide a powerfull translation solution for joomla</description> 
+  <administration>
+    <menu>Google translation for Joomfish</menu>        
+    <files folder="admin">
+      <filename>index.html</filename>
+      <filename>jgtranslation.php</filename>
+	  <filename>controller.php</filename>      	        
+	  <folder>elements</folder>
+      <folder>images</folder>      
+	  <folder>models</folder>
+	  <folder>views</folder>
+	  <folder>helper</folder>
+	  <folder>tables</folder>	  
+    </files>
+  </administration>
+</install>

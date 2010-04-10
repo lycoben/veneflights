@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Register your property</name>
+	<author>Vince Wooll</author>
+	<creationDate>February 2008</creationDate>
+	<copyright>(C) 2008 Vince Wooll</copyright>
+	<license>http://www.jomres.net</license>
+	<authorEmail>support@jomres.net</authorEmail>
+	<authorUrl>http://www.jomres.net</authorUrl>
+	<version>2</version>
+	<description>Register your property</description>
+	<files>
+		<filename module="mod_jomres_selfregister">mod_jomres_selfregister.php</filename>
+		<filename module="mod_jomres_selfregister">mod_jomres_selfregister.xml</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="pretext"  type="text" default="" label="Pre link text"  description="Text to go before the Registration link." />
+		<param name="posttext" type="text" default="" label="Post link text" description="Text to go after the Registration link." />
+	</params>
+</install>

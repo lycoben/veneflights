@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: manifest.xml 307 2008-07-15 19:47:01Z louis $ -->
+<install type="component" version="1.5.0" method="upgrade">
+    <name>Comments</name>
+    <version>1.1.1</version>
+    <creationDate>July 2008</creationDate>
+    <author>JXtended</author>
+    <authorEmail>info@jxtended.com</authorEmail>
+    <authorUrl>http://jxtended.com</authorUrl>
+    <copyright>2008 JXtended, LLC. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <description>Comments, Sharing and Rating component</description>
+
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install/installsql.mysql.utf8.php</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">install/uninstallsql.mysql.utf8.php</file>
+		</sql>
+	</uninstall>
+
+	<languages folder="site/language">
+		<language tag="en-GB">en-GB/en-GB.com_comments.ini</language>
+	</languages>
+
+	<files folder="site">
+		<file>comments.php</file>
+		<file>index.html</file>
+		<!--<file>router.php</file>-->
+
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>media</folder>
+		<folder>models</folder>
+		<folder>tables</folder>
+	</files>
+
+	<media folder="media">
+		<!-- <folder>jxtended</folder> Needs J1.5.4 -->
+		<file>jxtended/css/bbcode.css</file>
+		<file>jxtended/css/highlighter.css</file>
+		<file>jxtended/css/index.html</file>
+		<file>jxtended/img/index.html</file>
+		<file>jxtended/img/smilies/big_grin.gif</file>
+		<file>jxtended/img/smilies/cool.gif</file>
+		<file>jxtended/img/smilies/frown.gif</file>
+		<file>jxtended/img/smilies/index.html</file>
+		<file>jxtended/img/smilies/smile.gif</file>
+		<file>jxtended/img/smilies/wink.gif</file>
+		<file>jxtended/js/index.html</file>
+		<file>jxtended/js/bbcode.js</file>
+		<file>jxtended/js/highlighter.js</file>
+		<file>jxtended/js/highlight_lang/bison.js</file>
+		<file>jxtended/js/highlight_lang/changelog.js</file>
+		<file>jxtended/js/highlight_lang/cpp.js</file>
+		<file>jxtended/js/highlight_lang/csharp.js</file>
+		<file>jxtended/js/highlight_lang/css.js</file>
+		<file>jxtended/js/highlight_lang/diff.js</file>
+		<file>jxtended/js/highlight_lang/flex.js</file>
+		<file>jxtended/js/highlight_lang/html.js</file>
+		<file>jxtended/js/highlight_lang/index.html</file>
+		<file>jxtended/js/highlight_lang/java.js</file>
+		<file>jxtended/js/highlight_lang/javascript.js</file>
+		<file>jxtended/js/highlight_lang/latex.js</file>
+		<file>jxtended/js/highlight_lang/log.js</file>
+		<file>jxtended/js/highlight_lang/m4.js</file>
+		<file>jxtended/js/highlight_lang/makefile.js</file>
+		<file>jxtended/js/highlight_lang/pascal.js</file>
+		<file>jxtended/js/highlight_lang/perl.js</file>
+		<file>jxtended/js/highlight_lang/php.js</file>
+		<file>jxtended/js/highlight_lang/prolog.js</file>
+		<file>jxtended/js/highlight_lang/python.js</file>
+		<file>jxtended/js/highlight_lang/ruby.js</file>
+		<file>jxtended/js/highlight_lang/sh.js</file>
+		<file>jxtended/js/highlight_lang/tcl.js</file>
+		<file>jxtended/js/highlight_lang/xml.js</file>
+	</media>
+
+	<administration>
+        <menu img="components/com_comments/media/images/icon-16-jx.png" link="option=com_comments">Comments</menu>
+
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_comments.ini</language>
+		</languages>
+
+		<files folder="admin">
+			<file>comments.php</file>
+			<file>index.html</file>
+			<file>version.php</file>
+
+			<folder>controllers</folder>
+			<folder>elements</folder>
+			<folder>help</folder>
+			<folder>helpers</folder>
+			<folder>install</folder>
+			<folder>media</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+		</files>
+	</administration>
+
+	<installfile>install/install.php</installfile>
+	<uninstallfile>install/uninstall.php</uninstallfile>
+
+	<modules>
+		<module module="mod_comments_comment" position="right" client="site">
+			<files folder="mod_site_comments_comment">
+				<folder>tmpl</folder>
+
+				<file>index.html</file>
+				<file>mod_comments_comment.php</file>
+				<file>mod_comments_comment.xml</file>
+				<file>view.php</file>
+			</files>
+
+			<languages folder="site/language">
+				<language tag="en-GB">en-GB/en-GB.mod_comments_comment.ini</language>
+			</languages>
+
+			<media />
+		</module>
+		<module module="mod_comments_rating" position="right" client="site">
+			<files folder="mod_site_comments_rating">
+				<folder>tmpl</folder>
+
+				<file>index.html</file>
+				<file>mod_comments_rating.php</file>
+				<file>mod_comments_rating.xml</file>
+				<file>view.php</file>
+			</files>
+
+			<languages folder="site/language">
+				<language tag="en-GB">en-GB/en-GB.mod_comments_rating.ini</language>
+			</languages>
+
+			<media />
+		</module>
+		<module module="mod_comments_share" position="right" client="site">
+			<files folder="mod_site_comments_share">
+				<folder>images</folder>
+				<folder>tmpl</folder>
+
+				<file>index.html</file>
+				<file>mod_comments_share.php</file>
+				<file>mod_comments_share.xml</file>
+				<file>share.ini</file>
+				<file>view.php</file>
+			</files>
+
+			<languages folder="site/language">
+				<language tag="en-GB">en-GB/en-GB.mod_comments_share.ini</language>
+			</languages>
+
+			<media />
+		</module>
+	</modules>
+
+	<plugins>
+		<plugin plugin="comments" group="content">
+			<files folder="plg_content_comments">
+				<file>comments.php</file>
+				<file>comments.xml</file>
+			</files>
+
+			<languages folder="admin/language" />
+
+			<media />
+		</plugin>
+	</plugins>
+</install>

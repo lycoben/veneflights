@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JXtended - Comments</name>
+    <version>1.1.1</version>
+    <creationDate>July 2008</creationDate>
+    <author>JXtended</author>
+    <authorEmail>info@jxtended.com</authorEmail>
+    <authorUrl>http://jxtended.com</authorUrl>
+	<copyright>(C) 2007 JXtended LLC. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+	<description>
+		DO NOT Install or add this Module from the Module Manager -- It is designed to be included directly by the 
+		content plugin, a component or a layout override.
+	</description>
+	<files>
+		<filename module="mod_comments_comment">mod_comments_comment.php</filename>
+		<filename>index.html</filename>
+		<filename>view.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<params addpath="/administrator/components/com_comments/models/elements">
+		<param name="limit" type="text" default="5" label="Limit" description="The number of items to display" />
+		<param name="order" type="list" default="0" label="Ordering" description="The order in which to display">
+			<option value="">None</option>
+			<option value="title_asc">Title Ascending</option>
+			<option value="created_asc">Created Date Oldest First</option>
+			<option value="created_dsc">Created Date Newest First</option>
+		</param>
+		<param name="autodetect" type="radio" default="0" label="Auto-detect" description="Auto detect the context and id based on the current component">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

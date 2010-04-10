@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Contents</name>
+  <author>A. Kempkens</author>
+  <version>1.8</version>
+  <description>Definition for the core content component</description>
+  <reference type="content">
+  	<table name="content">
+  		<field type="referenceid" name="id" translate="0" jgtranslate="0">ID</field>
+  		<field type="titletext" name="title" translate="1" jgtranslate="1">Title</field>
+  		<field type="text" name="title_alias" translate="1" jgtranslate="1">Title Alias</field>
+  		<field type="htmltext" name="introtext" translate="1" jgtranslate="1">Introtext</field>
+  		<field type="htmltext" name="fulltext" translate="1" jgtranslate="1">Fulltext</field>
+  		<field type="textarea" name="images" rows="10" columns="80" translate="1" jgtranslate="0">Images</field>
+  		<field type="text" name="metakey" length="50" maxlength="250" translate="1" jgtranslate="1">Metakey</field>
+  		<field type="textarea" name="metadesc"  rows="5" columns="80" translate="1" jgtranslate="1">Metadesc</field>
+  		<field type="text" name="publish_up" translate="1" jgtranslate="0">Start Publishing</field>
+  		<field type="text" name="publish_down" translate="1" jgtranslate="0">Finish Publishing</field>  		
+  		<filter>a.state >= 0</filter>
+  	</table>
+  </reference>
+</joomfish>

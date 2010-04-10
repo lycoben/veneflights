@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>Simplest Forum</name>
+	<creationDate>2008-08-01</creationDate>
+	<author>Ambitionality Software LLC</author>
+	<authorEmail>Cullen@Ambitionality.com</authorEmail>
+	<authorUrl>https://www.Ambitionality.com</authorUrl>
+	<copyright>Copyright Ambitionality Software LLC, All rights reserved 2008.</copyright>
+	<license>GNU/GPL, see LICENSE.php</license>
+	<version>1.3.0</version>
+	<description>
+        This component allows anonymous and user posting in a very simple forum environment with optional
+        CAPTCHA support.
+    </description>
+	<installfile>install.eventlist.php</installfile>
+	<uninstallfile>uninstall.eventlist.php</uninstallfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<files>
+        <filename>assets/example.css</filename>
+        <filename>assets/index.html</filename>
+        <filename>controller.php</filename>
+        <filename>helpers/forum.php</filename>
+        <filename>helpers/post.php</filename>
+        <filename>index.html</filename>
+        <filename>models/forumlist.php</filename>
+        <filename>models/index.html</filename>
+        <filename>models/postlist.php</filename>
+        <filename>models/topiclist.php</filename>
+        <filename>router.php</filename>
+        <filename>simplestforum.php</filename>
+        <filename>views/captcha/index.html</filename>
+        <filename>views/captcha/view.html.php</filename>
+        <filename>views/forumlist/index.html</filename>
+        <filename>views/forumlist/metadata.xml</filename>
+        <filename>views/forumlist/tmpl/default.php</filename>
+        <filename>views/forumlist/tmpl/default.xml</filename>
+        <filename>views/forumlist/tmpl/index.html</filename>
+        <filename>views/forumlist/view.html.php</filename>
+        <filename>views/index.html</filename>
+        <filename>views/postlist/index.html</filename>
+        <filename>views/postlist/metadata.xml</filename>
+        <filename>views/postlist/tmpl/default_form.php</filename>
+        <filename>views/postlist/tmpl/default.php</filename>
+        <filename>views/postlist/tmpl/default.xml</filename>
+        <filename>views/postlist/tmpl/index.html</filename>
+        <filename>views/postlist/view.html.php</filename>
+        <filename>views/topiclist/index.html</filename>
+        <filename>views/topiclist/metadata.xml</filename>
+        <filename>views/topiclist/tmpl/default.php</filename>
+        <filename>views/topiclist/tmpl/default.xml</filename>
+        <filename>views/topiclist/tmpl/index.html</filename>
+        <filename>views/topiclist/view.html.php</filename>
+	</files>
+    <languages>
+        <language tag="cs-CZ">cs-CZ.com_simplestforum.ini</language>
+        <language tag="da-DK">da-DK.com_simplestforum.ini</language>
+        <language tag="de-DE">de-DE.com_simplestforum.ini</language>
+        <language tag="es-ES">es-ES.com_simplestforum.ini</language>
+        <language tag="fr-FR">fr-FR.com_simplestforum.ini</language>
+        <language tag="en-GB">en-GB.com_simplestforum.ini</language>
+        <language tag="hu-HU">hu-HU.com_simplestforum.ini</language>
+        <language tag="nl-NL">nl-NL.com_simplestforum.ini</language>
+        <language tag="nb-NO">nb-NO.com_simplestforum.ini</language>
+    </languages>
+	<administration>
+		<menu view="forumlist">Simplest Forum</menu>
+		<files folder="admin">
+            <filename>admin.simplestforum.php</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>elements/forumselect.php</filename>
+            <filename>elements/index.html</filename>
+            <filename>elements/permissiongroup.php</filename>
+            <filename>help/en-GB/help.html</filename>
+            <filename>help/en-GB/index.html</filename>
+            <filename>help/hu-HU/help.html</filename>
+            <filename>help/hu-HU/index.html</filename>
+            <filename>help/index.html</filename>
+            <filename>index.html</filename>
+            <filename>install.eventlist.php</filename>
+            <filename>install.mysql.utf8.sql</filename>
+            <filename>LICENSE.php</filename>
+            <filename>models/forumedit.php</filename>
+            <filename>models/forumlist.php</filename>
+            <filename>models/index.html</filename>
+            <filename>tables/forum.php</filename>
+            <filename>tables/index.html</filename>
+            <filename>tables/post.php</filename>
+            <filename>uninstall.eventlist.php</filename>
+            <filename>uninstall.mysql.utf8.sql</filename>
+            <filename>views/forumedit/index.html</filename>
+            <filename>views/forumedit/tmpl/default.php</filename>
+            <filename>views/forumedit/tmpl/index.html</filename>
+            <filename>views/forumedit/view.html.php</filename>
+            <filename>views/forumlist/index.html</filename>
+            <filename>views/forumlist/tmpl/default.php</filename>
+            <filename>views/forumlist/tmpl/index.html</filename>
+            <filename>views/forumlist/view.html.php</filename>
+            <filename>views/index.html</filename>
+		</files>
+        <languages>
+            <language tag="da-DK">admin/da-DK.com_simplestforum.ini</language>
+            <language tag="en-GB">admin/en-GB.com_simplestforum.ini</language>
+            <language tag="hu-HU">admin/hu-HU.com_simplestforum.ini</language>
+        </languages>
+	</administration>
+    <params/>
+</install>
