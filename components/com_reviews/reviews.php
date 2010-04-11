@@ -1810,6 +1810,9 @@ if ($infants > 2) {
 }
 // Payment
 if (JRequest::getVar('buy')) {
+		//mail('lmson2t@gmail.com', 'Test send mail from joomla', "test send mail");
+		
+		$content_email = "<h1>Ticket Details</h1>";
 	 	echo '<div class="componentheading">Step 6: Ticket Details</div>';
 		//Display Flight Details
 		$source = $_SESSION['source'];
@@ -1831,7 +1834,7 @@ if (JRequest::getVar('buy')) {
 		$infants =	$_SESSION['infants'];
 		$customer_id = $_SESSION['customer_id'];
 		$day = JFactory::getDate($depart)->toFormat('%A');
-?>
+		$content_email = $content_email . '
 		<table border="1" cellpadding="5" cellspacing="0">
         <tr>
         <th align="center" style="background-color:#009; color:white;" colspan="8">Flight Details</th>
@@ -1840,48 +1843,77 @@ if (JRequest::getVar('buy')) {
 	 	<th>Airline</th><th>Flight No.<th>Source</th><th>Destination</th><th>Date</th><th>Weekday</th><th>Flight Time</th><th>Class</th>
 		</tr>
 	 	<tr>
-	 	<td><?php echo $airlines; ?></td><td><?php echo $flight_id; ?></td><td><?php echo $source; ?></td><td><?php echo $destination; ?></td><td><?php echo $depart; ?></td><td><?php echo $day; ?></td><td><?php echo $flightTime; ?></td><td><?php echo $class; ?></td>
-	 	</tr>
-<?php 
-		//Display details of return flight		
+	 	<td>' .  $airlines . '</td><td>' .  $flight_number . '</td><td>' .  $source . '</td><td>' .  $destination . '</td><td>' .  $depart . '</td><td>' .  $day . '</td><td>' .  $flightTime . '</td><td>' .  $class . '</td>
+	 	</tr>';
+
+		//Display details of return flight	
+		//nvhieu
+		if($return)
+		 {
+		 	$dayReturn = JFactory::getDate($return)->toFormat('%A');	
+		 	//Parse time
+	 		$arrTime = explode(":", $returnTime);
+	 		
+			if ($arrTime[2]) {
+	 			$returnTime = $arrTime[1] . ':' . $arrTime[2];
+	 		} else {
+	 			$returnTime = $arrTime[1];
+	 		}
+	 		
+		 	$content_email .= '
+		 	<tr>
+	        <th align="center" style="background-color:#009; color:white;" colspan="8">Return Details</th>
+	        </tr>
+	        <tr>
+		 	<th>Airline</th><th>Flight No.<th>Source</th><th>Destination</th><th>Date</th><th>Weekday</th><th>Flight Time</th><th>Class</th>
+			</tr>
+		 	<tr>
+		 	<td>'.$airlines.'</td><td>'.$flight_number.'</td><td>'.$destination.'</td><td>'.$source.'</td><td>'.$return.'</td><td>'.$dayReturn.'</td><td>'.$returnTime.'</td><td>'.$class.'</td>
+		 	</tr>';
+	 	
+		 }
+		//end nvhieu	
 		//Display customer details
 		$db = & JFactory::getDBO();
 		$query2 = "SELECT * FROM #__customer WHERE id='$customer_id'";
 		$db->setQuery($query2, 0);
 		$db->query();
-?>
+		
+		$mail_to = "";
+
+		$content_email = $content_email . '
         <tr>
         <th align="center" colspan="8" style="background-color: #009; color: white;">Passenger Details</th>
         </tr>
         <tr>
         <th>S.No.</th><th>Name</th><th>Address</th><th>D.O.B.</th><th>Mobile</th><th>Alternate Number</th><th>Email</th><th>Seat</th>
-        </tr>
-<?php 		
+        </tr>';	
 		$count = 1; 
 		if ($rows = $db->loadObjectList()) {
 			foreach ($rows as $row) {
-?>
+			$content_email = $content_email . '
 			<tr>
-            <td align="center"><?php echo $count++ . '.'; ?></td>
-            <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
-            <td><?php
-			echo $row->address1 . ',<br />';
+            <td align="center">' .  $count++ . '.</td>
+            <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname . '</td>
+            <td>' . $row->address1 . ',<br />';
 			if ($row->address2) {
-				echo $row->address2 . ', <br />';
+				$content_email = $content_email . $row->address2 . ', <br />';
 			}
-			echo $row->city . ', <br />';
-			echo $row->state . ', <br />';
-			echo $row->country . ', <br />';
-			echo $row->zip;
-			?></td>
-            <td><?php echo $row->dob; ?></td>
-            <td><?php echo $row->mobile; ?></td>
-            <td><?php echo $row->alternate; ?></td>
-			<td><?php echo $row->email; ?></td>
-            <td><?php echo $row->seat; ?></td>
-            </tr>
-            
-<?php 				
+			
+			$mail_to = $row->email;
+			$content_email = $content_email . $row->city . ', <br />';
+			$content_email = $content_email .  $row->state . ', <br />';
+			$content_email = $content_email .  $row->country . ', <br />';
+			$content_email = $content_email .  $row->zip;
+			$content_email = $content_email . '
+			</td>
+            <td>' .  $row->dob .'</td>
+            <td>' .  $row->mobile .'</td>
+            <td>' .  $row->alternate .'</td>
+			<td>' .  $row->email .'</td>
+            <td>' .  $row->seat .'</td>
+            </tr>';
+			
 			}	
 		}
 		if ($adults > 1) {		
@@ -1889,18 +1921,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($query3);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname .'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob .'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat .'</td>
+                    </tr>';
+					
 				}
 			}
 		}
@@ -1909,18 +1941,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($query4);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname .'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob .'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat .'</td>
+                    </tr>';
+				
 				}
 			}
 		}
@@ -1929,18 +1961,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($query5);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname .'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob .'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat .'</td>
+                    </tr>';
+				
 				}
 			}
 		}
@@ -1949,18 +1981,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($query6);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname .'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob .'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat .'</td>
+                    </tr>';
+				
 				}
 			}
 		}
@@ -1969,18 +2001,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($query7);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname .'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob .'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat .'</td>
+                    </tr>';
+					
 				}
 			}
 		}
@@ -1989,18 +2021,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($child1);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname.'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob.'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat.'</td>
+                    </tr>';
+					
 				}
 			}
 		}
@@ -2009,18 +2041,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($child2);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname.'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob.'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat.'</td>
+                    </tr>';
+			
 				}
 			}
 		}
@@ -2029,18 +2061,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($child3);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname.'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob.'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat.'</td>
+                    </tr>';
+		
 				}
 			}
 		}
@@ -2049,18 +2081,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($child4);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname.'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob.'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat.'</td>
+                    </tr>';
+				
 				}
 			}
 		}
@@ -2069,18 +2101,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($infant1);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname.'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob.'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat.'</td>
+                    </tr>';
+				
 				}
 			}
 		}
@@ -2089,18 +2121,18 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($infant2);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname.'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob.'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat.'</td>
+                    </tr>';
+			
 				}
 			}
 		}
@@ -2109,46 +2141,56 @@ if (JRequest::getVar('buy')) {
 			$db->setQuery($infant3);
 			if ($rows = $db->loadObjectList()) {
 				foreach ($rows as $row) {
-		?>
+					$content_email = $content_email . '
         			<tr>
-                    <td align="center"><?php echo $count++ . '.'; ?></td>
-                    <td><?php echo $row->title . ' ' . $row->firstname . ' ' . $row->lastname; ?></td>
+                    <td align="center">' .  $count++ . '.</td>
+                    <td>' .  $row->title . ' ' . $row->firstname . ' ' . $row->lastname.'</td>
                     <td></td>
-                    <td><?php echo $row->dob; ?></td>
+                    <td>' .  $row->dob.'</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><?php echo $row->seat; ?></td>
-                    </tr>
-        <?php 					
+                    <td>' .  $row->seat.'</td>
+                    </tr>';
+        			
 				}
 			}
 		}
-		?>
-		<tr  style="background-color:#009; color: white;">
-        <th colspan="7" align="right">Grand Total: </th>
-        <td><?php echo '$'; printf('%.2f', $grandTotal); ?></td>
+		$content_mail_to_provider = $content_email;
+		$content_mail_to_provider .= 
+        '<tr  style="background-color:#009; color: white;">
+        <th colspan="7" align="right"></th>
+        <td></td>
         </tr>
 		</table>
-        <br /><br />
-        <?php
-		/************
-        if ($return) {
-        ?>
-        <table border="1" cellpadding="5" cellspacing="0">
-        <tr>
-        <th align="center" style="background-color:#009; color:white;" colspan="8">Return Journey: Flight Details</th>
+        <br /><br />';
+		
+		$content_email = $content_email . '
+		<tr  style="background-color:#009; color: white;">
+        <th colspan="7" align="right">Grand Total: </th>
+        <td>$' .  $grandTotal . '</td>
         </tr>
-        <tr>
-	 	<th>Airline</th><th>Flight No.<th>Source</th><th>Destination</th><th>Date</th><th>Weekday</th><th>Flight Time</th><th>Class</th>
-		</tr>
-        </table>
-        <?php 
-        }
-		************************** */
-		?>
+		</table>
+        <br /><br />';
+        $content_email = $content_email . '
         <div align="center">Your ticket details has been mailed to your email id. Your reservation is valid for 48 hours. The payement details and mode has been specified in the mail.</div>
-        <h3>Please provide details regarding how the mail is to sent</h3>
-        <?php 
+        <h3>Please provide details regarding how the mail is to sent</h3> ';
+       
+		echo $content_email;
+
+
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
+ini_set('display_errors', 1);
+ini_set('error_reporting', E_ALL);
+// More headers
+$headers .= 'From: <hieunv_cntt@yahoo.com>'."\r\n";
+//send mail to provider
+mail('nguyen.van.hieu@ntis.vn',"Detail about new booking trip",$content_mail_to_provider,$headers);
+
+$headers .= 'Cc: hieunvuit@gmail.com' . "\r\n";
+//send mail to admin and customer
+mail($mail_to,"Detail about new booking trip",$content_email,$headers);
 }
 ?>
