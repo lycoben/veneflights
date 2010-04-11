@@ -59,14 +59,24 @@ return bA;
 }}
 
 function startBar(bn){
-var t=(ie)?document.all['blocks'+bn]:document.getElementById('blocks'+bn);
-if(parseInt(t.style.left)+t.h+1-(t.blocks*t.h+t.blocks)>t.w){
-t.style.left=-(t.h*2+1)+'px';
-t.ctr++;
-if(t.ctr>=t.count){
-eval(t.action);
-t.ctr=0;
-}}else t.style.left=(parseInt(t.style.left)+t.h+1)+'px';
+	var t=(ie)?document.all['blocks'+bn]:document.getElementById('blocks'+bn);
+	if (t != null)
+	{
+		if(parseInt(t.style.left)+t.h+1-(t.blocks*t.h+t.blocks)>t.w)
+		{
+			t.style.left=-(t.h*2+1)+'px';
+			t.ctr++;
+			if(t.ctr>=t.count)
+			{
+				eval(t.action);
+				t.ctr=0;
+			}
+		}
+		else 
+		{
+			t.style.left=(parseInt(t.style.left)+t.h+1)+'px';
+		}
+	}
 }
 
 function togglePause(){
